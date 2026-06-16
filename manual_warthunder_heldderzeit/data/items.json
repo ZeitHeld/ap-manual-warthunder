@@ -272,6 +272,161 @@
             "sort-key": "row-2-14"
         },
         {
+            "name": "New Rumpf (Aviation)",
+            "count": 1,
+            "category": [
+                "Modification",
+                "Aviation"
+            ],
+            "useful": true,
+            "sort-key": "row-3-1"
+        },
+        {
+            "name": "New Compressor (Aviation)",
+            "count": 1,
+            "category": [
+                "Modification",
+                "Aviation"
+            ],
+            "useful": true,
+            "sort-key": "row-3-2"
+        },
+        {
+            "name": "New Hydraulics (Aviation)",
+            "count": 1,
+            "category": [
+                "Modification",
+                "Aviation"
+            ],
+            "useful": true,
+            "sort-key": "row-3-3"
+        },
+        {
+            "name": "New Wings (Aviation)",
+            "count": 1,
+            "category": [
+                "Modification",
+                "Aviation"
+            ],
+            "useful": true,
+            "sort-key": "row-3-4"
+        },
+        {
+            "name": "Anti-G-Suit (Aviation)",
+            "count": 1,
+            "category": [
+                "Modification",
+                "Aviation"
+            ],
+            "useful": true,
+            "sort-key": "row-3-5"
+        },
+        {
+            "name": "New Triebwerk (Aviation)",
+            "count": 1,
+            "category": [
+                "Modification",
+                "Aviation"
+            ],
+            "useful": true,
+            "sort-key": "row-3-6"
+        },
+        {
+            "name": "New Flugwerk (Aviation)",
+            "count": 1,
+            "category": [
+                "Modification",
+                "Aviation"
+            ],
+            "useful": true,
+            "sort-key": "row-3-7"
+        },
+        {
+            "name": "New Abdeckung (Aviation)",
+            "count": 1,
+            "category": [
+                "Modification",
+                "Aviation"
+            ],
+            "useful": true,
+            "sort-key": "row-3-8"
+        },
+        {
+            "name": "Rumpfreparatur (Aviation)",
+            "count": 1,
+            "category": [
+                "Modification",
+                "Aviation"
+            ],
+            "useful": true,
+            "sort-key": "row-3-9"
+        },
+        {
+            "name": "IR Tauschkörper (Aviation)",
+            "count": 1,
+            "category": [
+                "Modification",
+                "Aviation"
+            ],
+            "useful": true,
+            "sort-key": "row-3-10"
+        },
+        {
+            "name": "Fire Extinguisher (Aviation)",
+            "count": 1,
+            "category": [
+                "Modification",
+                "Aviation"
+            ],
+            "progression": true,
+            "useful": true,
+            "sort-key": "row-3-11"
+        },
+        {
+            "name": "Ammo Belts (Aviation)",
+            "count": 1,
+            "category": [
+                "Ammo",
+                "Aviation"
+            ],
+            "progression": true,
+            "useful": true,
+            "sort-key": "row-4-1"
+        },
+        {
+            "name": "Semi-Active Radar Missiles (Aviation)",
+            "count": 1,
+            "category": [
+                "Ammo",
+                "Aviation"
+            ],
+            "progression": true,
+            "useful": true,
+            "sort-key": "row-4-2"
+        },
+        {
+            "name": "Active Radar Missiles (Aviation)",
+            "count": 1,
+            "category": [
+                "Ammo",
+                "Aviation"
+            ],
+            "progression": true,
+            "useful": true,
+            "sort-key": "row-4-3"
+        },
+        {
+            "name": "Infrared Missiles (Aviation)",
+            "count": 1,
+            "category": [
+                "Ammo",
+                "Aviation"
+            ],
+            "progression": true,
+            "useful": true,
+            "sort-key": "row-4-4"
+        },
+        {
             "name": "Ejection Trap",
             "count": 3,
             "category": [
