@@ -249,7 +249,7 @@
 
 
         {
-            "name": "TEMP GOAL",
+            "name": "Kill 20 Bluewater Fleets",
             "region": "USA Blue Fleet",
             "category": ["USA", "Bluewater Fleet"],
             "requires": "|BR14|",

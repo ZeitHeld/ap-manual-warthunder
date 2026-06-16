@@ -67,6 +67,7 @@
             "group": "Example Options"
         },
         "goal":{
+            "display_name": "Goal",
             "type": "Choice",
             "description": [
                 "The Goal",
@@ -100,6 +101,7 @@
             "group": "Goal Options"
         },
         "required_nations":{
+            "display_name": "Required Nations",
             "type": "Range",
             "description": [
                 "This is a Range",
@@ -124,6 +126,7 @@
             "group": "Goal Options"
         },
         "required_wins":{
+            "display_name": "Required Wins",
             "type": "Range",
             "description": [
                 "This is a Range",
@@ -149,6 +152,7 @@
             "group": "Goal Options"
         },
         "required_kills":{
+            "display_name": "Required Kills",
             "type": "Range",
             "description": [
                 "This is a Range",
@@ -225,9 +229,9 @@
             "default": false,
             "group": "General Options"
         },
-        "exclude_bluefleets":{
-            "display_name": "Exclude Bluewater Fleets",
-            "description": "Turn on, if you don't want to play Bluewater Fleets.",
+        "exclude_bluefleet":{
+            "display_name": "Exclude Bluewater Fleet",
+            "description": "Turn on, if you don't want to play Bluewater Fleet.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -239,8 +243,8 @@
             "group": "General Options"
         },
         "exclude_coastals":{
-            "display_name": "Exclude Coastal Fleets",
-            "description": "Turn on, if you don't want to play Coastal Fleets.",
+            "display_name": "Exclude Coastal Fleet",
+            "description": "Turn on, if you don't want to play Coastal Fleet.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",

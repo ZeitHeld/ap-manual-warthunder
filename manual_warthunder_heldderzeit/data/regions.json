@@ -16,6 +16,13 @@
         "starting": true
     },
     "USA": {
+        "connects_to": [
+            "USA Aviation",
+            "USA Helicopter",
+            "USA Ground",
+            "USA Bluewater",
+            "USA Coastal"
+        ],
         "requires": "|USA|"
     },
     "Germany": {
@@ -43,37 +50,30 @@
         "requires": "|Sweden|"
     },
     "Israel": {
+        "connects_to": [
+            "Israel Aviation",
+            "Israel Helicopter",
+            "Israel Ground"
+        ],
         "requires": "|Israel|"
     },
 
     "USA Aviation": {
-        "connects_to": [
-            "USA"
-        ],
         "requires": "|Has Plane|"
     },
     "USA Helicopter": {
-        "connects_to": [
-            "USA"
-        ],
         "requires": "|Has Helicopter|"
     },
     "USA Ground": {
-        "connects_to": [
-            "USA"
-        ],
         "requires": "|Has Tank|"
     },
     "USA Bluewater": {
-        "connects_to": [
-            "USA"
-        ],
         "requires": "|Has Blue Fleet|"
     },
     "USA Coastal": {
-        "connects_to": [
-            "USA"
-        ],
         "requires": "|Has Coast Fleet|"
+    },
+    "Israel Ground": {
+        "requires": "|Has Tank|"
     }
 }

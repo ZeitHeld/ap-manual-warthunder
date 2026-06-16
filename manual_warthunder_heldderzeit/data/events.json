@@ -89,12 +89,12 @@
         },
         {
             "name": "Has Blue Fleet",
-            "requires": "|Bluewater Fleets|",
+            "requires": "|Bluewater Fleet|",
             "visible": false
         },
         {
             "name": "Has Coast Fleet",
-            "requires": "|Coastal Fleets|",
+            "requires": "|Coastal Fleet|",
             "visible": false
         }
     ]

@@ -14,7 +14,7 @@
     },
     "Bluewater Fleet": {
         "hidden": true,
-        "yaml_option": ["!exclude_bluefleets"]
+        "yaml_option": ["!exclude_bluefleet"]
     },
     "Coastal Fleet": {
         "hidden": true,
