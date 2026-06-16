@@ -1,17 +1,5 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
-    "ExampleRegion":{
-        "connects_to": ["Second Region"],
-        "requires": "|Ryu| or {YamlCompare(Example_Range >= example )}",
-        "starting": true
-    },
-    "Second Region": {
-        "requires": "|@Characters:1|",
-        "connects_to": ["Third Region"],
-        "exit_requires": {
-            "Third Region": "|@Characters:5|"
-        }
-    },
     "Hangar": {
         "connects_to": [
             "USA",
@@ -56,5 +44,36 @@
     },
     "Israel": {
         "requires": "|Israel|"
+    },
+
+    "USA Aviation": {
+        "connects_to": [
+            "USA"
+        ],
+        "requires": "|Has Plane|"
+    },
+    "USA Helicopter": {
+        "connects_to": [
+            "USA"
+        ],
+        "requires": "|Has Helicopter|"
+    },
+    "USA Ground": {
+        "connects_to": [
+            "USA"
+        ],
+        "requires": "|Has Tank|"
+    },
+    "USA Bluewater": {
+        "connects_to": [
+            "USA"
+        ],
+        "requires": "|Has Blue Fleet|"
+    },
+    "USA Coastal": {
+        "connects_to": [
+            "USA"
+        ],
+        "requires": "|Has Coast Fleet|"
     }
 }

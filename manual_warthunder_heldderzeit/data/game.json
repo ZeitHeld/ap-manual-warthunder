@@ -5,7 +5,7 @@
     "filler_item_name": "100 Silver Lions",
     "starting_items": [
         {
-            "items": ["Reserve"]
+            "items": ["Reserve BR"]
         },
         {
             "items": ["USA", "Germany", "USSR", "Great Britain", "Japan", "China", "Italy", "France", "Sweden"],

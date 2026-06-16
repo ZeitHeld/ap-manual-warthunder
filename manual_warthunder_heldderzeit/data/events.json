@@ -70,6 +70,32 @@
             "name": "BR14",
             "requires": "|14.X BR| OR |Progressive BR:14|",
             "visible": false
+        },
+
+        {
+            "name": "Has Plane",
+            "requires": "|Aviation|",
+            "visible": false
+        },
+        {
+            "name": "Has Helicopter",
+            "requires": "|Ground Vehicles|",
+            "visible": false
+        },
+        {
+            "name": "Has Tank",
+            "requires": "|Ground Vehicles|",
+            "visible": false
+        },
+        {
+            "name": "Has Blue Fleet",
+            "requires": "|Bluewater Fleets|",
+            "visible": false
+        },
+        {
+            "name": "Has Coast Fleet",
+            "requires": "|Coastal Fleets|",
+            "visible": false
         }
     ]
 }

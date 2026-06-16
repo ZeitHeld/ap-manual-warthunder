@@ -5,7 +5,7 @@
             "name": "USA Reserve (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|Reserve|",
+            "requires": "|Reserve BR|",
             "sort-key": "row-1-1-0"
         },
         {
@@ -26,14 +26,14 @@
             "name": "Germany Reserve (Aviation)",
             "region": "Germany",
             "category": ["Germany", "Aviation"],
-            "requires": "|Reserve|",
+            "requires": "|Reserve BR|",
             "sort-key": "row-1-2-0"
         },
         {
             "name": "USSR Reserve (Aviation)",
             "region": "USSR",
             "category": ["USSR", "Aviation"],
-            "requires": "|Reserve|",
+            "requires": "|Reserve BR|",
             "sort-key": "row-1-3-0"
         },
         {
@@ -47,42 +47,42 @@
             "name": "Great Britain Reserve (Aviation)",
             "region": "Great Britain",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|Reserve|",
+            "requires": "|Reserve BR|",
             "sort-key": "row-1-4-0"
         },
         {
             "name": "Japan Reserve (Aviation)",
             "region": "Japan",
             "category": ["Japan", "Aviation"],
-            "requires": "|Reserve|",
+            "requires": "|Reserve BR|",
             "sort-key": "row-1-5-0"
         },
         {
             "name": "China Reserve (Aviation)",
             "region": "China",
             "category": ["China", "Aviation"],
-            "requires": "|Reserve|",
+            "requires": "|Reserve BR|",
             "sort-key": "row-1-6-0"
         },
         {
             "name": "Italy Reserve (Aviation)",
             "region": "Italy",
             "category": ["USSR", "Aviation"],
-            "requires": "|Reserve|",
+            "requires": "|Reserve BR|",
             "sort-key": "row-1-7-0"
         },
         {
             "name": "France Reserve (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|Reserve|",
+            "requires": "|Reserve BR|",
             "sort-key": "row-1-8-0"
         },
         {
             "name": "Sweden Reserve (Aviation)",
             "region": "Sweden",
             "category": ["Sweden", "Aviation"],
-            "requires": "|Reserve|",
+            "requires": "|Reserve BR|",
             "sort-key": "row-1-9-0"
         },
         {
@@ -123,7 +123,7 @@
             "name": "USA Reserve (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|Reserve|",
+            "requires": "|Reserve BR|",
             "sort-key": "row-3-1-0"
         },
         {
@@ -144,14 +144,14 @@
             "name": "Germany Reserve (Ground Vehicles)",
             "region": "Germany",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|Reserve|",
+            "requires": "|Reserve BR|",
             "sort-key": "row-3-2-0"
         },
         {
             "name": "USSR Reserve (Ground Vehicles)",
             "region": "USSR",
             "category": ["USSR","Ground Vehicles"],
-            "requires": "|Reserve|",
+            "requires": "|Reserve BR|",
             "sort-key": "row-3-3-0"
         },
         {
