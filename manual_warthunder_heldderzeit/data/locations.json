@@ -249,11 +249,19 @@
 
 
         {
-            "name": "Kill 20 Bluewater Fleets",
-            "region": "USA Blue Fleet",
+            "name": "Kill 20 Bluewater Fleet Targets",
+            "region": "USA Bluewater",
             "category": ["USA", "Bluewater Fleet"],
             "requires": "|BR14|",
             "sort-key": "row-99-99-99",
+            "victory": true
+        },
+        {
+            "name": "Kill 20 Aviation Targets",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-99-90-99",
             "victory": true
         }
     ]

@@ -21,7 +21,7 @@
             "USA Helicopter",
             "USA Ground",
             "USA Bluewater",
-            "USA Coastal"
+            "USA Coast"
         ],
         "requires": "|USA|"
     },
@@ -70,8 +70,14 @@
     "USA Bluewater": {
         "requires": "|Has Blue Fleet|"
     },
-    "USA Coastal": {
+    "USA Coast": {
         "requires": "|Has Coast Fleet|"
+    },
+    "Israel Aviation": {
+        "requires": "|Has Plane|"
+    },
+    "Israel Helicopter": {
+        "requires": "|Has Helicopter|"
     },
     "Israel Ground": {
         "requires": "|Has Tank|"

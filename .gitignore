@@ -217,3 +217,5 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 *.apworld
+*.apworld
+manual_warthunder_heldderzeit.apworld
