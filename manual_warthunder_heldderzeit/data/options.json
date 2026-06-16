@@ -187,8 +187,8 @@
             "group": "General Options"
         },
         "exclude_tanks":{
-            "display_name": "Include Ground Vehicles",
-            "description": "Should Premium Vehicles be included into logic?",
+            "display_name": "Exclude Ground Vehicles",
+            "description": "Turn on, if you don't want to play Ground Vehicles.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -201,7 +201,7 @@
         },
         "exclude_planes":{
             "display_name": "Exclude Aviation",
-            "description": "Should Premium Vehicles be included into logic?",
+            "description": "Turn on, if you don't want to play Exclude Aviation.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -214,7 +214,7 @@
         },
         "exclude_helis":{
             "display_name": "Exclude Helicopter",
-            "description": "Should Premium Vehicles be included into logic?",
+            "description": "Turn on, if you don't want to play Exclude Helicopter.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -225,9 +225,9 @@
             "default": false,
             "group": "General Options"
         },
-        "exclude_bluefleet":{
+        "exclude_bluefleets":{
             "display_name": "Exclude Bluewater Fleets",
-            "description": "Should Premium Vehicles be included into logic?",
+            "description": "Turn on, if you don't want to play Bluewater Fleets.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -240,7 +240,7 @@
         },
         "exclude_coastals":{
             "display_name": "Exclude Coastal Fleets",
-            "description": "Should Premium Vehicles be included into logic?",
+            "description": "Turn on, if you don't want to play Coastal Fleets.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
