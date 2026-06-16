@@ -23,6 +23,9 @@
     "Progressive BR": {
         "yaml_option": ["progressive_br"]
     },
+    "BR": {
+        "yaml_option": ["!progressive_br"]
+    },
     "Premium Only": {
         "yaml_option": ["include_premium"]
     }

@@ -146,7 +146,7 @@
             "sort-key": "row-2-0"
         },
         {
-            "name": "Reserve BR",
+            "name": "1.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -155,7 +155,7 @@
             "sort-key": "row-2-1"
         },
         {
-            "name": "1.X BR",
+            "name": "2.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -164,7 +164,7 @@
             "sort-key": "row-2-2"
         },
         {
-            "name": "2.X BR",
+            "name": "3.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -173,7 +173,7 @@
             "sort-key": "row-2-3"
         },
         {
-            "name": "3.X BR",
+            "name": "4.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -182,7 +182,7 @@
             "sort-key": "row-2-4"
         },
         {
-            "name": "4.X BR",
+            "name": "5.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -191,7 +191,7 @@
             "sort-key": "row-2-5"
         },
         {
-            "name": "5.X BR",
+            "name": "6.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -200,7 +200,7 @@
             "sort-key": "row-2-6"
         },
         {
-            "name": "6.X BR",
+            "name": "7.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -209,7 +209,7 @@
             "sort-key": "row-2-7"
         },
         {
-            "name": "7.X BR",
+            "name": "8.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -218,7 +218,7 @@
             "sort-key": "row-2-8"
         },
         {
-            "name": "8.X BR",
+            "name": "9.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -227,7 +227,7 @@
             "sort-key": "row-2-9"
         },
         {
-            "name": "9.X BR",
+            "name": "10.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -236,7 +236,7 @@
             "sort-key": "row-2-10"
         },
         {
-            "name": "10.X BR",
+            "name": "11.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -245,7 +245,7 @@
             "sort-key": "row-2-11"
         },
         {
-            "name": "11.X BR",
+            "name": "12.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -254,7 +254,7 @@
             "sort-key": "row-2-12"
         },
         {
-            "name": "12.X BR",
+            "name": "13.X BR",
             "count": 1,
             "category": [
                 "BR"
@@ -263,22 +263,13 @@
             "sort-key": "row-2-13"
         },
         {
-            "name": "13.X BR",
-            "count": 1,
-            "category": [
-                "BR"
-            ],
-            "progression": true,
-            "sort-key": "row-2-14"
-        },
-        {
             "name": "14.X BR",
             "count": 1,
             "category": [
                 "BR"
             ],
             "progression": true,
-            "sort-key": "row-2-15"
+            "sort-key": "row-2-14"
         },
         {
             "name": "Ejection Trap",

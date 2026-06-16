@@ -2,11 +2,11 @@
 	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
     "data": [
         {
-            "name": "USA Reserve (Aviation)",
-            "region": "USA Aviation",
-            "category": ["USA", "Aviation"],
-            "requires": "|Reserve BR|",
-            "sort-key": "row-1-1-0"
+            "name": "Log-In",
+            "region": "Hangar",
+            "category": [],
+            "requires": "",
+            "sort-key": "row-0-0-0"
         },
         {
             "name": "USA 1.X (Aviation)",
@@ -23,18 +23,11 @@
             "sort-key": "row-1-1-2"
         },
         {
-            "name": "Germany Reserve (Aviation)",
+            "name": "Germany 1.X (Aviation)",
             "region": "Germany",
             "category": ["Germany", "Aviation"],
-            "requires": "|Reserve BR|",
-            "sort-key": "row-1-2-0"
-        },
-        {
-            "name": "USSR Reserve (Aviation)",
-            "region": "USSR",
-            "category": ["USSR", "Aviation"],
-            "requires": "|Reserve BR|",
-            "sort-key": "row-1-3-0"
+            "requires": "|BR1|",
+            "sort-key": "row-1-2-1"
         },
         {
             "name": "USSR 1.X (Aviation)",
@@ -44,46 +37,46 @@
             "sort-key": "row-1-3-1"
         },
         {
-            "name": "Great Britain Reserve (Aviation)",
+            "name": "Great Britain 1.X (Aviation)",
             "region": "Great Britain",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|Reserve BR|",
-            "sort-key": "row-1-4-0"
+            "requires": "|BR1|",
+            "sort-key": "row-1-4-1"
         },
         {
-            "name": "Japan Reserve (Aviation)",
+            "name": "Japan 1.X (Aviation)",
             "region": "Japan",
             "category": ["Japan", "Aviation"],
-            "requires": "|Reserve BR|",
-            "sort-key": "row-1-5-0"
+            "requires": "|BR1|",
+            "sort-key": "row-1-5-1"
         },
         {
-            "name": "China Reserve (Aviation)",
+            "name": "China 1.X (Aviation)",
             "region": "China",
             "category": ["China", "Aviation"],
-            "requires": "|Reserve BR|",
-            "sort-key": "row-1-6-0"
+            "requires": "|BR1|",
+            "sort-key": "row-1-6-1"
         },
         {
-            "name": "Italy Reserve (Aviation)",
+            "name": "Italy 1.X (Aviation)",
             "region": "Italy",
             "category": ["USSR", "Aviation"],
-            "requires": "|Reserve BR|",
-            "sort-key": "row-1-7-0"
+            "requires": "|BR1|",
+            "sort-key": "row-1-7-1"
         },
         {
-            "name": "France Reserve (Aviation)",
+            "name": "France 1.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|Reserve BR|",
-            "sort-key": "row-1-8-0"
+            "requires": "|BR1|",
+            "sort-key": "row-1-8-1"
         },
         {
-            "name": "Sweden Reserve (Aviation)",
+            "name": "Sweden 1.X (Aviation)",
             "region": "Sweden",
             "category": ["Sweden", "Aviation"],
-            "requires": "|Reserve BR|",
-            "sort-key": "row-1-9-0"
+            "requires": "|BR1|",
+            "sort-key": "row-1-9-1"
         },
         {
             "name": "Israel 3.X (Aviation)",
@@ -120,13 +113,6 @@
 
 
         {
-            "name": "USA Reserve (Ground Vehicles)",
-            "region": "USA Ground",
-            "category": ["USA", "Ground Vehicles"],
-            "requires": "|Reserve BR|",
-            "sort-key": "row-3-1-0"
-        },
-        {
             "name": "USA 1.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
@@ -141,25 +127,25 @@
             "sort-key": "row-3-1-2"
         },
         {
-            "name": "Germany Reserve (Ground Vehicles)",
+            "name": "Germany 1.X (Ground Vehicles)",
             "region": "Germany",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|Reserve BR|",
-            "sort-key": "row-3-2-0"
-        },
-        {
-            "name": "USSR Reserve (Ground Vehicles)",
-            "region": "USSR",
-            "category": ["USSR","Ground Vehicles"],
-            "requires": "|Reserve BR|",
-            "sort-key": "row-3-3-0"
+            "requires": "|BR1|",
+            "sort-key": "row-3-2-1"
         },
         {
             "name": "USSR 1.X (Ground Vehicles)",
             "region": "USSR",
-            "category": ["USSR", "Ground Vehicles"],
+            "category": ["USSR","Ground Vehicles"],
             "requires": "|BR1|",
             "sort-key": "row-3-3-1"
+        },
+        {
+            "name": "USSR 2.X (Ground Vehicles)",
+            "region": "USSR",
+            "category": ["USSR", "Ground Vehicles"],
+            "requires": "|BR2|",
+            "sort-key": "row-3-3-2"
         },
         {
             "name": "Israel 4.X (Ground Vehicles)",
@@ -218,6 +204,34 @@
             "sort-key": "row-3-10-12"
         },
         {
+            "name": "USA 1.X (Bluewater Fleet)",
+            "region": "USA Bluewater",
+            "category": ["USA", "Bluewater Fleet"],
+            "requires": "|BR1|",
+            "sort-key": "row-3-10-1"
+        },
+        {
+            "name": "USA 2.X (Bluewater Fleet)",
+            "region": "USA Bluewater",
+            "category": ["USA", "Bluewater Fleet"],
+            "requires": "|BR2|",
+            "sort-key": "row-3-10-2"
+        },
+        {
+            "name": "USA 3.X (Bluewater Fleet)",
+            "region": "USA Bluewater",
+            "category": ["USA", "Bluewater Fleet"],
+            "requires": "|BR3|",
+            "sort-key": "row-3-10-3"
+        },
+        {
+            "name": "USA 4.X (Bluewater Fleet)",
+            "region": "USA Bluewater",
+            "category": ["USA", "Bluewater Fleet"],
+            "requires": "|BR4|",
+            "sort-key": "row-3-10-4"
+        },
+        {
             "name": "USA 1.X (Coastal Fleet)",
             "region": "USA Coast",
             "category": ["USA", "Coastal Fleet"],
@@ -240,7 +254,7 @@
         },
         {
             "name": "USA 4.X (Coastal Fleet)",
-            "region": "USA Ground",
+            "region": "USA Coast",
             "category": ["USA", "Coastal Fleet"],
             "requires": "|BR4|",
             "sort-key": "row-3-10-4"
@@ -251,7 +265,7 @@
         {
             "name": "Kill 20 Bluewater Fleet Targets",
             "region": "USA Bluewater",
-            "category": ["USA", "Bluewater Fleet"],
+            "category": ["USA", "Mission"],
             "requires": "|BR14|",
             "sort-key": "row-99-99-99",
             "victory": true
@@ -259,7 +273,7 @@
         {
             "name": "Kill 20 Aviation Targets",
             "region": "USA Aviation",
-            "category": ["USA", "Aviation"],
+            "category": ["USA", "Mission"],
             "requires": "|BR2|",
             "sort-key": "row-99-90-99",
             "victory": true
