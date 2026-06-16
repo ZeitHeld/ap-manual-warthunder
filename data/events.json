@@ -1,0 +1,75 @@
+{
+	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.events.schema.json",
+    "data": [
+        {
+            "name": "BR1",
+            "requires": "|1.X BR| OR |Progressive BR:1|",
+            "visible": false
+        },
+        {
+            "name": "BR2",
+            "requires": "|2.X BR| OR |Progressive BR:2|",
+            "visible": false
+        },
+        {
+            "name": "BR3",
+            "requires": "|3.X BR| OR |Progressive BR:3|",
+            "visible": false
+        },
+        {
+            "name": "BR4",
+            "requires": "|4.X BR| OR |Progressive BR:4|",
+            "visible": false
+        },
+        {
+            "name": "BR5",
+            "requires": "|5.X BR| OR |Progressive BR:5|",
+            "visible": false
+        },
+        {
+            "name": "BR6",
+            "requires": "|6.X BR| OR |Progressive BR:6|",
+            "visible": false
+        },
+        {
+            "name": "BR7",
+            "requires": "|7.X BR| OR |Progressive BR:7|",
+            "visible": false
+        },
+        {
+            "name": "BR8",
+            "requires": "|8.X BR| OR |Progressive BR:8|",
+            "visible": false
+        },
+        {
+            "name": "BR9",
+            "requires": "|9.X BR| OR |Progressive BR:9|",
+            "visible": false
+        },
+        {
+            "name": "BR10",
+            "requires": "|10.X BR| OR |Progressive BR:10|",
+            "visible": false
+        },
+        {
+            "name": "BR11",
+            "requires": "|11.X BR| OR |Progressive BR:11|",
+            "visible": false
+        },
+        {
+            "name": "BR12",
+            "requires": "|12.X BR| OR |Progressive BR:12|",
+            "visible": false
+        },
+        {
+            "name": "BR13",
+            "requires": "|13.X BR| OR |Progressive BR:13|",
+            "visible": false
+        },
+        {
+            "name": "BR14",
+            "requires": "|14.X BR| OR |Progressive BR:14|",
+            "visible": false
+        }
+    ]
+}

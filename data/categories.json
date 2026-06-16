@@ -1,0 +1,29 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+    "Aviation": {
+        "hidden": true,
+        "yaml_option": ["!exclude_planes"]
+    },
+    "Helicopters": {
+        "hidden": true,
+        "yaml_option": ["!exclude_helis"]
+    },
+    "Ground Vehicles": {
+        "hidden": true,
+        "yaml_option": ["!exclude_tanks"]
+    },
+    "Bluewater Fleet": {
+        "hidden": true,
+        "yaml_option": ["!exclude_bluefleets"]
+    },
+    "Coastal Fleet": {
+        "hidden": true,
+        "yaml_option": ["!exclude_coastals"]
+    },
+    "Progressive BR": {
+        "yaml_option": ["progressive_br"]
+    },
+    "Premium Only": {
+        "yaml_option": ["include_premium"]
+    }
+}

@@ -1,0 +1,293 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+                {
+            "name": "Aviation",
+            "count": 1,
+            "category": [
+                "Vehicle"
+            ],
+            "progression": true,
+            "sort-key": "row-0-1"
+        },
+        {
+            "name": "Helicopters",
+            "count": 1,
+            "category": [
+                "Vehicle"
+            ],
+            "progression": true,
+            "sort-key": "row-0-2"
+        },
+        {
+            "name": "Ground Vehicles",
+            "count": 1,
+            "category": [
+                "Vehicle"
+            ],
+            "progression": true,
+            "sort-key": "row-0-3"
+        },
+        {
+            "name": "Bluewater Fleet",
+            "count": 1,
+            "category": [
+                "Vehicle"
+            ],
+            "progression": true,
+            "sort-key": "row-0-4"
+        },
+        {
+            "name": "Coastal Fleet",
+            "count": 1,
+            "category": [
+                "Vehicle"
+            ],
+            "progression": true,
+            "sort-key": "row-0-5"
+        },
+        {
+            "name": "USA",
+            "count": 1,
+            "category": [
+                "Nation"
+            ],
+            "progression": true,
+            "sort-key": "row-1-1"
+        },
+        {
+            "name": "Germany",
+            "count": 1,
+            "category": [
+                "Nation"
+            ],
+            "progression": true,
+            "sort-key": "row-1-2"
+        },
+        {
+            "name": "USSR",
+            "count": 1,
+            "category": [
+                "Nation"
+            ],
+            "progression": true,
+            "sort-key": "row-1-3"
+        },
+        {
+            "name": "Great Britain",
+            "count": 1,
+            "category": [
+                "Nation"
+            ],
+            "progression": true,
+            "sort-key": "row-1-4"
+        },
+        {
+            "name": "Japan",
+            "count": 1,
+            "category": [
+                "Nation"
+            ],
+            "progression": true,
+            "sort-key": "row-1-5"
+        },
+        {
+            "name": "China",
+            "count": 1,
+            "category": [
+                "Nation"
+            ],
+            "progression": true,
+            "sort-key": "row-1-6"
+        },
+        {
+            "name": "Italy",
+            "count": 1,
+            "category": [
+                "Nation"
+            ],
+            "progression": true,
+            "sort-key": "row-1-7"
+        },
+        {
+            "name": "France",
+            "count": 1,
+            "category": [
+                "Nation"
+            ],
+            "progression": true,
+            "sort-key": "row-1-8"
+        },
+        {
+            "name": "Sweden",
+            "count": 1,
+            "category": [
+                "Nation"
+            ],
+            "progression": true,
+            "sort-key": "row-1-9"
+        },
+        {
+            "name": "Israel",
+            "count": 1,
+            "category": [
+                "Nation"
+            ],
+            "progression": true,
+            "sort-key": "row-1-10"
+        },
+        {
+            "name": "Progressive BR",
+            "count": 14,
+            "category": [
+                "Progressive BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-0"
+        },
+        {
+            "name": "Reserve BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-1"
+        },
+        {
+            "name": "1.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-2"
+        },
+        {
+            "name": "2.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-3"
+        },
+        {
+            "name": "3.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-4"
+        },
+        {
+            "name": "4.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-5"
+        },
+        {
+            "name": "5.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-6"
+        },
+        {
+            "name": "6.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-7"
+        },
+        {
+            "name": "7.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-8"
+        },
+        {
+            "name": "8.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-9"
+        },
+        {
+            "name": "9.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-10"
+        },
+        {
+            "name": "10.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-11"
+        },
+        {
+            "name": "11.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-12"
+        },
+        {
+            "name": "12.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-13"
+        },
+        {
+            "name": "13.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-14"
+        },
+        {
+            "name": "14.X BR",
+            "count": 1,
+            "category": [
+                "BR"
+            ],
+            "progression": true,
+            "sort-key": "row-2-15"
+        },
+        {
+            "name": "Ejection Trap",
+            "count": 3,
+            "category": [
+                "Traps"
+            ],
+            "trap": true,
+            "sort-key": "row-90-0"
+        }
+    ]
+}

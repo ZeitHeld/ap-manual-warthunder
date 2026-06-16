@@ -1,0 +1,60 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+    "ExampleRegion":{
+        "connects_to": ["Second Region"],
+        "requires": "|Ryu| or {YamlCompare(Example_Range >= example )}",
+        "starting": true
+    },
+    "Second Region": {
+        "requires": "|@Characters:1|",
+        "connects_to": ["Third Region"],
+        "exit_requires": {
+            "Third Region": "|@Characters:5|"
+        }
+    },
+    "Hangar": {
+        "connects_to": [
+            "USA",
+            "Germany",
+            "USSR",
+            "Great Britain",
+            "Japan",
+            "China",
+            "Italy",
+            "France",
+            "Sweden",
+            "Israel"
+        ],
+        "starting": true
+    },
+    "USA": {
+        "requires": "|USA|"
+    },
+    "Germany": {
+        "requires": "|Germany|"
+    },
+    "USSR": {
+        "requires": "|USSR|"
+    },
+    "Great Britain": {
+        "requires": "|Great Britain|"
+    },
+    "Japan": {
+        "requires": "|Japan|"
+    },
+    "China": {
+        "requires": "|China|"
+    },
+    "Italy": {
+        "requires": "|Italy|"
+    },
+    "France": {
+        "requires": "|France|"
+    },
+    "Sweden": {
+        "requires": "|Sweden|"
+    },
+    "Israel": {
+        "requires": "|Israel|"
+    }
+}
