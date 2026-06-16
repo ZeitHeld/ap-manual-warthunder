@@ -1,7 +1,7 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
     "data": [
-                {
+        {
             "name": "Aviation",
             "count": 1,
             "category": [

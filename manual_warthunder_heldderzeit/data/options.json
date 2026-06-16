@@ -186,6 +186,71 @@
             "default": true,
             "group": "General Options"
         },
+        "exclude_tanks":{
+            "display_name": "Include Ground Vehicles",
+            "description": "Should Premium Vehicles be included into logic?",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "General Options"
+        },
+        "exclude_planes":{
+            "display_name": "Exclude Aviation",
+            "description": "Should Premium Vehicles be included into logic?",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "General Options"
+        },
+        "exclude_helis":{
+            "display_name": "Exclude Helicopter",
+            "description": "Should Premium Vehicles be included into logic?",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "General Options"
+        },
+        "exclude_bluefleet":{
+            "display_name": "Exclude Bluewater Fleets",
+            "description": "Should Premium Vehicles be included into logic?",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "General Options"
+        },
+        "exclude_coastals":{
+            "display_name": "Exclude Coastal Fleets",
+            "description": "Should Premium Vehicles be included into logic?",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "General Options"
+        },
         "include_premium":{
             "display_name": "Include Premium Vehicles",
             "description": "Should Premium Vehicles be included into logic?",
