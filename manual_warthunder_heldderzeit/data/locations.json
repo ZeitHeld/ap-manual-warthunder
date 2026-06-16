@@ -802,105 +802,98 @@
 
         {
             "name": "Sweden 1.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR1|",
             "sort-key": "row-1-9-1"
         },
         {
             "name": "Sweden 2.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR2|",
             "sort-key": "row-1-9-2"
         },
         {
             "name": "Sweden 3.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR3|",
             "sort-key": "row-1-9-3"
         },
         {
             "name": "Sweden 4.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR4|",
             "sort-key": "row-1-9-4"
         },
         {
             "name": "Sweden 5.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR5|",
             "sort-key": "row-1-9-5"
         },
         {
             "name": "Sweden 6.X (Aviation)",
-            "region": "SwedenAviation",
-            "category": ["Sweden", "Aviation"],
-            "requires": "|BR6|",
-            "sort-key": "row-1-9-6"
-        },
-        {
-            "name": "Sweden 6.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR6|",
             "sort-key": "row-1-9-6"
         },
         {
             "name": "Sweden 7.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR7|",
             "sort-key": "row-1-9-7"
         },
         {
             "name": "Sweden 8.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR8|",
             "sort-key": "row-1-9-8"
         },
         {
             "name": "Sweden 9.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR9|",
             "sort-key": "row-1-9-9"
         },
         {
             "name": "Sweden 10.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR10|",
             "sort-key": "row-1-9-10"
         },
         {
             "name": "Sweden 11.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR11|",
             "sort-key": "row-1-9-11"
         },
         {
             "name": "Sweden 12.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR12|",
             "sort-key": "row-1-9-12"
         },
         {
             "name": "Sweden 13.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR13|",
             "sort-key": "row-1-9-13"
         },
         {
             "name": "Sweden 14.X (Aviation)",
-            "region": "SwedenAviation",
+            "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR14|",
             "sort-key": "row-1-9-14"
@@ -954,7 +947,7 @@
         },
         {
             "name": "Israel 9.X (Aviation)",
-            "region": "Israel Aviation Aviation",
+            "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
             "requires": "|BR9|",
             "sort-key": "row-1-10-9"
