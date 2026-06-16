@@ -156,7 +156,7 @@
                 "template",
                 "spoiler"
             ],
-            "default": false,
+            "default": true,
             "group": "General Options"
         },
         "exclude_planes":{
@@ -182,7 +182,7 @@
                 "template",
                 "spoiler"
             ],
-            "default": false,
+            "default": true,
             "group": "General Options"
         },
         "exclude_bluefleet":{
@@ -195,7 +195,7 @@
                 "template",
                 "spoiler"
             ],
-            "default": false,
+            "default": true,
             "group": "General Options"
         },
         "exclude_coastals":{
@@ -208,7 +208,7 @@
                 "template",
                 "spoiler"
             ],
-            "default": false,
+            "default": true,
             "group": "General Options"
         },
         "include_premium":{

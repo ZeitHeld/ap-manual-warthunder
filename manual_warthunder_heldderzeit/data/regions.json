@@ -26,27 +26,51 @@
         "requires": "|USA|"
     },
     "Germany": {
+        "connects_to": [
+            "Germany Aviation"
+        ],
         "requires": "|Germany|"
     },
     "USSR": {
+        "connects_to": [
+            "USSR Aviation"
+        ],
         "requires": "|USSR|"
     },
     "Great Britain": {
+        "connects_to": [
+            "Great Britain Aviation"
+        ],
         "requires": "|Great Britain|"
     },
     "Japan": {
+        "connects_to": [
+            "Japan Aviation"
+        ],
         "requires": "|Japan|"
     },
     "China": {
+        "connects_to": [
+            "China Aviation"
+        ],
         "requires": "|China|"
     },
     "Italy": {
+        "connects_to": [
+            "Italy Aviation"
+        ],
         "requires": "|Italy|"
     },
     "France": {
+        "connects_to": [
+            "France Aviation"
+        ],
         "requires": "|France|"
     },
     "Sweden": {
+        "connects_to": [
+            "Sweden Aviation"
+        ],
         "requires": "|Sweden|"
     },
     "Israel": {
@@ -72,6 +96,31 @@
     },
     "USA Coast": {
         "requires": "|Has Coast Fleet|"
+    },
+
+    "Germany Aviation": {
+        "requires": "|Has Plane|"
+    },
+    "USSR Aviation": {
+        "requires": "|Has Plane|"
+    },
+    "Great Britain Aviation": {
+        "requires": "|Has Plane|"
+    },
+    "Japan Aviation": {
+        "requires": "|Has Plane|"
+    },
+    "China Aviation": {
+        "requires": "|Has Plane|"
+    },
+    "Italy Aviation": {
+        "requires": "|Has Plane|"
+    },
+    "France Aviation": {
+        "requires": "|Has Plane|"
+    },
+    "Sweden Aviation": {
+        "requires": "|Has Plane|"
     },
     "Israel Aviation": {
         "requires": "|Has Plane|"

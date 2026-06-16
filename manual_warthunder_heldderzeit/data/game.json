@@ -12,11 +12,11 @@
             "random": 1
         },
         {
-            "items": ["Aviation", "Ground Vehicles", "Bluewater Fleet", "Coastal Fleet"],
+            "items": ["Aviation", "Ground Vehicles"],
             "random": 1
         }
     ],
     "death_link": false,
     "starting_index": 1,
-    "unused_goals_are_locations": false
+    "unused_goals_are_locations": true
 }

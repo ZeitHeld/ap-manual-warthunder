@@ -23,47 +23,684 @@
             "sort-key": "row-1-1-2"
         },
         {
+            "name": "USA 3.X (Aviation)",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-1-3"
+        },
+        {
+            "name": "USA 4.X (Aviation)",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-1-4"
+        },
+        {
+            "name": "USA 5.X (Aviation)",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-1-5"
+        },
+        {
+            "name": "USA 6.X (Aviation)",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-1-6"
+        },
+        {
+            "name": "USA 7.X (Aviation)",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-1-2"
+        },
+        {
+            "name": "USA 8.X (Aviation)",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-1-2"
+        },
+        {
+            "name": "USA 9.X (Aviation)",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-1-2"
+        },
+        {
+            "name": "USA 10.X (Aviation)",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR10|",
+            "sort-key": "row-1-1-10"
+        },
+        {
+            "name": "USA 11.X (Aviation)",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR11|",
+            "sort-key": "row-1-1-11"
+        },
+        {
+            "name": "USA 12.X (Aviation)",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR12|",
+            "sort-key": "row-1-1-12"
+        },
+        {
+            "name": "USA 13.X (Aviation)",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR13|",
+            "sort-key": "row-1-1-13"
+        },
+        {
+            "name": "USA 14.X (Aviation)",
+            "region": "USA Aviation",
+            "category": ["USA", "Aviation"],
+            "requires": "|BR14|",
+            "sort-key": "row-1-1-14"
+        },
+
+        {
             "name": "Germany 1.X (Aviation)",
-            "region": "Germany",
+            "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
             "requires": "|BR1|",
             "sort-key": "row-1-2-1"
         },
         {
+            "name": "Germany 2.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-2-2"
+        },
+        {
+            "name": "Germany 3.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR3|",
+            "sort-key": "row-1-2-3"
+        },
+        {
+            "name": "Germany 4.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR4|",
+            "sort-key": "row-1-2-4"
+        },
+        {
+            "name": "Germany 5.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR5|",
+            "sort-key": "row-1-2-5"
+        },
+        {
+            "name": "Germany 6.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR6|",
+            "sort-key": "row-1-2-6"
+        },
+        {
+            "name": "Germany 7.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR7|",
+            "sort-key": "row-1-2-7"
+        },
+        {
+            "name": "Germany 8.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR8|",
+            "sort-key": "row-1-2-8"
+        },
+        {
+            "name": "Germany 9.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR9|",
+            "sort-key": "row-1-2-9"
+        },
+        {
+            "name": "Germany 10.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR10|",
+            "sort-key": "row-1-2-10"
+        },
+        {
+            "name": "Germany 11.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR11|",
+            "sort-key": "row-1-2-11"
+        },
+        {
+            "name": "Germany 12.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR12|",
+            "sort-key": "row-1-2-12"
+        },
+        {
+            "name": "Germany 13.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR13|",
+            "sort-key": "row-1-2-13"
+        },
+        {
+            "name": "Germany 14.X (Aviation)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Aviation"],
+            "requires": "|BR14|",
+            "sort-key": "row-1-2-14"
+        },
+
+        {
             "name": "USSR 1.X (Aviation)",
-            "region": "USSR",
+            "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
             "requires": "|BR1|",
             "sort-key": "row-1-3-1"
         },
         {
+            "name": "USSR 2.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-3-2"
+        },
+        {
+            "name": "USSR 3.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR3|",
+            "sort-key": "row-1-3-3"
+        },
+        {
+            "name": "USSR 4.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR4|",
+            "sort-key": "row-1-3-4"
+        },
+        {
+            "name": "USSR 5.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR5|",
+            "sort-key": "row-1-3-5"
+        },
+        {
+            "name": "USSR 6.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR6|",
+            "sort-key": "row-1-3-6"
+        },
+        {
+            "name": "USSR 7.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR7|",
+            "sort-key": "row-1-3-7"
+        },
+        {
+            "name": "USSR 8.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR8|",
+            "sort-key": "row-1-3-8"
+        },
+        {
+            "name": "USSR 9.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR9|",
+            "sort-key": "row-1-3-9"
+        },
+        {
+            "name": "USSR 10.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR10|",
+            "sort-key": "row-1-3-10"
+        },
+        {
+            "name": "USSR 11.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR11|",
+            "sort-key": "row-1-3-11"
+        },
+        {
+            "name": "USSR 12.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR12|",
+            "sort-key": "row-1-3-12"
+        },
+        {
+            "name": "USSR 13.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR13|",
+            "sort-key": "row-1-3-13"
+        },
+        {
+            "name": "USSR 14.X (Aviation)",
+            "region": "USSR Aviation",
+            "category": ["USSR", "Aviation"],
+            "requires": "|BR14|",
+            "sort-key": "row-1-3-14"
+        },
+
+        {
             "name": "Great Britain 1.X (Aviation)",
-            "region": "Great Britain",
+            "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
             "requires": "|BR1|",
             "sort-key": "row-1-4-1"
         },
         {
+            "name": "Great Britain 2.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-4-2"
+        },
+        {
+            "name": "Great Britain 3.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR3|",
+            "sort-key": "row-1-4-3"
+        },
+        {
+            "name": "Great Britain 4.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR4|",
+            "sort-key": "row-1-4-4"
+        },
+        {
+            "name": "Great Britain 5.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR5|",
+            "sort-key": "row-1-4-5"
+        },
+        {
+            "name": "Great Britain 6.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR6|",
+            "sort-key": "row-1-4-6"
+        },
+        {
+            "name": "Great Britain 7.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR7|",
+            "sort-key": "row-1-4-7"
+        },
+        {
+            "name": "Great Britain 8.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR8|",
+            "sort-key": "row-1-4-8"
+        },
+        {
+            "name": "Great Britain 9.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR9|",
+            "sort-key": "row-1-4-9"
+        },
+        {
+            "name": "Great Britain 10.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR10|",
+            "sort-key": "row-1-4-10"
+        },
+        {
+            "name": "Great Britain 11.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR11|",
+            "sort-key": "row-1-4-11"
+        },
+        {
+            "name": "Great Britain 12.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR12|",
+            "sort-key": "row-1-4-12"
+        },
+        {
+            "name": "Great Britain 13.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR13|",
+            "sort-key": "row-1-4-13"
+        },
+        {
+            "name": "Great Britain 14.X (Aviation)",
+            "region": "Great Britain Aviation",
+            "category": ["Great Britain", "Aviation"],
+            "requires": "|BR14|",
+            "sort-key": "row-1-4-14"
+        },
+
+        {
             "name": "Japan 1.X (Aviation)",
-            "region": "Japan",
+            "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
             "requires": "|BR1|",
             "sort-key": "row-1-5-1"
         },
         {
+            "name": "Japan 2.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-5-2"
+        },
+        {
+            "name": "Japan 3.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR3|",
+            "sort-key": "row-1-5-3"
+        },
+        {
+            "name": "Japan 4.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR4|",
+            "sort-key": "row-1-5-4"
+        },
+        {
+            "name": "Japan 5.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR5|",
+            "sort-key": "row-1-5-5"
+        },
+        {
+            "name": "Japan 6.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR6|",
+            "sort-key": "row-1-5-6"
+        },
+        {
+            "name": "Japan 7.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR7|",
+            "sort-key": "row-1-5-7"
+        },
+        {
+            "name": "Japan 8.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR8|",
+            "sort-key": "row-1-5-8"
+        },
+        {
+            "name": "Japan 9.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR9|",
+            "sort-key": "row-1-5-9"
+        },
+        {
+            "name": "Japan 10.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR10|",
+            "sort-key": "row-1-5-10"
+        },
+        {
+            "name": "Japan 11.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR11|",
+            "sort-key": "row-1-5-11"
+        },
+        {
+            "name": "Japan 12.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR12|",
+            "sort-key": "row-1-5-12"
+        },
+        {
+            "name": "Japan 13.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR13|",
+            "sort-key": "row-1-5-13"
+        },
+        {
+            "name": "Japan 14.X (Aviation)",
+            "region": "Japan Aviation",
+            "category": ["Japan", "Aviation"],
+            "requires": "|BR14|",
+            "sort-key": "row-1-5-14"
+        },
+
+        {
             "name": "China 1.X (Aviation)",
-            "region": "China",
+            "region": "China Aviation",
             "category": ["China", "Aviation"],
             "requires": "|BR1|",
             "sort-key": "row-1-6-1"
         },
         {
+            "name": "China 2.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-6-2"
+        },
+        {
+            "name": "China 3.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR3|",
+            "sort-key": "row-1-6-3"
+        },
+        {
+            "name": "China 4.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR4|",
+            "sort-key": "row-1-6-4"
+        },
+        {
+            "name": "China 5.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR5|",
+            "sort-key": "row-1-6-5"
+        },
+        {
+            "name": "China 6.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR6|",
+            "sort-key": "row-1-6-6"
+        },
+        {
+            "name": "China 7.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR7|",
+            "sort-key": "row-1-6-7"
+        },
+        {
+            "name": "China 8.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR8|",
+            "sort-key": "row-1-6-8"
+        },
+        {
+            "name": "China 9.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR9|",
+            "sort-key": "row-1-6-9"
+        },
+        {
+            "name": "China 10.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR10|",
+            "sort-key": "row-1-6-10"
+        },
+        {
+            "name": "China 11.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR11|",
+            "sort-key": "row-1-6-11"
+        },
+        {
+            "name": "China 12.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR12|",
+            "sort-key": "row-1-6-12"
+        },
+        {
+            "name": "China 13.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR13|",
+            "sort-key": "row-1-6-13"
+        },
+        {
+            "name": "China 14.X (Aviation)",
+            "region": "China Aviation",
+            "category": ["China", "Aviation"],
+            "requires": "|BR14|",
+            "sort-key": "row-1-6-14"
+        },
+
+        {
             "name": "Italy 1.X (Aviation)",
-            "region": "Italy",
-            "category": ["USSR", "Aviation"],
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
             "requires": "|BR1|",
             "sort-key": "row-1-7-1"
         },
+        {
+            "name": "Italy 2.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-7-2"
+        },
+        {
+            "name": "Italy 3.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR3|",
+            "sort-key": "row-1-7-3"
+        },
+        {
+            "name": "Italy 4.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR4|",
+            "sort-key": "row-1-7-4"
+        },
+        {
+            "name": "Italy 5.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR5|",
+            "sort-key": "row-1-7-5"
+        },
+        {
+            "name": "Italy 6.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR6|",
+            "sort-key": "row-1-7-6"
+        },
+        {
+            "name": "Italy 7.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR7|",
+            "sort-key": "row-1-7-7"
+        },
+        {
+            "name": "Italy 8.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR8|",
+            "sort-key": "row-1-7-8"
+        },
+        {
+            "name": "Italy 9.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR9|",
+            "sort-key": "row-1-7-9"
+        },
+        {
+            "name": "Italy 10.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR10|",
+            "sort-key": "row-1-7-10"
+        },
+        {
+            "name": "Italy 11.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR11|",
+            "sort-key": "row-1-7-11"
+        },
+        {
+            "name": "Italy 12.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR12|",
+            "sort-key": "row-1-7-12"
+        },
+        {
+            "name": "Italy 13.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR13|",
+            "sort-key": "row-1-7-13"
+        },
+        {
+            "name": "Italy 14.X (Aviation)",
+            "region": "Italy Aviation",
+            "category": ["Italy", "Aviation"],
+            "requires": "|BR14|",
+            "sort-key": "row-1-7-14"
+        },
+
         {
             "name": "France 1.X (Aviation)",
             "region": "France",
@@ -72,36 +709,227 @@
             "sort-key": "row-1-8-1"
         },
         {
+            "name": "France 2.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-8-2"
+        },
+        {
+            "name": "France 3.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR3|",
+            "sort-key": "row-1-8-3"
+        },
+        {
+            "name": "France 4.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR4|",
+            "sort-key": "row-1-8-4"
+        },
+        {
+            "name": "France 5.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR5|",
+            "sort-key": "row-1-8-5"
+        },
+        {
+            "name": "France 6.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR6|",
+            "sort-key": "row-1-8-6"
+        },
+        {
+            "name": "France 7.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR7|",
+            "sort-key": "row-1-8-7"
+        },
+        {
+            "name": "France 8.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR8|",
+            "sort-key": "row-1-8-8"
+        },
+        {
+            "name": "France 9.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR9|",
+            "sort-key": "row-1-8-9"
+        },
+        {
+            "name": "France 10.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR10|",
+            "sort-key": "row-1-8-10"
+        },
+        {
+            "name": "France 11.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR11|",
+            "sort-key": "row-1-8-11"
+        },
+        {
+            "name": "France 12.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR12|",
+            "sort-key": "row-1-8-12"
+        },
+        {
+            "name": "France 13.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR13|",
+            "sort-key": "row-1-8-13"
+        },
+        {
+            "name": "France 14.X (Aviation)",
+            "region": "France",
+            "category": ["France", "Aviation"],
+            "requires": "|BR14|",
+            "sort-key": "row-1-8-14"
+        },
+
+        {
             "name": "Sweden 1.X (Aviation)",
-            "region": "Sweden",
+            "region": "SwedenAviation",
             "category": ["Sweden", "Aviation"],
             "requires": "|BR1|",
             "sort-key": "row-1-9-1"
         },
         {
+            "name": "Sweden 2.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR2|",
+            "sort-key": "row-1-9-2"
+        },
+        {
+            "name": "Sweden 3.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR3|",
+            "sort-key": "row-1-9-3"
+        },
+        {
+            "name": "Sweden 4.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR4|",
+            "sort-key": "row-1-9-4"
+        },
+        {
+            "name": "Sweden 5.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR5|",
+            "sort-key": "row-1-9-5"
+        },
+        {
+            "name": "Sweden 6.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR6|",
+            "sort-key": "row-1-9-6"
+        },
+        {
+            "name": "Sweden 6.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR6|",
+            "sort-key": "row-1-9-6"
+        },
+        {
+            "name": "Sweden 7.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR7|",
+            "sort-key": "row-1-9-7"
+        },
+        {
+            "name": "Sweden 8.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR8|",
+            "sort-key": "row-1-9-8"
+        },
+        {
+            "name": "Sweden 9.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR9|",
+            "sort-key": "row-1-9-9"
+        },
+        {
+            "name": "Sweden 10.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR10|",
+            "sort-key": "row-1-9-10"
+        },
+        {
+            "name": "Sweden 11.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR11|",
+            "sort-key": "row-1-9-11"
+        },
+        {
+            "name": "Sweden 12.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR12|",
+            "sort-key": "row-1-9-12"
+        },
+        {
+            "name": "Sweden 13.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR13|",
+            "sort-key": "row-1-9-13"
+        },
+        {
+            "name": "Sweden 14.X (Aviation)",
+            "region": "SwedenAviation",
+            "category": ["Sweden", "Aviation"],
+            "requires": "|BR14|",
+            "sort-key": "row-1-9-14"
+        },
+
+        {
             "name": "Israel 3.X (Aviation)",
-            "region": "Israel",
+            "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
             "requires": "|BR3|",
             "sort-key": "row-1-10-3"
         },
         {
             "name": "Israel 4.X (Aviation)",
-            "region": "Israel",
+            "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
             "requires": "|BR4|",
             "sort-key": "row-1-10-4"
         },
         {
             "name": "Israel 5.X (Aviation)",
-            "region": "Israel",
+            "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
             "requires": "|BR5|",
             "sort-key": "row-1-10-5"
         },
         {
             "name": "Israel 6.X (Aviation)",
-            "region": "Israel",
+            "region": "Israel Aviation",
             "category": [
                 "Israel",
                 "Aviation",
@@ -109,6 +937,62 @@
             ],
             "requires": "|BR6|",
             "sort-key": "row-1-10-6"
+        },
+        {
+            "name": "Israel 7.X (Aviation)",
+            "region": "Israel Aviation",
+            "category": ["Israel", "Aviation"],
+            "requires": "|BR7|",
+            "sort-key": "row-1-10-7"
+        },
+        {
+            "name": "Israel 8.X (Aviation)",
+            "region": "Israel Aviation",
+            "category": ["Israel", "Aviation"],
+            "requires": "|BR8|",
+            "sort-key": "row-1-10-8"
+        },
+        {
+            "name": "Israel 9.X (Aviation)",
+            "region": "Israel Aviation Aviation",
+            "category": ["Israel", "Aviation"],
+            "requires": "|BR9|",
+            "sort-key": "row-1-10-9"
+        },
+        {
+            "name": "Israel 10.X (Aviation)",
+            "region": "Israel Aviation",
+            "category": ["Israel", "Aviation"],
+            "requires": "|BR10|",
+            "sort-key": "row-1-10-10"
+        },
+        {
+            "name": "Israel 11.X (Aviation)",
+            "region": "Israel Aviation",
+            "category": ["Israel", "Aviation"],
+            "requires": "|BR11|",
+            "sort-key": "row-1-10-11"
+        },
+        {
+            "name": "Israel 12.X (Aviation)",
+            "region": "Israel Aviation",
+            "category": ["Israel", "Aviation"],
+            "requires": "|BR12|",
+            "sort-key": "row-1-10-12"
+        },
+        {
+            "name": "Israel 13.X (Aviation)",
+            "region": "Israel Aviation",
+            "category": ["Israel", "Aviation"],
+            "requires": "|BR13|",
+            "sort-key": "row-1-10-13"
+        },
+        {
+            "name": "Israel 14.X (Aviation)",
+            "region": "Israel Aviation",
+            "category": ["Israel", "Aviation"],
+            "requires": "|BR14|",
+            "sort-key": "row-1-10-14"
         },
 
 
@@ -127,12 +1011,189 @@
             "sort-key": "row-3-1-2"
         },
         {
+            "name": "USA 3.X (Ground Vehicles)",
+            "region": "USA Ground",
+            "category": ["USA", "Ground Vehicles"],
+            "requires": "|BR3|",
+            "sort-key": "row-3-1-3"
+        },
+        {
+            "name": "USA 4.X (Ground Vehicles)",
+            "region": "USA Ground",
+            "category": ["USA", "Ground Vehicles"],
+            "requires": "|BR2|",
+            "sort-key": "row-3-1-2"
+        },
+        {
+            "name": "USA 5.X (Ground Vehicles)",
+            "region": "USA Ground",
+            "category": ["USA", "Ground Vehicles"],
+            "requires": "|BR5|",
+            "sort-key": "row-3-1-5"
+        },
+        {
+            "name": "USA 6.X (Ground Vehicles)",
+            "region": "USA Ground",
+            "category": ["USA", "Ground Vehicles"],
+            "requires": "|BR6|",
+            "sort-key": "row-3-1-6"
+        },
+        {
+            "name": "USA 7.X (Ground Vehicles)",
+            "region": "USA Ground",
+            "category": ["USA", "Ground Vehicles"],
+            "requires": "|BR7|",
+            "sort-key": "row-3-1-7"
+        },
+        {
+            "name": "USA 8.X (Ground Vehicles)",
+            "region": "USA Ground",
+            "category": ["USA", "Ground Vehicles"],
+            "requires": "|BR8|",
+            "sort-key": "row-3-1-8"
+        },
+        {
+            "name": "USA 9.X (Ground Vehicles)",
+            "region": "USA Ground",
+            "category": ["USA", "Ground Vehicles"],
+            "requires": "|BR9|",
+            "sort-key": "row-3-1-9"
+        },
+        {
+            "name": "USA 10.X (Ground Vehicles)",
+            "region": "USA Ground",
+            "category": ["USA", "Ground Vehicles"],
+            "requires": "|BR10|",
+            "sort-key": "row-3-1-10"
+        },
+        {
+            "name": "USA 11.X (Ground Vehicles)",
+            "region": "USA Ground",
+            "category": ["USA", "Ground Vehicles"],
+            "requires": "|BR11|",
+            "sort-key": "row-3-1-11"
+        },
+        {
+            "name": "USA 12.X (Ground Vehicles)",
+            "region": "USA Ground",
+            "category": ["USA", "Ground Vehicles"],
+            "requires": "|BR12|",
+            "sort-key": "row-3-1-12"
+        },
+        {
+            "name": "USA 13.X (Ground Vehicles)",
+            "region": "USA Ground",
+            "category": ["USA", "Ground Vehicles"],
+            "requires": "|BR13|",
+            "sort-key": "row-3-1-13"
+        },
+        {
+            "name": "USA 14.X (Ground Vehicles)",
+            "region": "USA Ground",
+            "category": ["USA", "Ground Vehicles"],
+            "requires": "|BR14|",
+            "sort-key": "row-3-1-14"
+        },
+
+        {
             "name": "Germany 1.X (Ground Vehicles)",
-            "region": "Germany",
+            "region": "Germany Aviation",
             "category": ["Germany", "Ground Vehicles"],
             "requires": "|BR1|",
             "sort-key": "row-3-2-1"
         },
+        {
+            "name": "Germany 2.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR2|",
+            "sort-key": "row-3-2-2"
+        },
+        {
+            "name": "Germany 3.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR3|",
+            "sort-key": "row-3-2-3"
+        },
+        {
+            "name": "Germany 4.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR4|",
+            "sort-key": "row-3-2-4"
+        },
+        {
+            "name": "Germany 5.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR5|",
+            "sort-key": "row-3-2-5"
+        },
+        {
+            "name": "Germany 6.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR6|",
+            "sort-key": "row-3-2-6"
+        },
+        {
+            "name": "Germany 7.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR7|",
+            "sort-key": "row-3-2-7"
+        },
+        {
+            "name": "Germany 8.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR8|",
+            "sort-key": "row-3-2-8"
+        },
+        {
+            "name": "Germany 9.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR9|",
+            "sort-key": "row-3-2-9"
+        },
+        {
+            "name": "Germany 10.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR10|",
+            "sort-key": "row-3-2-10"
+        },
+        {
+            "name": "Germany 11.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR11|",
+            "sort-key": "row-3-2-11"
+        },
+        {
+            "name": "Germany 12.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR12|",
+            "sort-key": "row-3-2-12"
+        },
+        {
+            "name": "Germany 13.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR13|",
+            "sort-key": "row-3-2-13"
+        },
+        {
+            "name": "Germany 14.X (Ground Vehicles)",
+            "region": "Germany Aviation",
+            "category": ["Germany", "Ground Vehicles"],
+            "requires": "|BR14|",
+            "sort-key": "row-3-2-14"
+        },
+
         {
             "name": "USSR 1.X (Ground Vehicles)",
             "region": "USSR",
@@ -146,6 +1207,27 @@
             "category": ["USSR", "Ground Vehicles"],
             "requires": "|BR2|",
             "sort-key": "row-3-3-2"
+        },
+        {
+            "name": "USSR 3.X (Ground Vehicles)",
+            "region": "USSR",
+            "category": ["USSR", "Ground Vehicles"],
+            "requires": "|BR3|",
+            "sort-key": "row-3-3-3"
+        },
+        {
+            "name": "USSR 4.X (Ground Vehicles)",
+            "region": "USSR",
+            "category": ["USSR", "Ground Vehicles"],
+            "requires": "|BR4|",
+            "sort-key": "row-3-3-4"
+        },
+        {
+            "name": "USSR 5.X (Ground Vehicles)",
+            "region": "USSR",
+            "category": ["USSR", "Ground Vehicles"],
+            "requires": "|BR5|",
+            "sort-key": "row-3-3-5"
         },
         {
             "name": "Israel 4.X (Ground Vehicles)",
@@ -203,6 +1285,8 @@
             "requires": "|BR12|",
             "sort-key": "row-3-10-12"
         },
+
+
         {
             "name": "USA 1.X (Bluewater Fleet)",
             "region": "USA Bluewater",
@@ -231,6 +1315,8 @@
             "requires": "|BR4|",
             "sort-key": "row-3-10-4"
         },
+
+
         {
             "name": "USA 1.X (Coastal Fleet)",
             "region": "USA Coast",
@@ -263,18 +1349,40 @@
 
 
         {
-            "name": "Kill 20 Bluewater Fleet Targets",
-            "region": "USA Bluewater",
-            "category": ["USA", "Mission"],
-            "requires": "|BR14|",
-            "sort-key": "row-99-99-99",
+            "name": "Win 1 Time",
+            "region": "Hangar",
+            "category": ["Mission"],
+            "requires": "|Any BR|",
+            "sort-key": "row-99-0-1"
+        },
+        {
+            "name": "Win 5 Times",
+            "region": "Hangar",
+            "category": ["Mission"],
+            "requires": "|Any BR|",
+            "sort-key": "row-99-0-5"
+        },
+        {
+            "name": "Win on every BR",
+            "region": "Hangar",
+            "category": ["Goal", "Mission"],
+            "requires": "|Every BR|",
+            "sort-key": "row-99-0-99",
             "victory": true
         },
         {
-            "name": "Kill 20 Aviation Targets",
-            "region": "USA Aviation",
-            "category": ["USA", "Mission"],
-            "requires": "|BR2|",
+            "name": "Win 10 Times",
+            "region": "Hangar",
+            "category": ["Goal", "Mission"],
+            "requires": "|Any BR| AND |Has Any Vehicle|",
+            "sort-key": "row-99-0-10",
+            "victory": true
+        },
+        {
+            "name": "Defeat 20 Targets of all Vehicles",
+            "region": "Hangar",
+            "category": ["Goal", "Mission"],
+            "requires": "|Has Every Vehicle| AND |Any BR|",
             "sort-key": "row-99-90-99",
             "victory": true
         }

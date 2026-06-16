@@ -71,6 +71,16 @@
             "requires": "|14.X BR| OR |Progressive BR:14|",
             "visible": false
         },
+        {
+            "name": "Every BR",
+            "requires": "(|BR1| AND |BR2| AND |BR3| AND |BR4| AND |BR5| AND |BR6| AND |BR7| AND |BR8| AND |BR9| AND |BR10| AND |BR11| AND |BR12| AND |BR13| AND |BR14|) OR |Progressive BR:14|",
+            "visible": false
+        },
+        {
+            "name": "Any BR",
+            "requires": "(|BR1| OR |BR2| OR |BR3| OR |BR4| OR |BR5| OR |BR6| OR |BR7| OR |BR8| OR |BR9| OR |BR10| OR |BR11| OR |BR12| OR |BR13| OR |BR14|) OR |Progressive BR:1|",
+            "visible": false
+        },
 
         {
             "name": "Has Plane",
@@ -95,6 +105,16 @@
         {
             "name": "Has Coast Fleet",
             "requires": "|Coastal Fleet|",
+            "visible": false
+        },
+        {
+            "name": "Has Any Vehicle",
+            "requires": "|Has Plane| OR |Has Helicopter| OR |Has Tank| OR |Has Blue Fleet| OR |Has Coast Fleet|",
+            "visible": false
+        },
+        {
+            "name": "Has Every Vehicle",
+            "requires": "|Has Plane| AND |Has Helicopter| AND |Has Tank| AND |Has Blue Fleet| AND |Has Coast Fleet|",
             "visible": false
         }
     ]
