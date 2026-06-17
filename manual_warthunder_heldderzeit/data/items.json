@@ -6,7 +6,8 @@
             "count": 1,
             "category": [
                 "Vehicles",
-                "Simple Vehicle"
+                "Simple Vehicle",
+                "Aviation"
             ],
             "progression": true,
             "sort-key": "row-0-1"
@@ -16,7 +17,8 @@
             "count": 1,
             "category": [
                 "Vehicles",
-                "Simple Vehicle"
+                "Simple Vehicle",
+                "Helicopters"
             ],
             "progression": true,
             "sort-key": "row-0-2"
@@ -26,7 +28,8 @@
             "count": 1,
             "category": [
                 "Vehicles",
-                "Simple Vehicle"
+                "Simple Vehicle",
+                "Ground Vehicles"
             ],
             "progression": true,
             "sort-key": "row-0-3"
@@ -36,7 +39,8 @@
             "count": 1,
             "category": [
                 "Vehicles",
-                "Simple Vehicles"
+                "Simple Vehicles",
+                "Bluewater Fleet"
             ],
             "progression": true,
             "sort-key": "row-0-4"
@@ -46,7 +50,8 @@
             "count": 1,
             "category": [
                 "Vehicles",
-                "Simple Vehicle"
+                "Simple Vehicle",
+                "Coastal Fleet"
             ],
             "progression": true,
             "sort-key": "row-0-5"
@@ -217,7 +222,7 @@
             "sort-key": "row-0-45"
         },
         {
-            "name": "Frigatge",
+            "name": "Frigate",
             "count": 1,
             "category": [
                 "Vehicles",
@@ -264,7 +269,8 @@
             "name": "USA",
             "count": 1,
             "category": [
-                "Nation"
+                "Nation",
+                "USA"
             ],
             "progression": true,
             "sort-key": "row-1-1"
@@ -273,7 +279,8 @@
             "name": "Germany",
             "count": 1,
             "category": [
-                "Nation"
+                "Nation",
+                "Germany"
             ],
             "progression": true,
             "sort-key": "row-1-2"
@@ -282,7 +289,8 @@
             "name": "USSR",
             "count": 1,
             "category": [
-                "Nation"
+                "Nation",
+                "USSR"
             ],
             "progression": true,
             "sort-key": "row-1-3"
@@ -291,7 +299,8 @@
             "name": "Great Britain",
             "count": 1,
             "category": [
-                "Nation"
+                "Nation",
+                "Great Britain"
             ],
             "progression": true,
             "sort-key": "row-1-4"
@@ -300,7 +309,8 @@
             "name": "Japan",
             "count": 1,
             "category": [
-                "Nation"
+                "Nation",
+                "Japan"
             ],
             "progression": true,
             "sort-key": "row-1-5"
@@ -309,7 +319,8 @@
             "name": "China",
             "count": 1,
             "category": [
-                "Nation"
+                "Nation",
+                "China"
             ],
             "progression": true,
             "sort-key": "row-1-6"
@@ -327,7 +338,8 @@
             "name": "France",
             "count": 1,
             "category": [
-                "Nation"
+                "Nation",
+                "France"
             ],
             "progression": true,
             "sort-key": "row-1-8"
@@ -336,7 +348,8 @@
             "name": "Sweden",
             "count": 1,
             "category": [
-                "Nation"
+                "Nation",
+                "Sweden"
             ],
             "progression": true,
             "sort-key": "row-1-9"
@@ -345,7 +358,8 @@
             "name": "Israel",
             "count": 1,
             "category": [
-                "Nation"
+                "Nation",
+                "Israel"
             ],
             "progression": true,
             "sort-key": "row-1-10"
@@ -603,7 +617,7 @@
                 "Ammo",
                 "Aviation"
             ],
-            "progression": true,
+            "progression": false,
             "useful": true,
             "sort-key": "row-4-1"
         },
@@ -614,7 +628,7 @@
                 "Ammo",
                 "Aviation"
             ],
-            "progression": true,
+            "progression": false,
             "useful": true,
             "sort-key": "row-4-2"
         },
@@ -625,7 +639,7 @@
                 "Ammo",
                 "Aviation"
             ],
-            "progression": true,
+            "progression": false,
             "useful": true,
             "sort-key": "row-4-3"
         },
@@ -647,7 +661,7 @@
                 "Ammo",
                 "Aviation"
             ],
-            "progression": true,
+            "progression": false,
             "useful": true,
             "sort-key": "row-4-50"
         },

@@ -215,8 +215,11 @@
             "group": "Gameplay Options"
         },
         "exclude_helis":{
-            "display_name": "Exclude Helicopter",
-            "description": "Turn on, if you don't want to play Exclude Helicopter with any Nation.",
+            "display_name": "Exclude Helicopter - WIP",
+            "description": [
+                "WIP - KEEP IT OFF",
+                "Turn on, if you don't want to play Exclude Helicopter with any Nation."
+            ],
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -229,7 +232,9 @@
         },
         "exclude_tanks":{
             "display_name": "Exclude Ground Vehicles",
-            "description": "Turn on, if you don't want to play Ground Vehicles with any Nation.",
+            "description": [
+                "Turn on, if you don't want to play Ground Vehicles with any Nation."
+            ],
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -241,8 +246,11 @@
             "group": "Gameplay Options"
         },
         "exclude_bluefleet":{
-            "display_name": "Exclude Bluewater Fleet",
-            "description": "Turn on, if you don't want to play Bluewater Fleet with any Nation.",
+            "display_name": "Exclude Bluewater Fleet - WIP",
+            "description": [
+                "WIP - KEEP IT OFF",
+                "Turn on, if you don't want to play Bluewater Fleet with any Nation."
+            ],
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -254,8 +262,11 @@
             "group": "Gameplay Options"
         },
         "exclude_coastals":{
-            "display_name": "Exclude Coastal Fleet",
-            "description": "Turn on, if you don't want to play Coastal Fleet with any Nation.",
+            "display_name": "Exclude Coastal Fleet - WIP",
+            "description": [
+                "WIP - KEEP IT OFF",
+                "Turn on, if you don't want to play Coastal Fleet with any Nation."
+            ],
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
