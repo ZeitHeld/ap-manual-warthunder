@@ -59,6 +59,46 @@
     "Israel": {
         "yaml_option": ["!exclude_israel"]
     },
+    "USA Item": {
+        "hidden": true,
+        "yaml_option": ["!exclude_usa"]
+    },
+    "Germany Item": {
+        "hidden": true,
+        "yaml_option": ["!exclude_germany"]
+    },
+    "USSR Item": {
+        "hidden": true,
+        "yaml_option": ["!exclude_ussr"]
+    },
+    "Britain Item": {
+        "hidden": true,
+        "yaml_option": ["!exclude_brits"]
+    },
+    "Japan Item": {
+        "hidden": true,
+        "yaml_option": ["!exclude_japan"]
+    },
+    "China Item": {
+        "hidden": true,
+        "yaml_option": ["!exclude_china"]
+    },
+    "Italy Item": {
+        "hidden": true,
+        "yaml_option": ["!exclude_italy"]
+    },
+    "France Item": {
+        "hidden": true,
+        "yaml_option": ["!exclude_france"]
+    },
+    "Sweden Item": {
+        "hidden": true,
+        "yaml_option": ["!exclude_sweden"]
+    },
+    "Israel Item": {
+        "hidden": true,
+        "yaml_option": ["!exclude_israel"]
+    },
     "Modification": {
         "yaml_option": ["!upgrade_shuffle"]
     },
