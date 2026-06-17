@@ -1073,73 +1073,59 @@
             "requires": "|BR12|",
             "sort-key": "row-3-1-12"
         },
-        {
-            "name": "USA 13.X (Ground Vehicles)",
-            "region": "USA Ground",
-            "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR13|",
-            "sort-key": "row-3-1-13"
-        },
-        {
-            "name": "USA 14.X (Ground Vehicles)",
-            "region": "USA Ground",
-            "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR14|",
-            "sort-key": "row-3-1-14"
-        },
 
         {
             "name": "Germany 1.X (Ground Vehicles)",
-            "region": "Germany Aviation",
+            "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
             "requires": "|BR1|",
             "sort-key": "row-3-2-1"
         },
         {
             "name": "Germany 2.X (Ground Vehicles)",
-            "region": "Germany Aviation",
+            "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
             "requires": "|BR2|",
             "sort-key": "row-3-2-2"
         },
         {
             "name": "Germany 3.X (Ground Vehicles)",
-            "region": "Germany Aviation",
+            "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
             "requires": "|BR3|",
             "sort-key": "row-3-2-3"
         },
         {
             "name": "Germany 4.X (Ground Vehicles)",
-            "region": "Germany Aviation",
+            "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
             "requires": "|BR4|",
             "sort-key": "row-3-2-4"
         },
         {
             "name": "Germany 5.X (Ground Vehicles)",
-            "region": "Germany Aviation",
+            "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
             "requires": "|BR5|",
             "sort-key": "row-3-2-5"
         },
         {
             "name": "Germany 6.X (Ground Vehicles)",
-            "region": "Germany Aviation",
+            "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
             "requires": "|BR6|",
             "sort-key": "row-3-2-6"
         },
         {
             "name": "Germany 7.X (Ground Vehicles)",
-            "region": "Germany Aviation",
+            "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
             "requires": "|BR7|",
             "sort-key": "row-3-2-7"
         },
         {
             "name": "Germany 8.X (Ground Vehicles)",
-            "region": "Germany Aviation",
+            "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
             "requires": "|BR8|",
             "sort-key": "row-3-2-8"
@@ -1153,75 +1139,622 @@
         },
         {
             "name": "Germany 10.X (Ground Vehicles)",
-            "region": "Germany Aviation",
+            "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
             "requires": "|BR10|",
             "sort-key": "row-3-2-10"
         },
         {
             "name": "Germany 11.X (Ground Vehicles)",
-            "region": "Germany Aviation",
+            "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
             "requires": "|BR11|",
             "sort-key": "row-3-2-11"
         },
         {
             "name": "Germany 12.X (Ground Vehicles)",
-            "region": "Germany Aviation",
+            "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
             "requires": "|BR12|",
             "sort-key": "row-3-2-12"
         },
-        {
-            "name": "Germany 13.X (Ground Vehicles)",
-            "region": "Germany Aviation",
-            "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR13|",
-            "sort-key": "row-3-2-13"
-        },
-        {
-            "name": "Germany 14.X (Ground Vehicles)",
-            "region": "Germany Aviation",
-            "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR14|",
-            "sort-key": "row-3-2-14"
-        },
 
         {
             "name": "USSR 1.X (Ground Vehicles)",
-            "region": "USSR",
+            "region": "USSR Ground",
             "category": ["USSR","Ground Vehicles"],
             "requires": "|BR1|",
             "sort-key": "row-3-3-1"
         },
         {
             "name": "USSR 2.X (Ground Vehicles)",
-            "region": "USSR",
+            "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
             "requires": "|BR2|",
             "sort-key": "row-3-3-2"
         },
         {
             "name": "USSR 3.X (Ground Vehicles)",
-            "region": "USSR",
+            "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
             "requires": "|BR3|",
             "sort-key": "row-3-3-3"
         },
         {
             "name": "USSR 4.X (Ground Vehicles)",
-            "region": "USSR",
+            "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
             "requires": "|BR4|",
             "sort-key": "row-3-3-4"
         },
         {
             "name": "USSR 5.X (Ground Vehicles)",
-            "region": "USSR",
+            "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
             "requires": "|BR5|",
             "sort-key": "row-3-3-5"
         },
+        {
+            "name": "USSR 6.X (Ground Vehicles)",
+            "region": "USSR Ground",
+            "category": ["USSR", "Ground Vehicles"],
+            "requires": "|BR6|",
+            "sort-key": "row-3-3-6"
+        },
+        {
+            "name": "USSR 7.X (Ground Vehicles)",
+            "region": "USSR Ground",
+            "category": ["USSR", "Ground Vehicles"],
+            "requires": "|BR7|",
+            "sort-key": "row-3-3-7"
+        },
+        {
+            "name": "USSR 8.X (Ground Vehicles)",
+            "region": "USSR Ground",
+            "category": ["USSR", "Ground Vehicles"],
+            "requires": "|BR8|",
+            "sort-key": "row-3-3-8"
+        },
+        {
+            "name": "USSR 9.X (Ground Vehicles)",
+            "region": "USSR Ground",
+            "category": ["USSR", "Ground Vehicles"],
+            "requires": "|BR9|",
+            "sort-key": "row-3-3-9"
+        },
+        {
+            "name": "USSR 10.X (Ground Vehicles)",
+            "region": "USSR Ground",
+            "category": ["USSR", "Ground Vehicles"],
+            "requires": "|BR10|",
+            "sort-key": "row-3-3-10"
+        },
+        {
+            "name": "USSR 11.X (Ground Vehicles)",
+            "region": "USSR Ground",
+            "category": ["USSR", "Ground Vehicles"],
+            "requires": "|BR11|",
+            "sort-key": "row-3-3-11"
+        },
+        {
+            "name": "USSR 12.X (Ground Vehicles)",
+            "region": "USSR Ground",
+            "category": ["USSR", "Ground Vehicles"],
+            "requires": "|BR12|",
+            "sort-key": "row-3-3-12"
+        },
+
+        {
+            "name": "Great Britain 1.X (Ground Vehicles)",
+            "region": "Great Britain Ground",
+            "category": ["Great Britain","Ground Vehicles"],
+            "requires": "|BR1|",
+            "sort-key": "row-3-4-1"
+        },
+        {
+            "name": "Great Britain 2.X (Ground Vehicles)",
+            "region": "Great Britain Ground",
+            "category": ["Great Britain","Ground Vehicles"],
+            "requires": "|BR2|",
+            "sort-key": "row-3-4-2"
+        },
+        {
+            "name": "Great Britain 3.X (Ground Vehicles)",
+            "region": "Great Britain Ground",
+            "category": ["Great Britain","Ground Vehicles"],
+            "requires": "|BR3|",
+            "sort-key": "row-3-4-3"
+        },
+        {
+            "name": "Great Britain 4.X (Ground Vehicles)",
+            "region": "Great Britain Ground",
+            "category": ["Great Britain","Ground Vehicles"],
+            "requires": "|BR4|",
+            "sort-key": "row-3-4-4"
+        },
+        {
+            "name": "Great Britain 5.X (Ground Vehicles)",
+            "region": "Great Britain Ground",
+            "category": ["Great Britain","Ground Vehicles"],
+            "requires": "|BR5|",
+            "sort-key": "row-3-4-5"
+        },
+        {
+            "name": "Great Britain 6.X (Ground Vehicles)",
+            "region": "Great Britain Ground",
+            "category": ["Great Britain","Ground Vehicles"],
+            "requires": "|BR6|",
+            "sort-key": "row-3-4-6"
+        },
+        {
+            "name": "Great Britain 7.X (Ground Vehicles)",
+            "region": "Great Britain Ground",
+            "category": ["Great Britain","Ground Vehicles"],
+            "requires": "|BR7|",
+            "sort-key": "row-3-4-7"
+        },
+        {
+            "name": "Great Britain 8.X (Ground Vehicles)",
+            "region": "Great Britain Ground",
+            "category": ["Great Britain","Ground Vehicles"],
+            "requires": "|BR8|",
+            "sort-key": "row-3-4-8"
+        },
+        {
+            "name": "Great Britain 9.X (Ground Vehicles)",
+            "region": "Great Britain Ground",
+            "category": ["Great Britain","Ground Vehicles"],
+            "requires": "|BR9|",
+            "sort-key": "row-3-4-9"
+        },
+        {
+            "name": "Great Britain 10.X (Ground Vehicles)",
+            "region": "Great Britain Ground",
+            "category": ["Great Britain","Ground Vehicles"],
+            "requires": "|BR10|",
+            "sort-key": "row-3-4-10"
+        },
+        {
+            "name": "Great Britain 11.X (Ground Vehicles)",
+            "region": "Great Britain Ground",
+            "category": ["Great Britain","Ground Vehicles"],
+            "requires": "|BR11|",
+            "sort-key": "row-3-4-11"
+        },
+        {
+            "name": "Great Britain 12.X (Ground Vehicles)",
+            "region": "Great Britain Ground",
+            "category": ["Great Britain","Ground Vehicles"],
+            "requires": "|BR12|",
+            "sort-key": "row-3-4-12"
+        },
+
+        {
+            "name": "Japan 1.X (Ground Vehicles)",
+            "region": "Japan Ground",
+            "category": ["Japan","Ground Vehicles"],
+            "requires": "|BR1|",
+            "sort-key": "row-3-5-1"
+        },
+        {
+            "name": "Japan 2.X (Ground Vehicles)",
+            "region": "Japan Ground",
+            "category": ["Japan","Ground Vehicles"],
+            "requires": "|BR2|",
+            "sort-key": "row-3-5-2"
+        },
+        {
+            "name": "Japan 3.X (Ground Vehicles)",
+            "region": "Japan Ground",
+            "category": ["Japan","Ground Vehicles"],
+            "requires": "|BR3|",
+            "sort-key": "row-3-5-3"
+        },
+        {
+            "name": "Japan 4.X (Ground Vehicles)",
+            "region": "Japan Ground",
+            "category": ["Japan","Ground Vehicles"],
+            "requires": "|BR4|",
+            "sort-key": "row-3-5-4"
+        },
+        {
+            "name": "Japan 5.X (Ground Vehicles)",
+            "region": "Japan Ground",
+            "category": ["Japan","Ground Vehicles"],
+            "requires": "|BR5|",
+            "sort-key": "row-3-5-5"
+        },
+        {
+            "name": "Japan 6.X (Ground Vehicles)",
+            "region": "Japan Ground",
+            "category": ["Japan","Ground Vehicles"],
+            "requires": "|BR6|",
+            "sort-key": "row-3-5-6"
+        },
+        {
+            "name": "Japan 7.X (Ground Vehicles)",
+            "region": "Japan Ground",
+            "category": ["Japan","Ground Vehicles"],
+            "requires": "|BR7|",
+            "sort-key": "row-3-5-7"
+        },
+        {
+            "name": "Japan 8.X (Ground Vehicles)",
+            "region": "Japan Ground",
+            "category": ["Japan","Ground Vehicles"],
+            "requires": "|BR8|",
+            "sort-key": "row-3-5-8"
+        },
+        {
+            "name": "Japan 9.X (Ground Vehicles)",
+            "region": "Japan Ground",
+            "category": ["Japan","Ground Vehicles"],
+            "requires": "|BR9|",
+            "sort-key": "row-3-5-9"
+        },
+        {
+            "name": "Japan 10.X (Ground Vehicles)",
+            "region": "Japan Ground",
+            "category": ["Japan","Ground Vehicles"],
+            "requires": "|BR10|",
+            "sort-key": "row-3-5-10"
+        },
+        {
+            "name": "Japan 11.X (Ground Vehicles)",
+            "region": "Japan Ground",
+            "category": ["Japan","Ground Vehicles"],
+            "requires": "|BR11|",
+            "sort-key": "row-3-5-11"
+        },
+        {
+            "name": "Japan 12.X (Ground Vehicles)",
+            "region": "Japan Ground",
+            "category": ["Japan","Ground Vehicles"],
+            "requires": "|BR12|",
+            "sort-key": "row-3-5-12"
+        },
+
+        {
+            "name": "China 1.X (Ground Vehicles)",
+            "region": "China Ground",
+            "category": ["China","Ground Vehicles"],
+            "requires": "|BR1|",
+            "sort-key": "row-3-6-1"
+        },
+        {
+            "name": "China 2.X (Ground Vehicles)",
+            "region": "China Ground",
+            "category": ["China","Ground Vehicles"],
+            "requires": "|BR2|",
+            "sort-key": "row-3-6-2"
+        },
+        {
+            "name": "China 3.X (Ground Vehicles)",
+            "region": "China Ground",
+            "category": ["China","Ground Vehicles"],
+            "requires": "|BR3|",
+            "sort-key": "row-3-6-3"
+        },
+        {
+            "name": "China 4.X (Ground Vehicles)",
+            "region": "China Ground",
+            "category": ["China","Ground Vehicles"],
+            "requires": "|BR4|",
+            "sort-key": "row-3-6-4"
+        },
+        {
+            "name": "China 5.X (Ground Vehicles)",
+            "region": "China Ground",
+            "category": ["China","Ground Vehicles"],
+            "requires": "|BR5|",
+            "sort-key": "row-3-6-5"
+        },
+        {
+            "name": "China 6.X (Ground Vehicles)",
+            "region": "China Ground",
+            "category": ["China","Ground Vehicles"],
+            "requires": "|BR6|",
+            "sort-key": "row-3-6-6"
+        },
+        {
+            "name": "China 7.X (Ground Vehicles)",
+            "region": "China Ground",
+            "category": ["China","Ground Vehicles"],
+            "requires": "|BR7|",
+            "sort-key": "row-3-6-7"
+        },
+        {
+            "name": "China 8.X (Ground Vehicles)",
+            "region": "China Ground",
+            "category": ["China","Ground Vehicles"],
+            "requires": "|BR8|",
+            "sort-key": "row-3-6-8"
+        },
+        {
+            "name": "China 9.X (Ground Vehicles)",
+            "region": "China Ground",
+            "category": ["China","Ground Vehicles"],
+            "requires": "|BR9|",
+            "sort-key": "row-3-6-9"
+        },
+        {
+            "name": "China 10.X (Ground Vehicles)",
+            "region": "China Ground",
+            "category": ["China","Ground Vehicles"],
+            "requires": "|BR10|",
+            "sort-key": "row-3-6-10"
+        },
+        {
+            "name": "China 11.X (Ground Vehicles)",
+            "region": "China Ground",
+            "category": ["China","Ground Vehicles"],
+            "requires": "|BR11|",
+            "sort-key": "row-3-6-11"
+        },
+        {
+            "name": "China 12.X (Ground Vehicles)",
+            "region": "China Ground",
+            "category": ["China","Ground Vehicles"],
+            "requires": "|BR12|",
+            "sort-key": "row-3-6-12"
+        },
+
+        {
+            "name": "Italy 1.X (Ground Vehicles)",
+            "region": "Italy Ground",
+            "category": ["Italy","Ground Vehicles"],
+            "requires": "|BR1|",
+            "sort-key": "row-3-7-1"
+        },
+        {
+            "name": "Italy 2.X (Ground Vehicles)",
+            "region": "Italy Ground",
+            "category": ["Italy","Ground Vehicles"],
+            "requires": "|BR2|",
+            "sort-key": "row-3-7-2"
+        },
+        {
+            "name": "Italy 3.X (Ground Vehicles)",
+            "region": "Italy Ground",
+            "category": ["Italy","Ground Vehicles"],
+            "requires": "|BR3|",
+            "sort-key": "row-3-7-3"
+        },
+        {
+            "name": "Italy 4.X (Ground Vehicles)",
+            "region": "Italy Ground",
+            "category": ["Italy","Ground Vehicles"],
+            "requires": "|BR4|",
+            "sort-key": "row-3-7-4"
+        },
+        {
+            "name": "Italy 5.X (Ground Vehicles)",
+            "region": "Italy Ground",
+            "category": ["Italy","Ground Vehicles"],
+            "requires": "|BR5|",
+            "sort-key": "row-3-7-5"
+        },
+        {
+            "name": "Italy 6.X (Ground Vehicles)",
+            "region": "Italy Ground",
+            "category": ["Italy","Ground Vehicles"],
+            "requires": "|BR6|",
+            "sort-key": "row-3-7-6"
+        },
+        {
+            "name": "Italy 7.X (Ground Vehicles)",
+            "region": "Italy Ground",
+            "category": ["Italy","Ground Vehicles"],
+            "requires": "|BR7|",
+            "sort-key": "row-3-7-7"
+        },
+        {
+            "name": "Italy 8.X (Ground Vehicles)",
+            "region": "Italy Ground",
+            "category": ["Italy","Ground Vehicles"],
+            "requires": "|BR8|",
+            "sort-key": "row-3-7-8"
+        },
+        {
+            "name": "Italy 9.X (Ground Vehicles)",
+            "region": "Italy Ground",
+            "category": ["Italy","Ground Vehicles"],
+            "requires": "|BR9|",
+            "sort-key": "row-3-7-9"
+        },
+        {
+            "name": "Italy 10.X (Ground Vehicles)",
+            "region": "Italy Ground",
+            "category": ["Italy","Ground Vehicles"],
+            "requires": "|BR10|",
+            "sort-key": "row-3-7-10"
+        },
+        {
+            "name": "Italy 11.X (Ground Vehicles)",
+            "region": "Italy Ground",
+            "category": ["Italy","Ground Vehicles"],
+            "requires": "|BR11|",
+            "sort-key": "row-3-7-11"
+        },
+        {
+            "name": "Italy 12.X (Ground Vehicles)",
+            "region": "Italy Ground",
+            "category": ["Italy","Ground Vehicles"],
+            "requires": "|BR12|",
+            "sort-key": "row-3-7-12"
+        },
+
+        {
+            "name": "France 1.X (Ground Vehicles)",
+            "region": "France Ground",
+            "category": ["France","Ground Vehicles"],
+            "requires": "|BR1|",
+            "sort-key": "row-3-8-1"
+        },
+        {
+            "name": "France 2.X (Ground Vehicles)",
+            "region": "France Ground",
+            "category": ["France","Ground Vehicles"],
+            "requires": "|BR2|",
+            "sort-key": "row-3-8-2"
+        },
+        {
+            "name": "France 3.X (Ground Vehicles)",
+            "region": "France Ground",
+            "category": ["France","Ground Vehicles"],
+            "requires": "|BR3|",
+            "sort-key": "row-3-8-3"
+        },
+        {
+            "name": "France 4.X (Ground Vehicles)",
+            "region": "France Ground",
+            "category": ["France","Ground Vehicles"],
+            "requires": "|BR4|",
+            "sort-key": "row-3-8-4"
+        },
+        {
+            "name": "France 5.X (Ground Vehicles)",
+            "region": "France Ground",
+            "category": ["France","Ground Vehicles"],
+            "requires": "|BR5|",
+            "sort-key": "row-3-8-5"
+        },
+        {
+            "name": "France 6.X (Ground Vehicles)",
+            "region": "France Ground",
+            "category": ["France","Ground Vehicles"],
+            "requires": "|BR6|",
+            "sort-key": "row-3-8-6"
+        },
+        {
+            "name": "France 7.X (Ground Vehicles)",
+            "region": "France Ground",
+            "category": ["France","Ground Vehicles"],
+            "requires": "|BR7|",
+            "sort-key": "row-3-8-7"
+        },
+        {
+            "name": "France 8.X (Ground Vehicles)",
+            "region": "France Ground",
+            "category": ["France","Ground Vehicles"],
+            "requires": "|BR8|",
+            "sort-key": "row-3-8-8"
+        },
+        {
+            "name": "France 9.X (Ground Vehicles)",
+            "region": "France Ground",
+            "category": ["France","Ground Vehicles"],
+            "requires": "|BR9|",
+            "sort-key": "row-3-8-9"
+        },
+        {
+            "name": "France 10.X (Ground Vehicles)",
+            "region": "France Ground",
+            "category": ["France","Ground Vehicles"],
+            "requires": "|BR10|",
+            "sort-key": "row-3-8-10"
+        },
+        {
+            "name": "France 11.X (Ground Vehicles)",
+            "region": "France Ground",
+            "category": ["France","Ground Vehicles"],
+            "requires": "|BR11|",
+            "sort-key": "row-3-8-11"
+        },
+        {
+            "name": "France 12.X (Ground Vehicles)",
+            "region": "France Ground",
+            "category": ["France","Ground Vehicles"],
+            "requires": "|BR12|",
+            "sort-key": "row-3-8-12"
+        },
+
+        {
+            "name": "Sweden 1.X (Ground Vehicles)",
+            "region": "Sweden Ground",
+            "category": ["Sweden","Ground Vehicles"],
+            "requires": "|BR1|",
+            "sort-key": "row-3-9-1"
+        },
+        {
+            "name": "Sweden 2.X (Ground Vehicles)",
+            "region": "Sweden Ground",
+            "category": ["Sweden","Ground Vehicles"],
+            "requires": "|BR2|",
+            "sort-key": "row-3-9-2"
+        },
+        {
+            "name": "Sweden 3.X (Ground Vehicles)",
+            "region": "Sweden Ground",
+            "category": ["Sweden","Ground Vehicles"],
+            "requires": "|BR3|",
+            "sort-key": "row-3-9-3"
+        },
+        {
+            "name": "Sweden 4.X (Ground Vehicles)",
+            "region": "Sweden Ground",
+            "category": ["Sweden","Ground Vehicles"],
+            "requires": "|BR4|",
+            "sort-key": "row-3-9-4"
+        },
+        {
+            "name": "Sweden 5.X (Ground Vehicles)",
+            "region": "Sweden Ground",
+            "category": ["Sweden","Ground Vehicles"],
+            "requires": "|BR5|",
+            "sort-key": "row-3-9-5"
+        },
+        {
+            "name": "Sweden 6.X (Ground Vehicles)",
+            "region": "Sweden Ground",
+            "category": ["Sweden","Ground Vehicles"],
+            "requires": "|BR6|",
+            "sort-key": "row-3-9-6"
+        },
+        {
+            "name": "Sweden 7.X (Ground Vehicles)",
+            "region": "Sweden Ground",
+            "category": ["Sweden","Ground Vehicles"],
+            "requires": "|BR7|",
+            "sort-key": "row-3-9-7"
+        },
+        {
+            "name": "Sweden 8.X (Ground Vehicles)",
+            "region": "Sweden Ground",
+            "category": ["Sweden","Ground Vehicles"],
+            "requires": "|BR8|",
+            "sort-key": "row-3-9-8"
+        },
+        {
+            "name": "Sweden 9.X (Ground Vehicles)",
+            "region": "Sweden Ground",
+            "category": ["Sweden","Ground Vehicles"],
+            "requires": "|BR9|",
+            "sort-key": "row-3-9-9"
+        },
+        {
+            "name": "Sweden 10.X (Ground Vehicles)",
+            "region": "Sweden Ground",
+            "category": ["Sweden","Ground Vehicles"],
+            "requires": "|BR10|",
+            "sort-key": "row-3-9-10"
+        },
+        {
+            "name": "Sweden 11.X (Ground Vehicles)",
+            "region": "Sweden Ground",
+            "category": ["Sweden","Ground Vehicles"],
+            "requires": "|BR11|",
+            "sort-key": "row-3-9-11"
+        },
+        {
+            "name": "Sweden 12.X (Ground Vehicles)",
+            "region": "Sweden Ground",
+            "category": ["Sweden","Ground Vehicles"],
+            "requires": "|BR12|",
+            "sort-key": "row-3-9-12"
+        },
+
+
         {
             "name": "Israel 4.X (Ground Vehicles)",
             "region": "Israel Ground",
@@ -1369,6 +1902,7 @@
             "requires": "|Any BR|",
             "sort-key": "row-10-1-10"
         },
+        
         {
             "name": "Get 1 Assist (Ground Vehicles)",
             "region": "Hangar",
@@ -1376,6 +1910,30 @@
             "requires": "|Any BR|",
             "sort-key": "row-10-2-1"
         },
+        {
+            "name": "Get 3 Assists (Ground Vehicles)",
+            "region": "Hangar",
+            "category": ["Mission", "Ground Vehicles"],
+            "requires": "|Any BR|",
+            "sort-key": "row-10-2-3"
+        },
+        {
+            "name": "Get 5 Assists (Ground Vehicles)",
+            "region": "Hangar",
+            "category": ["Mission", "Ground Vehicles"],
+            "requires": "|Any BR|",
+            "sort-key": "row-10-2-5"
+        },
+        {
+            "name": "Get 10 Assists (Ground Vehicles)",
+            "region": "Hangar",
+            "category": ["Mission", "Ground Vehicles"],
+            "requires": "|Any BR|",
+            "sort-key": "row-10-2-10"
+        },
+
+
+
         {
             "name": "Win 1 Time",
             "region": "Hangar",
@@ -1394,7 +1952,7 @@
         {
             "name": "Win 10 Times",
             "region": "Hangar",
-            "category": ["Goal", "Mission"],
+            "category": ["Goal"],
             "requires": "|Any BR| AND |Has Any Vehicle|",
             "sort-key": "row-99-0-10",
             "victory": true
@@ -1402,7 +1960,7 @@
         {
             "name": "Win on every BR",
             "region": "Hangar",
-            "category": ["Goal", "Mission"],
+            "category": ["Goal"],
             "requires": "|Every BR|",
             "sort-key": "row-99-0-99",
             "victory": true
@@ -1410,7 +1968,7 @@
         {
             "name": "Defeat 20 Targets of all Vehicles",
             "region": "Hangar",
-            "category": ["Goal", "Mission"],
+            "category": ["Goal"],
             "requires": "|Has Every Vehicle| AND |Any BR|",
             "sort-key": "row-99-90-99",
             "victory": true

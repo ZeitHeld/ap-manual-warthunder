@@ -5,7 +5,8 @@
             "name": "Aviation",
             "count": 1,
             "category": [
-                "Vehicle"
+                "Vehicles",
+                "Simple Vehicle"
             ],
             "progression": true,
             "sort-key": "row-0-1"
@@ -14,7 +15,8 @@
             "name": "Helicopters",
             "count": 1,
             "category": [
-                "Vehicle"
+                "Vehicles",
+                "Simple Vehicle"
             ],
             "progression": true,
             "sort-key": "row-0-2"
@@ -23,7 +25,8 @@
             "name": "Ground Vehicles",
             "count": 1,
             "category": [
-                "Vehicle"
+                "Vehicles",
+                "Simple Vehicle"
             ],
             "progression": true,
             "sort-key": "row-0-3"
@@ -32,7 +35,8 @@
             "name": "Bluewater Fleet",
             "count": 1,
             "category": [
-                "Vehicle"
+                "Vehicles",
+                "Simple Vehicles"
             ],
             "progression": true,
             "sort-key": "row-0-4"
@@ -41,10 +45,220 @@
             "name": "Coastal Fleet",
             "count": 1,
             "category": [
-                "Vehicle"
+                "Vehicles",
+                "Simple Vehicle"
             ],
             "progression": true,
             "sort-key": "row-0-5"
+        },
+        {
+            "name": "Fighter",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Aviaiton"
+            ],
+            "progression": true,
+            "sort-key": "row-0-11"
+        },
+        {
+            "name": "Bomber",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Aviaiton"
+            ],
+            "progression": true,
+            "sort-key": "row-0-12"
+        },
+        {
+            "name": "Strike Aircraft",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Aviaiton"
+            ],
+            "progression": true,
+            "sort-key": "row-0-13"
+        },
+        {
+            "name": "Attack Helicopter",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Helicopters"
+            ],
+            "progression": true,
+            "sort-key": "row-0-21"
+        },
+        {
+            "name": "Utility Helicopter",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Helicopters"
+            ],
+            "progression": true,
+            "sort-key": "row-0-22"
+        },
+        {
+            "name": "Light Tank",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Ground Vehicles"
+            ],
+            "progression": true,
+            "sort-key": "row-0-31"
+        },
+        {
+            "name": "Medium Tank",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Ground Vehicles"
+            ],
+            "progression": true,
+            "sort-key": "row-0-32"
+        },
+        {
+            "name": "Heavy Tank",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Ground Vehicles"
+            ],
+            "progression": true,
+            "sort-key": "row-0-33"
+        },
+        {
+            "name": "Tank Destroyer",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Ground Vehicles"
+            ],
+            "progression": true,
+            "sort-key": "row-0-34"
+        },
+        {
+            "name": "SPAA",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Ground Vehicles"
+            ],
+            "progression": true,
+            "sort-key": "row-0-35"
+        },
+        {
+            "name": "Light Cruiser",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicles",
+                "Bluewater Fleet"
+            ],
+            "progression": true,
+            "sort-key": "row-0-41"
+        },
+        {
+            "name": "Heavy Cruiser",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicles",
+                "Bluewater Fleet"
+            ],
+            "progression": true,
+            "sort-key": "row-0-42"
+        },
+        {
+            "name": "Battlecruiser",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicles",
+                "Bluewater Fleet"
+            ],
+            "progression": true,
+            "sort-key": "row-0-43"
+        },
+        {
+            "name": "Battleship",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicles",
+                "Bluewater Fleet"
+            ],
+            "progression": true,
+            "sort-key": "row-0-44"
+        },
+        {
+            "name": "Destroyer",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicles",
+                "Bluewater Fleet"
+            ],
+            "progression": true,
+            "sort-key": "row-0-45"
+        },
+        {
+            "name": "Frigatge",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Coastal Fleet"
+            ],
+            "progression": true,
+            "sort-key": "row-0-51"
+        },
+        {
+            "name": "Boat",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Coastal Fleet"
+            ],
+            "progression": true,
+            "sort-key": "row-0-52"
+        },
+        {
+            "name": "Heavy Boat",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Coastal Fleet"
+            ],
+            "progression": true,
+            "sort-key": "row-0-53"
+        },
+        {
+            "name": "Barge",
+            "count": 1,
+            "category": [
+                "Vehicles",
+                "Complex Vehicle",
+                "Coastal Fleet"
+            ],
+            "progression": true,
+            "sort-key": "row-0-54"
         },
         {
             "name": "USA",
@@ -425,6 +639,17 @@
             "progression": true,
             "useful": true,
             "sort-key": "row-4-4"
+        },
+        {
+            "name": "Bombs (Aviation)",
+            "count": 1,
+            "category": [
+                "Ammo",
+                "Aviation"
+            ],
+            "progression": true,
+            "useful": true,
+            "sort-key": "row-4-50"
         },
         {
             "name": "Ejection Trap",

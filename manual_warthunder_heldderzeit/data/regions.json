@@ -23,53 +23,61 @@
             "USA Bluewater",
             "USA Coast"
         ],
-        "requires": "|USA|"
+        "requires": "|USA| AND {YamlDisabled(exclude_usa)}"
     },
     "Germany": {
         "connects_to": [
-            "Germany Aviation"
+            "Germany Aviation",
+            "Germany Ground"
         ],
-        "requires": "|Germany|"
+        "requires": "|Germany| AND {YamlDisabled(exclude_germany)}"
     },
     "USSR": {
         "connects_to": [
-            "USSR Aviation"
+            "USSR Aviation",
+            "USSR Ground"
         ],
-        "requires": "|USSR|"
+        "requires": "|USSR| AND {YamlDisabled(exclude_ussr)}"
     },
     "Great Britain": {
         "connects_to": [
-            "Great Britain Aviation"
+            "Great Britain Aviation",
+            "Great Britain Ground"
         ],
-        "requires": "|Great Britain|"
+        "requires": "|Great Britain| AND {YamlDisabled(exclude_brits)}"
     },
     "Japan": {
         "connects_to": [
-            "Japan Aviation"
+            "Japan Aviation",
+            "Japan Ground"
         ],
-        "requires": "|Japan|"
+        "requires": "|Japan| AND {YamlDisabled(exclude_japan)}"
     },
     "China": {
         "connects_to": [
-            "China Aviation"
+            "China Aviation",
+            "China Ground"
         ],
         "requires": "|China|"
     },
     "Italy": {
         "connects_to": [
-            "Italy Aviation"
+            "Italy Aviation",
+            "Italy Ground"
         ],
         "requires": "|Italy|"
     },
     "France": {
         "connects_to": [
-            "France Aviation"
+            "France Aviation",
+            "France Ground"
         ],
         "requires": "|France|"
     },
     "Sweden": {
         "connects_to": [
-            "Sweden Aviation"
+            "Sweden Aviation",
+            "Sweden Ground"
         ],
         "requires": "|Sweden|"
     },
@@ -101,26 +109,50 @@
     "Germany Aviation": {
         "requires": "|Has Plane|"
     },
+    "Germany Ground": {
+        "requires": "|Has Tank|"
+    },
     "USSR Aviation": {
         "requires": "|Has Plane|"
+    },
+    "USSR Ground": {
+        "requires": "|Has Tank|"
     },
     "Great Britain Aviation": {
         "requires": "|Has Plane|"
     },
+    "Great Britain Ground": {
+        "requires": "|Has Tank|"
+    },
     "Japan Aviation": {
         "requires": "|Has Plane|"
+    },
+    "Japan Ground": {
+        "requires": "|Has Tank|"
     },
     "China Aviation": {
         "requires": "|Has Plane|"
     },
+    "China Ground": {
+        "requires": "|Has Tank|"
+    },
     "Italy Aviation": {
         "requires": "|Has Plane|"
+    },
+    "Italy Ground": {
+        "requires": "|Has Tank|"
     },
     "France Aviation": {
         "requires": "|Has Plane|"
     },
+    "France Ground": {
+        "requires": "|Has Tank|"
+    },
     "Sweden Aviation": {
         "requires": "|Has Plane|"
+    },
+    "Sweden Ground": {
+        "requires": "|Has Tank|"
     },
     "Israel Aviation": {
         "requires": "|Has Plane|"

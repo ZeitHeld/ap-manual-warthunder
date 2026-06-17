@@ -84,27 +84,27 @@
 
         {
             "name": "Has Plane",
-            "requires": "|Aviation|",
+            "requires": "(|Aviation| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|))",
             "visible": false
         },
         {
             "name": "Has Helicopter",
-            "requires": "|Ground Vehicles|",
+            "requires": "(|Ground Vehicles| AND {YamlDisabled(complex_vehicles)})OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|))",
             "visible": false
         },
         {
             "name": "Has Tank",
-            "requires": "|Ground Vehicles|",
+            "requires": "(|Ground Vehicles| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|))",
             "visible": false
         },
         {
             "name": "Has Blue Fleet",
-            "requires": "|Bluewater Fleet|",
+            "requires": "(|Bluewater Fleet| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND (|Light Cruiser| OR |Heavy Cruiser| OR |Battlecruiser| OR |Battleship| OR |Destroyer|))",
             "visible": false
         },
         {
             "name": "Has Coast Fleet",
-            "requires": "|Coastal Fleet|",
+            "requires": "(|Coastal Fleet| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND (|Frigate| OR |Boat| OR |Heavy Boat| OR |Barge|))",
             "visible": false
         },
         {

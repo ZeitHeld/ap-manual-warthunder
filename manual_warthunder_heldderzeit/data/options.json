@@ -22,25 +22,25 @@
         }
     },
     "user": {
-        "_goal":{
+        "goal":{
             "display_name": "Goal",
-            "type": "Choice",
-            "description": [
+            "_type": "Choice",
+            "_description": [
                 "The Goal",
                 "'Get a Nuke' - Tanks only",
                 "'Wins' - uses 'Required Wins' as Amount",
                 "'Kills' - uses 'Required Kills'"
             ],
-            "values": {
+            "_values": {
                 "nuke":0,
                 "wins":1,
                 "kills":2
              },
-            "default": 1,
+            "_default": 1,
             "allow_custom_value": false,
             "group": "Goal Options"
         },
-        "goal_per_nation":{
+        "_goal_per_nation":{
             "display_name": "Goal per Nation",
             "description": [
                 "Uses 'Required Nations' and applies it onto the goal.",
@@ -56,7 +56,7 @@
             "default": false,
             "group": "Goal Options"
         },
-        "required_nations":{
+        "_required_nations":{
             "display_name": "Required Nations",
             "type": "Range",
             "description": [
@@ -81,7 +81,7 @@
             ],
             "group": "Goal Options"
         },
-        "required_wins":{
+        "_required_wins":{
             "display_name": "Required Wins",
             "type": "Range",
             "description": [
@@ -107,7 +107,7 @@
             ],
             "group": "Goal Options"
         },
-        "required_kills":{
+        "_required_kills":{
             "display_name": "Required Kills",
             "type": "Range",
             "description": [
@@ -135,7 +135,10 @@
         },
         "progressive_br":{
             "display_name": "Progressive BR",
-            "description": "Should the found BRs be progressive?",
+            "description": [
+                "Should the found BRs be progressive (in order)",
+                "or mixed and found separately?"
+            ],
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -146,9 +149,14 @@
             "default": true,
             "group": "General Options"
         },
-        "exclude_tanks":{
-            "display_name": "Exclude Ground Vehicles",
-            "description": "Turn on, if you don't want to play Ground Vehicles.",
+        "upgrade_shuffle":{
+            "display_name": "Shuffle Upgrades",
+            "description": [
+                "WIP - Aviation only",
+                "Whether or not Modifications and Ammos need to be found to be used.",
+                "If turned on, disable all Modifications and you're not allowed to use",
+                "any Ammo other than the defaults in the top row, until it has been found."
+            ],
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -156,12 +164,46 @@
                 "template",
                 "spoiler"
             ],
-            "default": true,
+            "default": false,
+            "group": "General Options"
+        },
+        "extra_missions":{
+            "display_name": "Extra Mission",
+            "description": [
+                "Adds in Extra Missions as checks.",
+                "Some can be as simple as \"Make 5 Kills\", or as specific as.",
+                "If turned on, disable all Modifications and you're not allowed to use",
+                "any Ammo other than the defaults in the top row, until it has been found."
+            ],
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "General Options"
+        },
+        "complex_vehicles":{
+            "display_name": "Vehicles split into Game Roles",
+            "description": [
+                "Splits up the regular Vehicles into their more \"complex\" Game Roles.",
+                "Example: Aviation -> Fighter/Bomber/Strike Aircraft"
+            ],
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
             "group": "General Options"
         },
         "exclude_planes":{
             "display_name": "Exclude Aviation",
-            "description": "Turn on, if you don't want to play Exclude Aviation.",
+            "description": "Turn on, if you don't want to play Exclude Aviation with any Nation.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -170,11 +212,11 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "General Options"
+            "group": "Gameplay Options"
         },
         "exclude_helis":{
             "display_name": "Exclude Helicopter",
-            "description": "Turn on, if you don't want to play Exclude Helicopter.",
+            "description": "Turn on, if you don't want to play Exclude Helicopter with any Nation.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -183,11 +225,24 @@
                 "spoiler"
             ],
             "default": true,
-            "group": "General Options"
+            "group": "Gameplay Options"
+        },
+        "exclude_tanks":{
+            "display_name": "Exclude Ground Vehicles",
+            "description": "Turn on, if you don't want to play Ground Vehicles with any Nation.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": true,
+            "group": "Gameplay Options"
         },
         "exclude_bluefleet":{
             "display_name": "Exclude Bluewater Fleet",
-            "description": "Turn on, if you don't want to play Bluewater Fleet.",
+            "description": "Turn on, if you don't want to play Bluewater Fleet with any Nation.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -196,11 +251,11 @@
                 "spoiler"
             ],
             "default": true,
-            "group": "General Options"
+            "group": "Gameplay Options"
         },
         "exclude_coastals":{
             "display_name": "Exclude Coastal Fleet",
-            "description": "Turn on, if you don't want to play Coastal Fleet.",
+            "description": "Turn on, if you don't want to play Coastal Fleet with any Nation.",
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -209,11 +264,14 @@
                 "spoiler"
             ],
             "default": true,
-            "group": "General Options"
+            "group": "Gameplay Options"
         },
         "include_premium":{
             "display_name": "Include Premium Vehicles",
-            "description": "Should Premium Vehicles be included into logic?",
+            "description": [
+                "Some BRs on certain Nations are only available via Premium Vehicles.",
+                "Activating this adds them to logic. Mostly relevant for Helicopters."
+            ],
             "type": "Toggle",
             "visibility": [
                 "simple_ui",
@@ -222,7 +280,137 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "General Options"
+            "group": "Gameplay Options"
+        },
+        "exclude_usa":{
+            "display_name": "Exclude USA",
+            "description": "Turn on, if you don't want to play the Nation USA with any vehicle.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "Gameplay Options"
+        },
+        "exclude_germany":{
+            "display_name": "Exclude Germany",
+            "description": "Turn on, if you don't want to play the Nation Germany with any vehicle.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "Gameplay Options"
+        },
+        "exclude_ussr":{
+            "display_name": "Exclude USSR",
+            "description": "Turn on, if you don't want to play the Nation USSR with any vehicle.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "Gameplay Options"
+        },
+        "exclude_brits":{
+            "display_name": "Exclude Great Britain",
+            "description": "Turn on, if you don't want to play the Nation Great Britain with any vehicle.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "Gameplay Options"
+        },
+        "exclude_japan":{
+            "display_name": "Exclude Japan",
+            "description": "Turn on, if you don't want to play the Nation Japan with any vehicle.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "Gameplay Options"
+        },
+        "exclude_china":{
+            "display_name": "Exclude China",
+            "description": "Turn on, if you don't want to play the Nation China with any vehicle.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "Gameplay Options"
+        },
+        "exclude_italy":{
+            "display_name": "Exclude Italy",
+            "description": "Turn on, if you don't want to play the Nation Italy with any vehicle.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "Gameplay Options"
+        },
+        "exclude_france":{
+            "display_name": "Exclude France",
+            "description": "Turn on, if you don't want to play the Nation France with any vehicle.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "Gameplay Options"
+        },
+        "exclude_sweden":{
+            "display_name": "Exclude Sweden",
+            "description": "Turn on, if you don't want to play the Nation Sweden with any vehicle.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "Gameplay Options"
+        },
+        "exclude_israel":{
+            "display_name": "Exclude Israel",
+            "description": "Turn on, if you don't want to play the Nation Israel with any vehicle.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "Gameplay Options"
         }
     }
 

@@ -5,7 +5,11 @@
     "filler_item_name": "100 Silver Lions",
     "starting_items": [
         {
-            "items": ["1.X BR", "Progressive BR"]
+            "items": ["Progressive BR"]
+        },
+        {
+            "item_categories": ["BR"],
+            "random": 1
         },
         {
             "items": ["USA", "Germany", "USSR", "Great Britain", "Japan", "China", "Italy", "France", "Sweden"],
@@ -13,6 +17,16 @@
         },
         {
             "items": ["Aviation", "Ground Vehicles"],
+            "random": 1
+        },
+        {
+            "if_previous_item": "Aviation",
+            "items": ["Fighter", "Bomber", "Strike Aircraft"],
+            "random": 1
+        },
+        {
+            "if_previous_item": "Ground Vehicles",
+            "items": ["Light Tank", "Medium Tank", "Heavy Tank", "Tank Destroyer", "SPAA"],
             "random": 1
         }
     ],

@@ -28,5 +28,52 @@
     },
     "Premium Only": {
         "yaml_option": ["include_premium"]
+    },
+    "USA": {
+        "yaml_option": ["!exclude_usa"]
+    },
+    "Germany": {
+        "yaml_option": ["!exclude_germany"]
+    },
+    "USSR": {
+        "yaml_option": ["!exclude_ussr"]
+    },
+    "Great Britain": {
+        "yaml_option": ["!exclude_brits"]
+    },
+    "Japan": {
+        "yaml_option": ["!exclude_japan"]
+    },
+    "China": {
+        "yaml_option": ["!exclude_china"]
+    },
+    "Italy": {
+        "yaml_option": ["!exclude_italy"]
+    },
+    "France": {
+        "yaml_option": ["!exclude_france"]
+    },
+    "Sweden": {
+        "yaml_option": ["!exclude_sweden"]
+    },
+    "Israel": {
+        "yaml_option": ["!exclude_israel"]
+    },
+    "Modification": {
+        "yaml_option": ["!upgrade_shuffle"]
+    },
+    "Ammo": {
+        "yaml_option": ["!upgrade_shuffle"]
+    },
+    "Mission": {
+        "yaml_option": ["extra_missions"]
+    },
+    "Simple Vehicle": {
+        "hidden": true,
+        "yaml_option": ["!complex_vehicles"]
+    },
+    "Complex Vehicle": {
+        "hidden": true,
+        "yaml_option": ["complex_vehicles"]
     }
 }
