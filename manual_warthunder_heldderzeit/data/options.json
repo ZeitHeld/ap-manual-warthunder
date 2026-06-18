@@ -298,7 +298,7 @@
             "display_name": "Include Old Vehicles",
             "description": [
                 "Adapts logic to make use of old Vehicles. Only for long-time Collectors!",
-                "Old Vehicles are no longer (or not currently) available for purchase.",
+                "Old Vehicles are no longer (or not currently) available for purchase (Mostly Premium!).",
                 "Mostly relevant for the Complex Vehicle Types option."
             ],
             "type": "Toggle",
