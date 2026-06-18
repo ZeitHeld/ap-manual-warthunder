@@ -1864,28 +1864,28 @@
             "name": "Get 1 Assist (Aviation)",
             "region": "Hangar",
             "category": ["Mission", "Aviation"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-10-1-1"
         },
         {
             "name": "Get 3 Assists (Aviation)",
             "region": "Hangar",
             "category": ["Mission", "Aviation"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-10-1-3"
         },
         {
             "name": "Get 5 Assists (Aviation)",
             "region": "Hangar",
             "category": ["Mission", "Aviation"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-10-1-5"
         },
         {
             "name": "Get 10 Assists (Aviation)",
             "region": "Hangar",
             "category": ["Mission", "Aviation"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-10-1-10"
         },
         
@@ -1893,28 +1893,28 @@
             "name": "Get 1 Assist (Ground Vehicles)",
             "region": "Hangar",
             "category": ["Mission", "Ground Vehicles"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Tank|",
             "sort-key": "row-10-2-1"
         },
         {
             "name": "Get 3 Assists (Ground Vehicles)",
             "region": "Hangar",
             "category": ["Mission", "Ground Vehicles"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Tank|",
             "sort-key": "row-10-2-3"
         },
         {
             "name": "Get 5 Assists (Ground Vehicles)",
             "region": "Hangar",
             "category": ["Mission", "Ground Vehicles"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Tank|",
             "sort-key": "row-10-2-5"
         },
         {
             "name": "Get 10 Assists (Ground Vehicles)",
             "region": "Hangar",
             "category": ["Mission", "Ground Vehicles"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Tank|",
             "sort-key": "row-10-2-10"
         },
 
@@ -1923,28 +1923,28 @@
             "name": "Defeat 5 Ground Targets (Aviation)",
             "region": "Hangar",
             "category": ["Mission", "Aviation"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-1-5"
         },
         {
             "name": "Defeat 10 Ground Targets (Aviation)",
             "region": "Hangar",
             "category": ["Mission", "Aviation"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-1-10"
         },
         {
             "name": "Defeat 15 Ground Targets (Aviation)",
             "region": "Hangar",
             "category": ["Mission", "Aviation"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-1-15"
         },
         {
             "name": "Defeat 20 Ground Targets (Aviation)",
             "region": "Hangar",
             "category": ["Mission", "Aviation"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-1-20"
         },
 
@@ -1952,14 +1952,14 @@
             "name": "Defeat 1 Water Target (Aviation)",
             "region": "Hangar",
             "category": ["Mission", "Aviation"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-1-5"
         },
         {
             "name": "Defeat 2 Water Targets (Aviation)",
             "region": "Hangar",
             "category": ["Mission", "Aviation"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-1-5"
         },
 
@@ -1967,7 +1967,7 @@
             "name": "Repair an Allied Vehicle (Ground Vehicles)",
             "region": "Hangar",
             "category": ["Mission", "Ground Vehicles"],
-            "requires": "|Any BR|",
+            "requires": "|Any BR| AND |Has Tank|",
             "sort-key": "row-15-0-1"
         },
 

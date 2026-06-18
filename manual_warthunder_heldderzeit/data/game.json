@@ -21,13 +21,7 @@
             "random": 1
         },
         {
-            "if_previous_item": "Aviation",
-            "items": ["Fighter", "Bomber", "Strike Aircraft"],
-            "random": 1
-        },
-        {
-            "if_previous_item": "Ground Vehicles",
-            "items": ["Light Tank", "Medium Tank", "Heavy Tank", "Tank Destroyer", "SPAA"],
+            "items": ["Fighter", "Bomber", "Strike Aircraft", "Light Tank", "Medium Tank", "Heavy Tank", "Tank Destroyer", "SPAA"],
             "random": 1
         }
     ],
