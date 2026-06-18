@@ -1177,7 +1177,7 @@
             "name": "USSR 4.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND ((|Light Tank| AND {YamlEnabled(include_premium)} AND {(YamlEnabled(include_old_vehicles))}) OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND ((|Light Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
             "sort-key": "row-3-3-4"
         },
         {
@@ -1694,7 +1694,7 @@
             "name": "Sweden 6.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)} AND YamlEnabled(include_old_vehicles)) OR |Tank Destroyer|)))",
+            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Tank Destroyer|)))",
             "sort-key": "row-3-9-6"
         },
         {
