@@ -245,7 +245,7 @@
             "name": "USSR 6.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)}))))",
+            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}))))",
             "sort-key": "row-1-3-6"
         },
         {
@@ -337,14 +337,14 @@
             "name": "Great Britain 5.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)}))))",
+            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}))))",
             "sort-key": "row-1-4-5"
         },
         {
             "name": "Great Britain 6.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)}))))",
+            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}))))",
             "sort-key": "row-1-4-6"
         },
         {
@@ -358,7 +358,7 @@
             "name": "Great Britain 8.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)}))))",
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR (|Strike Aircraft| AND {YamlEnabled(include_old_vehicles)}))))",
             "sort-key": "row-1-4-8"
         },
         {
@@ -662,7 +662,7 @@
             "name": "Italy 9.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)}))))",
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR (|Strike Aircraft| AND {YamlEnabled(include_old_vehicles)}))))",
             "sort-key": "row-1-7-9"
         },
         {
@@ -986,84 +986,84 @@
             "name": "USA 1.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR1|",
+            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
             "sort-key": "row-3-1-1"
         },
         {
             "name": "USA 2.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR2|",
+            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
             "sort-key": "row-3-1-2"
         },
         {
             "name": "USA 3.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR3|",
+            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND ((|Light Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer|)))",
             "sort-key": "row-3-1-3"
         },
         {
             "name": "USA 4.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR2|",
-            "sort-key": "row-3-1-2"
+            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Tank Destroyer| OR |SPAA|)))",
+            "sort-key": "row-3-1-4"
         },
         {
             "name": "USA 5.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR5|",
+            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
             "sort-key": "row-3-1-5"
         },
         {
             "name": "USA 6.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR6|",
+            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer|)))",
             "sort-key": "row-3-1-6"
         },
         {
             "name": "USA 7.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR7|",
+            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
             "sort-key": "row-3-1-7"
         },
         {
             "name": "USA 8.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR8|",
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Tank Destroyer| OR |SPAA|)))",
             "sort-key": "row-3-1-8"
         },
         {
             "name": "USA 9.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR9|",
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
             "sort-key": "row-3-1-9"
         },
         {
             "name": "USA 10.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR10|",
+            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Tank Destroyer| AND {YamlEnabled(include_old_vehicles)}) OR |SPAA|)))",
             "sort-key": "row-3-1-10"
         },
         {
             "name": "USA 11.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR11|",
+            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
             "sort-key": "row-3-1-11"
         },
         {
             "name": "USA 12.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR12|",
+            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
             "sort-key": "row-3-1-12"
         },
 

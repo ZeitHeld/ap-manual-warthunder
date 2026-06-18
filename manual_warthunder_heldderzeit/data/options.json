@@ -186,9 +186,9 @@
             "group": "General Options"
         },
         "complex_vehicles":{
-            "display_name": "Vehicles split into Game Roles",
+            "display_name": "Complex Vehicle Types (Game Roles)",
             "description": [
-                "Splits up the regular Vehicles into their more \"complex\" Game Roles.",
+                "Splits up the regular Vehicle types into their more \"complex\" Game Roles.",
                 "Example: Aviation -> Fighter/Bomber/Strike Aircraft"
             ],
             "type": "Toggle",
@@ -281,7 +281,25 @@
             "display_name": "Include Premium Vehicles",
             "description": [
                 "Some BRs on certain Nations are only available via Premium Vehicles.",
-                "Activating this adds them to logic. Mostly relevant for Helicopters."
+                "Activating this adds them to logic.",
+                "Mostly relevant for Helicopters or when using Complex Vehicle Types option."
+            ],
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "Gameplay Options"
+        },
+        "include_old_vehicles":{
+            "display_name": "Include Old Vehicles",
+            "description": [
+                "Adapts logic to make use of old Vehicles. Only for long-time Collectors!",
+                "Old Vehicles are no longer (or not currently) available for purchase.",
+                "Mostly relevant for the Complex Vehicle Types option."
             ],
             "type": "Toggle",
             "visibility": [
