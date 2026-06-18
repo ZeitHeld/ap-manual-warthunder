@@ -563,7 +563,7 @@
             "name": "China 9.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|OR |Strike Aircraft|)))",
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
             "sort-key": "row-1-6-9"
         },
         {
@@ -2015,7 +2015,6 @@
             "requires": "|Any BR| AND |Has Any Vehicle|",
             "sort-key": "row-50-0-5"
         },
-
         
         {
             "name": "Win 2 Rounds in a row",
