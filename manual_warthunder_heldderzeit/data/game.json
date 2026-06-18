@@ -5,7 +5,8 @@
     "filler_item_name": "100 Silver Lions",
     "starting_items": [
         {
-            "items": ["Progressive BR"]
+            "items": ["Progressive BR"],
+            "random": 1
         },
         {
             "item_categories": ["BR"],
