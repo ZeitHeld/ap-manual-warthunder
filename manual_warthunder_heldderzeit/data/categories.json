@@ -100,10 +100,10 @@
         "yaml_option": ["!exclude_israel"]
     },
     "Modification": {
-        "yaml_option": ["!upgrade_shuffle"]
+        "yaml_option": ["upgrade_shuffle"]
     },
     "Ammo": {
-        "yaml_option": ["!upgrade_shuffle"]
+        "yaml_option": ["upgrade_shuffle"]
     },
     "Mission": {
         "yaml_option": ["extra_missions"]
