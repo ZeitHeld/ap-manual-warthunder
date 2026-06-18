@@ -1919,20 +1919,125 @@
         },
 
 
-
         {
-            "name": "Win 1 Time",
+            "name": "Defeat 5 Ground Targets (Aviation)",
             "region": "Hangar",
-            "category": ["Mission"],
+            "category": ["Mission", "Aviation"],
             "requires": "|Any BR|",
-            "sort-key": "row-99-0-1"
+            "sort-key": "row-11-1-5"
         },
         {
-            "name": "Win 5 Times",
+            "name": "Defeat 10 Ground Targets (Aviation)",
+            "region": "Hangar",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR|",
+            "sort-key": "row-11-1-10"
+        },
+        {
+            "name": "Defeat 15 Ground Targets (Aviation)",
+            "region": "Hangar",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR|",
+            "sort-key": "row-11-1-15"
+        },
+        {
+            "name": "Defeat 20 Ground Targets (Aviation)",
+            "region": "Hangar",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR|",
+            "sort-key": "row-11-1-20"
+        },
+
+        {
+            "name": "Defeat 1 Water Target (Aviation)",
+            "region": "Hangar",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR|",
+            "sort-key": "row-11-1-5"
+        },
+        {
+            "name": "Defeat 2 Water Targets (Aviation)",
+            "region": "Hangar",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR|",
+            "sort-key": "row-11-1-5"
+        },
+
+        {
+            "name": "Repair an Allied Vehicle (Ground Vehicles)",
+            "region": "Hangar",
+            "category": ["Mission", "Ground Vehicles"],
+            "requires": "|Any BR|",
+            "sort-key": "row-15-0-1"
+        },
+
+        {
+            "name": "Defeat 2 Player Targets in one Round",
             "region": "Hangar",
             "category": ["Mission"],
-            "requires": "|Any BR|",
-            "sort-key": "row-99-0-5"
+            "requires": "|Any BR| AND |Has Any Vehicle|",
+            "sort-key": "row-20-0-2"
+        },
+        {
+            "name": "Defeat 3 Player Targets in one Round",
+            "region": "Hangar",
+            "category": ["Mission"],
+            "requires": "|Any BR| AND |Has Any Vehicle|",
+            "sort-key": "row-20-0-3"
+        },
+
+        {
+            "name": "Survive a Round without respawn (Ground Vehicles)",
+            "region": "Hangar",
+            "category": ["Mission", "Ground Vehicles"],
+            "requires": "|Any BR| AND |Has Tank|",
+            "sort-key": "row-20-1-1"
+        },
+
+        {
+            "name": "Win 1 Round",
+            "region": "Hangar",
+            "category": ["Mission"],
+            "requires": "|Any BR| AND |Has Any Vehicle|",
+            "sort-key": "row-50-0-1"
+        },
+        {
+            "name": "Win 3 Rounds",
+            "region": "Hangar",
+            "category": ["Mission"],
+            "requires": "|Any BR| AND |Has Any Vehicle|",
+            "sort-key": "row-50-0-3"
+        },
+        {
+            "name": "Win 5 Rounds",
+            "region": "Hangar",
+            "category": ["Mission"],
+            "requires": "|Any BR| AND |Has Any Vehicle|",
+            "sort-key": "row-50-0-5"
+        },
+
+        
+        {
+            "name": "Win 2 Rounds in a row",
+            "region": "Hangar",
+            "category": ["Mission"],
+            "requires": "|Any BR| AND |Has Any Vehicle|",
+            "sort-key": "row-50-1-2"
+        },
+        {
+            "name": "Win 3 Rounds in a row",
+            "region": "Hangar",
+            "category": ["Mission"],
+            "requires": "|Any BR| AND |Has Any Vehicle|",
+            "sort-key": "row-50-1-3"
+        },
+
+        {
+            "name": "Win a Round as Last Man Standing",
+            "region": "Hangar",
+            "category": ["Mission"],
+            "requires": "|Any BR| AND |Has Any Vehicle|",
+            "sort-key": "row-50-3-1"
         },
         
         {
@@ -1947,7 +2052,7 @@
             "name": "Win on every BR",
             "region": "Hangar",
             "category": ["Goal"],
-            "requires": "|Every BR|",
+            "requires": "|Every BR| AND |Has Any Vehicle|",
             "sort-key": "row-99-0-99",
             "victory": true
         },
