@@ -549,7 +549,7 @@
             "name": "China 7.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
             "sort-key": "row-1-6-7"
         },
         {
