@@ -668,12 +668,21 @@
         },
         {
             "name": "Ejection Trap",
-            "count": 3,
+            "count": 0,
             "category": [
                 "Traps"
             ],
             "trap": true,
             "sort-key": "row-90-0"
+        },
+        {
+            "name": "No Ammo Trap",
+            "count": 0,
+            "category": [
+                "Traps"
+            ],
+            "trap": true,
+            "sort-key": "row-90-1"
         }
     ]
 }
