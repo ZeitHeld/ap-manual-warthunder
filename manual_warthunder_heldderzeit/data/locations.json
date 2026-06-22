@@ -2040,10 +2040,10 @@
         },
         
         {
-            "name": "Win 10 Times",
+            "name": "Defeat 5 Targets with each Nation",
             "region": "Hangar",
             "category": ["Goal"],
-            "requires": "|Any BR| AND |Has Any Vehicle|",
+            "requires": "|Any BR| AND |Has Every Nation|",
             "sort-key": "row-99-0-10",
             "victory": true
         },
@@ -2056,7 +2056,7 @@
             "victory": true
         },
         {
-            "name": "Defeat 20 Targets of all Vehicles",
+            "name": "Defeat 20 Targets of all Vehicle Types",
             "region": "Hangar",
             "category": ["Goal"],
             "requires": "|Has Every Vehicle| AND |Any BR|",
