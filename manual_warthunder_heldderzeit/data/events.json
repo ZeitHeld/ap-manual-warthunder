@@ -116,6 +116,12 @@
             "name": "Has Every Vehicle",
             "requires": "(|Has Plane| OR {YamlEnabled(exclude_planes)}) AND (|Has Helicopter| OR {YamlEnabled(exclude_helis)}) AND (|Has Tank| OR {YamlEnabled(exclude_tanks)}) AND (|Has Blue Fleet| OR {YamlEnabled(exclude_bluefleet)}) AND (|Has Coast Fleet| OR {YamlEnabled(exclude_coastals)})",
             "visible": false
+        },
+		
+        {
+            "name": "Has Every Nation",
+            "requires": "(|USA| OR {YamlEnabled(exclude_usa)}) AND (|Germany| OR {YamlEnabled(exclude_germany)}) AND (|USSR| OR {YamlEnabled(exclude_ussr)}) AND (|Great Britain| OR {YamlEnabled(exclude_brits)}) AND (|Japan| OR {YamlEnabled(exclude_japan)}) AND (|China| OR {YamlEnabled(exclude_china)}) AND (|Italy| OR {YamlEnabled(exclude_italy)}) AND (|France| OR {YamlEnabled(exclude_france)}) AND (|Sweden| OR {YamlEnabled(exclude_sweden)}) AND (|Israel| OR {YamlEnabled(exclude_israel)})",
+            "visible": false
         }
     ]
 }
