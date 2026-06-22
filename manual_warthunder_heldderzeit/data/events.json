@@ -109,12 +109,12 @@
         },
         {
             "name": "Has Any Vehicle",
-            "requires": "|Has Plane| OR |Has Helicopter| OR |Has Tank| OR |Has Blue Fleet| OR |Has Coast Fleet|",
+            "requires": "|@Vehicles:1|",
             "visible": false
         },
         {
             "name": "Has Every Vehicle",
-            "requires": "|Has Plane| AND |Has Helicopter| AND |Has Tank| AND |Has Blue Fleet| AND |Has Coast Fleet|",
+            "requires": "(|Has Plane| OR {YamlEnabled(exclude_planes)}) AND (|Has Helicopter| OR {YamlEnabled(exclude_helis)}) AND (|Has Tank| OR {YamlEnabled(exclude_tanks)}) AND (|Has Blue Fleet| OR {YamlEnabled(exclude_bluefleet)}) AND (|Has Coast Fleet| OR {YamlEnabled(exclude_coastals)})",
             "visible": false
         }
     ]
