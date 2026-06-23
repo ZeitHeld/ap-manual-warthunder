@@ -99,6 +99,7 @@
         "hidden": true,
         "yaml_option": ["!exclude_israel"]
     },
+    
     "Modification": {
         "yaml_option": ["upgrade_shuffle"]
     },

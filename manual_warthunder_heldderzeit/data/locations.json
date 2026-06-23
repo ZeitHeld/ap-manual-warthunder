@@ -1949,18 +1949,54 @@
         },
 
         {
-            "name": "Defeat 1 Water Target (Aviation)",
+            "name": "Defeat 1 Regular Water Target (Aviation)",
             "region": "Hangar",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
-            "sort-key": "row-11-1-5"
+            "sort-key": "row-11-2-1"
         },
         {
-            "name": "Defeat 2 Water Targets (Aviation)",
+            "name": "Defeat 5 Regular Water Targets (Aviation)",
             "region": "Hangar",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
-            "sort-key": "row-11-1-5"
+            "sort-key": "row-11-2-5"
+        },
+        {
+            "name": "Defeat 10 Regular Water Targets (Aviation)",
+            "region": "Hangar",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-2-10"
+        },
+
+        {
+            "name": "Defeat 1 Cruiser (Aviation)",
+            "region": "Hangar",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-3-1"
+        },
+        {
+            "name": "Defeat 2 Cruiser (Aviation)",
+            "region": "Hangar",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-3-2"
+        },
+        {
+            "name": "Defeat 3 Cruiser (Aviation)",
+            "region": "Hangar",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-3-3"
+        },
+        {
+            "name": "Defeat 5 Cruiser (Aviation)",
+            "region": "Hangar",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-3-5"
         },
 
         {
