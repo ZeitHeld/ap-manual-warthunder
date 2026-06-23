@@ -683,6 +683,15 @@
             ],
             "trap": true,
             "sort-key": "row-90-1"
+        },
+        {
+            "name": "No Repair Trap",
+            "count": 0,
+            "category": [
+                "Traps"
+            ],
+            "trap": true,
+            "sort-key": "row-90-2"
         }
     ]
 }
