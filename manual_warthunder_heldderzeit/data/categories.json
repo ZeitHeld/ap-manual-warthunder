@@ -105,6 +105,9 @@
     "Ammo": {
         "yaml_option": ["upgrade_shuffle"]
     },
+    "Ability": {
+        "yaml_option": ["upgrade_shuffle", "include_base_abilities"]
+    },
     "Mission": {
         "yaml_option": ["extra_missions"]
     },

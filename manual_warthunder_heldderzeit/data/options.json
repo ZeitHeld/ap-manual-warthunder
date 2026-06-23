@@ -167,6 +167,23 @@
             "default": false,
             "group": "General Options"
         },
+        "include_base_abilities":{
+            "display_name": "Shuffle Upgrades",
+            "description": [
+                "WIP - Aviation only",
+                "Does nothing if \"Shuffle Upgrades\" is disabled.",
+                "If turned on, also shuffle around base abilities, like repairing, booster or radars."
+            ],
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "General Options"
+        },
         "extra_missions":{
             "display_name": "Extra Mission",
             "description": [

@@ -39,7 +39,7 @@
             "count": 1,
             "category": [
                 "Vehicles",
-                "Simple Vehicles",
+                "Simple Vehicle",
                 "Bluewater Fleet"
             ],
             "progression": true,
@@ -62,7 +62,7 @@
             "category": [
                 "Vehicles",
                 "Complex Vehicle",
-                "Aviaiton"
+                "Aviation"
             ],
             "progression": true,
             "sort-key": "row-0-11"
@@ -73,7 +73,7 @@
             "category": [
                 "Vehicles",
                 "Complex Vehicle",
-                "Aviaiton"
+                "Aviation"
             ],
             "progression": true,
             "sort-key": "row-0-12"
@@ -84,7 +84,7 @@
             "category": [
                 "Vehicles",
                 "Complex Vehicle",
-                "Aviaiton"
+                "Aviation"
             ],
             "progression": true,
             "sort-key": "row-0-13"
@@ -171,7 +171,7 @@
             "count": 1,
             "category": [
                 "Vehicles",
-                "Complex Vehicles",
+                "Complex Vehicle",
                 "Bluewater Fleet"
             ],
             "progression": true,
@@ -182,7 +182,7 @@
             "count": 1,
             "category": [
                 "Vehicles",
-                "Complex Vehicles",
+                "Complex Vehicle",
                 "Bluewater Fleet"
             ],
             "progression": true,
@@ -193,7 +193,7 @@
             "count": 1,
             "category": [
                 "Vehicles",
-                "Complex Vehicles",
+                "Complex Vehicle",
                 "Bluewater Fleet"
             ],
             "progression": true,
@@ -204,7 +204,7 @@
             "count": 1,
             "category": [
                 "Vehicles",
-                "Complex Vehicles",
+                "Complex Vehicle",
                 "Bluewater Fleet"
             ],
             "progression": true,
@@ -215,7 +215,7 @@
             "count": 1,
             "category": [
                 "Vehicles",
-                "Complex Vehicles",
+                "Complex Vehicle",
                 "Bluewater Fleet"
             ],
             "progression": true,
@@ -665,6 +665,16 @@
             "progression": false,
             "useful": true,
             "sort-key": "row-4-50"
+        },
+        {
+            "name": "Repairing / Back to Base",
+            "count": 1,
+            "category": [
+                "Ability"
+            ],
+            "progression": true,
+            "useful": true,
+            "sort-key": "row-5-0"
         },
         {
             "name": "Ejection Trap",
