@@ -670,26 +670,61 @@
             "name": "Repairing / Back to Base",
             "count": 1,
             "category": [
-                "Ability"
+                "Ability",
+                "Base Ability"
             ],
             "progression": true,
             "useful": true,
             "sort-key": "row-5-0"
         },
         {
+            "name": "Flaps",
+            "count": 1,
+            "category": [
+                "Ability",
+                "Base Ability"
+            ],
+            "progression": true,
+            "useful": true,
+            "sort-key": "row-5-1"
+        },
+        {
+            "name": "Thrust Vector",
+            "count": 1,
+            "category": [
+                "Ability",
+                "Advanced Ability"
+            ],
+            "progression": true,
+            "useful": true,
+            "sort-key": "row-5-10"
+        },
+        {
+            "name": "Radar",
+            "count": 1,
+            "category": [
+                "Ability",
+                "Advanced Ability"
+            ],
+            "progression": true,
+            "sort-key": "row-5-11"
+        },
+        {
             "name": "Ejection Trap",
             "count": 0,
             "category": [
-                "Traps"
+                "Traps",
+                "Ejection Trap"
             ],
             "trap": true,
             "sort-key": "row-90-0"
         },
         {
-            "name": "No Ammo Trap",
+            "name": "No Base Ammo Trap",
             "count": 0,
             "category": [
-                "Traps"
+                "Traps",
+                "Ammo Trap"
             ],
             "trap": true,
             "sort-key": "row-90-1"
@@ -698,7 +733,8 @@
             "name": "No Repair Trap",
             "count": 0,
             "category": [
-                "Traps"
+                "Traps",
+                "Repair Trap"
             ],
             "trap": true,
             "sort-key": "row-90-2"

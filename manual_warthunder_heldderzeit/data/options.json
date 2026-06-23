@@ -168,11 +168,28 @@
             "group": "General Options"
         },
         "include_base_abilities":{
-            "display_name": "Shuffle Upgrades",
+            "display_name": "Shuffle Base Abilities",
             "description": [
                 "WIP - Aviation only",
                 "Does nothing if \"Shuffle Upgrades\" is disabled.",
-                "If turned on, also shuffle around base abilities, like repairing, booster or radars."
+                "If turned on, also shuffle around base abilities, like repairing, flaps."
+            ],
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "General Options"
+        },
+        "include_advanced_abilities":{
+            "display_name": "Shuffle Advanced Abilities",
+            "description": [
+                "WIP - Aviation only",
+                "Does nothing if \"Shuffle Upgrades\" is disabled.",
+                "If turned on, also shuffle around advanced abilities for vehicles with a high BR, like radar, thrust vectoring."
             ],
             "type": "Toggle",
             "visibility": [
@@ -216,7 +233,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "General Options"
+            "group": "Vehicle Options"
         },
         "exclude_planes":{
             "display_name": "Exclude Aviation",
@@ -229,7 +246,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Vehicle Options"
         },
         "exclude_helis":{
             "display_name": "Exclude Helicopter - WIP",
@@ -245,7 +262,7 @@
                 "spoiler"
             ],
             "default": true,
-            "group": "Gameplay Options"
+            "group": "Vehicle Options"
         },
         "exclude_tanks":{
             "display_name": "Exclude Ground Vehicles",
@@ -260,7 +277,7 @@
                 "spoiler"
             ],
             "default": true,
-            "group": "Gameplay Options"
+            "group": "Vehicle Options"
         },
         "exclude_bluefleet":{
             "display_name": "Exclude Bluewater Fleet - WIP",
@@ -276,7 +293,7 @@
                 "spoiler"
             ],
             "default": true,
-            "group": "Gameplay Options"
+            "group": "Vehicle Options"
         },
         "exclude_coastals":{
             "display_name": "Exclude Coastal Fleet - WIP",
@@ -292,7 +309,7 @@
                 "spoiler"
             ],
             "default": true,
-            "group": "Gameplay Options"
+            "group": "Vehicle Options"
         },
         "include_premium":{
             "display_name": "Include Premium Vehicles",
@@ -309,7 +326,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Vehicle Options"
         },
         "include_old_vehicles":{
             "display_name": "Include Old Vehicles",
@@ -326,7 +343,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Vehicle Options"
         },
         "exclude_usa":{
             "display_name": "Exclude USA",
@@ -339,7 +356,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Country Options"
         },
         "exclude_germany":{
             "display_name": "Exclude Germany",
@@ -352,7 +369,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Country Options"
         },
         "exclude_ussr":{
             "display_name": "Exclude USSR",
@@ -365,7 +382,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Country Options"
         },
         "exclude_brits":{
             "display_name": "Exclude Great Britain",
@@ -378,7 +395,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Country Options"
         },
         "exclude_japan":{
             "display_name": "Exclude Japan",
@@ -391,7 +408,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Country Options"
         },
         "exclude_china":{
             "display_name": "Exclude China",
@@ -404,7 +421,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Country Options"
         },
         "exclude_italy":{
             "display_name": "Exclude Italy",
@@ -417,7 +434,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Country Options"
         },
         "exclude_france":{
             "display_name": "Exclude France",
@@ -430,7 +447,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Country Options"
         },
         "exclude_sweden":{
             "display_name": "Exclude Sweden",
@@ -443,7 +460,7 @@
                 "spoiler"
             ],
             "default": false,
-            "group": "Gameplay Options"
+            "group": "Country Options"
         },
         "exclude_israel":{
             "display_name": "Exclude Israel",
@@ -455,8 +472,47 @@
                 "template",
                 "spoiler"
             ],
-            "default": false,
-            "group": "Gameplay Options"
+            "default": true,
+            "group": "Country Options"
+        },
+        "ejection_traps":{
+            "display_name": "Ejection Traps",
+            "description": "When receiving an \"Ejection Trap\", you must eject yourself from the current vehicle immediately.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": true,
+            "group": "Trap Options"
+        },
+        "ammo_traps":{
+            "display_name": "No Ammo Traps",
+            "description": "When receiving an \"No Ammo Trap\", you no longer have access to the specified Ammo type.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": true,
+            "group": "Trap Options"
+        },
+        "repair_traps":{
+            "display_name": "No Repair Traps",
+            "description": "When receiving a \"No Repair Trap\", you cannot repair your vehicle until the end of the match.",
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": true,
+            "group": "Trap Options"
         }
     }
 

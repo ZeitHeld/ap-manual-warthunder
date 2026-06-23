@@ -118,5 +118,18 @@
     "Complex Vehicle": {
         "hidden": true,
         "yaml_option": ["complex_vehicles"]
+    },
+
+    "Ejection Trap": {
+        "hidden": true,
+        "yaml_option": ["ejection_traps"]
+    },
+    "Ammo Trap": {
+        "hidden": true,
+        "yaml_option": ["ammo_traps"]
+    },
+    "Repair Trap": {
+        "hidden": true,
+        "yaml_option": ["repair_traps"]
     }
 }
