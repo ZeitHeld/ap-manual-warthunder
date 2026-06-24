@@ -28,58 +28,82 @@
     "Germany": {
         "connects_to": [
             "Germany Aviation",
-            "Germany Ground"
+            "Germany Helicopter",
+            "Germany Ground",
+            "Germany Bluewater",
+            "Germany Coast"
         ],
         "requires": "|Germany| AND {YamlDisabled(exclude_germany)}"
     },
     "USSR": {
         "connects_to": [
             "USSR Aviation",
-            "USSR Ground"
+            "USSR Helicopter",
+            "USSR Ground",
+            "USSR Bluewater",
+            "USSR Coast"
         ],
         "requires": "|USSR| AND {YamlDisabled(exclude_ussr)}"
     },
     "Great Britain": {
         "connects_to": [
             "Great Britain Aviation",
-            "Great Britain Ground"
+            "Great Britain Helicopter",
+            "Great Britain Ground",
+            "Great Britain Bluewater",
+            "Great Britain Coast"
         ],
         "requires": "|Great Britain| AND {YamlDisabled(exclude_brits)}"
     },
     "Japan": {
         "connects_to": [
             "Japan Aviation",
-            "Japan Ground"
+            "Japan Helicopter",
+            "Japan Ground",
+            "Japan Bluewater",
+            "Japan Coast"
         ],
         "requires": "|Japan| AND {YamlDisabled(exclude_japan)}"
     },
     "China": {
         "connects_to": [
             "China Aviation",
-            "China Ground"
+            "China Helicopter",
+            "China Ground",
+            "China Bluewater",
+            "China Coast"
         ],
-        "requires": "|China|"
+        "requires": "|China| AND {YamlDisabled(exclude_china)}"
     },
     "Italy": {
         "connects_to": [
             "Italy Aviation",
-            "Italy Ground"
+            "Italy Helicopter",
+            "Italy Ground",
+            "Italy Bluewater",
+            "Italy Coast"
         ],
-        "requires": "|Italy|"
+        "requires": "|Italy| AND {YamlDisabled(exclude_italy)}"
     },
     "France": {
         "connects_to": [
             "France Aviation",
-            "France Ground"
+            "France Helicopter",
+            "France Ground",
+            "France Bluewater",
+            "France Coast"
         ],
-        "requires": "|France|"
+        "requires": "|France| AND {YamlDisabled(exclude_france)}"
     },
     "Sweden": {
         "connects_to": [
             "Sweden Aviation",
-            "Sweden Ground"
+            "Sweden Helicopter",
+            "Sweden Ground",
+            "Sweden Bluewater",
+            "Sweden Coast"
         ],
-        "requires": "|Sweden|"
+        "requires": "|Sweden| AND {YamlDisabled(exclude_sweden)}"
     },
     "Israel": {
         "connects_to": [
@@ -87,7 +111,7 @@
             "Israel Helicopter",
             "Israel Ground"
         ],
-        "requires": "|Israel|"
+        "requires": "|Israel| AND {YamlDisabled(exclude_israel)}"
     },
 
     "USA Aviation": {
@@ -219,6 +243,12 @@
     },
     "Sweden Ground": {
         "requires": "|Has Tank|"
+    },
+    "Sweden Bluewater": {
+        "requires": "|Has Blue Fleet|"
+    },
+    "Sweden Coast": {
+        "requires": "|Has Coast Fleet|"
     },
     "Israel Aviation": {
         "requires": "|Has Plane|"
