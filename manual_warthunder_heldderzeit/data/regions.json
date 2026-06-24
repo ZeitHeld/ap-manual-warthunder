@@ -109,47 +109,113 @@
     "Germany Aviation": {
         "requires": "|Has Plane|"
     },
+    "Germany Helicopter": {
+        "requires": "|Has Helicopter|"
+    },
     "Germany Ground": {
         "requires": "|Has Tank|"
+    },
+    "Germany Bluewater": {
+        "requires": "|Has Blue Fleet|"
+    },
+    "Germany Coast": {
+        "requires": "|Has Coast Fleet|"
     },
     "USSR Aviation": {
         "requires": "|Has Plane|"
     },
+    "USSR Helicopter": {
+        "requires": "|Has Helicopter|"
+    },
     "USSR Ground": {
         "requires": "|Has Tank|"
+    },
+    "USSR Bluewater": {
+        "requires": "|Has Blue Fleet|"
+    },
+    "USSR Coast": {
+        "requires": "|Has Coast Fleet|"
     },
     "Great Britain Aviation": {
         "requires": "|Has Plane|"
     },
+    "Great Britain Helicopter": {
+        "requires": "|Has Helicopter|"
+    },
     "Great Britain Ground": {
         "requires": "|Has Tank|"
+    },
+    "Great Britain Bluewater": {
+        "requires": "|Has Blue Fleet|"
+    },
+    "Great Britain Coast": {
+        "requires": "|Has Coast Fleet|"
     },
     "Japan Aviation": {
         "requires": "|Has Plane|"
     },
+    "Japan Helicopter": {
+        "requires": "|Has Helicopter|"
+    },
     "Japan Ground": {
         "requires": "|Has Tank|"
+    },
+    "Japan Bluewater": {
+        "requires": "|Has Blue Fleet|"
+    },
+    "Japan Coast": {
+        "requires": "|Has Coast Fleet|"
     },
     "China Aviation": {
         "requires": "|Has Plane|"
     },
+    "China Helicopter": {
+        "requires": "|Has Helicopter|"
+    },
     "China Ground": {
         "requires": "|Has Tank|"
+    },
+    "China Bluewater": {
+        "requires": "|Has Blue Fleet|"
+    },
+    "China Coast": {
+        "requires": "|Has Coast Fleet|"
     },
     "Italy Aviation": {
         "requires": "|Has Plane|"
     },
+    "Italy Helicopter": {
+        "requires": "|Has Helicopter|"
+    },
     "Italy Ground": {
         "requires": "|Has Tank|"
+    },
+    "Italy Bluewater": {
+        "requires": "|Has Blue Fleet|"
+    },
+    "Italy Coast": {
+        "requires": "|Has Coast Fleet|"
     },
     "France Aviation": {
         "requires": "|Has Plane|"
     },
+    "France Helicopter": {
+        "requires": "|Has Helicopter|"
+    },
     "France Ground": {
         "requires": "|Has Tank|"
     },
+    "France Bluewater": {
+        "requires": "|Has Blue Fleet|"
+    },
+    "France Coast": {
+        "requires": "|Has Coast Fleet|"
+    },
     "Sweden Aviation": {
         "requires": "|Has Plane|"
+    },
+    "Sweden Helicopter": {
+        "requires": "|Has Helicopter|"
     },
     "Sweden Ground": {
         "requires": "|Has Tank|"
