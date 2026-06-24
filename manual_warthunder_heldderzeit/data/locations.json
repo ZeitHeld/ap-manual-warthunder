@@ -981,6 +981,394 @@
             "sort-key": "row-1-10-14"
         },
 
+		
+		{
+            "name": "USA 8.X (Helicopter)",
+            "region": "USA Helicopter",
+            "category": ["USA", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-1-8"
+        },
+		{
+            "name": "USA 9.X (Helicopter)",
+            "region": "USA Helicopter",
+            "category": ["USA", "Helicopter"],
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-1-9"
+        },
+		{
+            "name": "USA 10.X (Helicopter)",
+            "region": "USA Helicopter",
+            "category": ["USA", "Helicopter"],
+            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-1-10"
+        },
+		{
+            "name": "USA 11.X (Helicopter)",
+            "region": "USA Helicopter",
+            "category": ["USA", "Helicopter"],
+            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-1-11"
+        },
+		{
+            "name": "USA 12.X (Helicopter)",
+            "region": "USA Helicopter",
+            "category": ["USA", "Helicopter"],
+            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-1-12"
+        },
+		{
+            "name": "USA 13.X (Helicopter)",
+            "region": "USA Helicopter",
+            "category": ["USA", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-1-13"
+        },
+		
+		{
+            "name": "Germany 8.X (Helicopter)",
+            "region": "Germany Helicopter",
+            "category": ["Germany", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-2-8"
+        },
+		{
+            "name": "Germany 9.X (Helicopter)",
+            "region": "Germany Helicopter",
+            "category": ["Germany", "Helicopter"],
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-2-9"
+        },
+		{
+            "name": "Germany 11.X (Helicopter)",
+            "region": "Germany Helicopter",
+            "category": ["Germany", "Helicopter", "Old Vehicles Only"],
+            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND {YamlEnabled(include_old_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-2-11"
+        },
+		{
+            "name": "Germany 12.X (Helicopter)",
+            "region": "Germany Helicopter",
+            "category": ["Germany", "Helicopter", "Premium Only"],
+            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-2-12"
+        },
+		
+		{
+            "name": "USSR 8.X (Helicopter)",
+            "region": "USSR Helicopter",
+            "category": ["USSR", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-3-8"
+        },
+		{
+            "name": "USSR 9.X (Helicopter)",
+            "region": "USSR Helicopter",
+            "category": ["USSR", "Helicopter"],
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-3-9"
+        },
+		{
+            "name": "USSR 10.X (Helicopter)",
+            "region": "USSR Helicopter",
+            "category": ["USSR", "Helicopter"],
+            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-3-10"
+        },
+		{
+            "name": "USSR 11.X (Helicopter)",
+            "region": "USSR Helicopter",
+            "category": ["USSR", "Helicopter"],
+            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-3-11"
+        },
+		{
+            "name": "USSR 12.X (Helicopter)",
+            "region": "USSR Helicopter",
+            "category": ["USSR", "Helicopter"],
+            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-3-12"
+        },
+		{
+            "name": "USSR 13.X (Helicopter)",
+            "region": "USSR Helicopter",
+            "category": ["USSR", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-3-13"
+        },
+		{
+            "name": "Great Britain 8.X (Helicopter)",
+            "region": "Great Britain Helicopter",
+            "category": ["Great Britain", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Utility Helicopter|)))",
+            "sort-key": "row-2-4-8"
+        },
+		{
+            "name": "Great Britain 9.X (Helicopter)",
+            "region": "Great Britain Helicopter",
+            "category": ["Great Britain", "Helicopter"],
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Utility Helicopter|)))",
+            "sort-key": "row-2-4-9"
+        },
+		{
+            "name": "Great Britain 10.X (Helicopter)",
+            "region": "Great Britain Helicopter",
+            "category": ["Great Britain", "Helicopter"],
+            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-4-10"
+        },
+		{
+            "name": "Great Britain 11.X (Helicopter)",
+            "region": "Great Britain Helicopter",
+            "category": ["Great Britain", "Helicopter", "Premium Only"],
+            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND {YamlEnabled(include_premium)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-4-11"
+        },
+		{
+            "name": "Great Britain 12.X (Helicopter)",
+            "region": "Great Britain Helicopter",
+            "category": ["Great Britain", "Helicopter"],
+            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-4-12"
+        },
+		{
+            "name": "Great Britain 13.X (Helicopter)",
+            "region": "Great Britain Helicopter",
+            "category": ["Great Britain", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-4-13"
+        },
+		{
+            "name": "Japan 7.X (Helicopter)",
+            "region": "Japan Helicopter",
+            "category": ["Japan", "Helicopter"],
+            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Utility Helicopter|)))",
+            "sort-key": "row-2-5-7"
+        },
+		{
+            "name": "Japan 9.X (Helicopter)",
+            "region": "Japan Helicopter",
+            "category": ["Japan", "Helicopter"],
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-5-9"
+        },
+		{
+            "name": "Japan 11.X (Helicopter)",
+            "region": "Japan Helicopter",
+            "category": ["Japan", "Helicopter"],
+            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-5-11"
+        },
+		{
+            "name": "Japan 13.X (Helicopter)",
+            "region": "Japan Helicopter",
+            "category": ["Japan", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-5-13"
+        },
+
+		{
+            "name": "China 9.X (Helicopter)",
+            "region": "China Helicopter",
+            "category": ["China", "Helicopter"],
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-6-9"
+        },
+		{
+            "name": "China 10.X (Helicopter)",
+            "region": "China Helicopter",
+            "category": ["China", "Helicopter"],
+            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-6-10"
+        },
+		{
+            "name": "China 11.X (Helicopter)",
+            "region": "China Helicopter",
+            "category": ["China", "Helicopter"],
+            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-6-11"
+        },
+		{
+            "name": "China 13.X (Helicopter)",
+            "region": "China Helicopter",
+            "category": ["China", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-6-13"
+        },
+
+		{
+            "name": "Italy 7.X (Helicopter)",
+            "region": "Italy Helicopter",
+            "category": ["Italy", "Helicopter"],
+            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Utility Helicopter|)))",
+            "sort-key": "row-2-7-7"
+        },
+		{
+            "name": "Italy 8.X (Helicopter)",
+            "region": "Italy Helicopter",
+            "category": ["Italy", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Utility Helicopter|)))",
+            "sort-key": "row-2-7-8"
+        },
+		{
+            "name": "Italy 9.X (Helicopter)",
+            "region": "Italy Helicopter",
+            "category": ["Italy", "Helicopter"],
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-7-9"
+        },
+		{
+            "name": "Italy 10.X (Helicopter)",
+            "region": "Italy Helicopter",
+            "category": ["Italy", "Helicopter", "Premium Only"],
+            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-7-10"
+        },
+		{
+            "name": "Italy 11.X (Helicopter)",
+            "region": "Italy Helicopter",
+            "category": ["Italy", "Helicopter"],
+            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-7-11"
+        },
+		{
+            "name": "Italy 12.X (Helicopter)",
+            "region": "Italy Helicopter",
+            "category": ["Italy", "Helicopter"],
+            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-7-12"
+        },
+		{
+            "name": "Italy 13.X (Helicopter)",
+            "region": "Italy Helicopter",
+            "category": ["Italy", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-7-13"
+        },
+		
+		{
+            "name": "France 8.X (Helicopter)",
+            "region": "France Helicopter",
+            "category": ["France", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-8-8"
+        },
+		{
+            "name": "France 9.X (Helicopter)",
+            "region": "France Helicopter",
+            "category": ["France", "Helicopter"],
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Utility Helicopter|)))",
+            "sort-key": "row-2-8-9"
+        },
+		{
+            "name": "France 10.X (Helicopter)",
+            "region": "France Helicopter",
+            "category": ["France", "Helicopter", "Premium Only"],
+            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND {YamlEnabled(include_premium)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-8-10"
+        },
+		{
+            "name": "France 11.X (Helicopter)",
+            "region": "France Helicopter",
+            "category": ["France", "Helicopter"],
+            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-8-11"
+        },
+		{
+            "name": "France 12.X (Helicopter)",
+            "region": "France Helicopter",
+            "category": ["France", "Helicopter"],
+            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-8-12"
+        },
+		{
+            "name": "France 13.X (Helicopter)",
+            "region": "France Helicopter",
+            "category": ["France", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-8-13"
+        },
+
+		
+		{
+            "name": "Sweden 7.X (Helicopter)",
+            "region": "Sweden Helicopter",
+            "category": ["Sweden", "Helicopter"],
+            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-9-7"
+        },
+		{
+            "name": "Sweden 8.X (Helicopter)",
+            "region": "Sweden Helicopter",
+            "category": ["Sweden", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-9-8"
+        },
+		{
+            "name": "Sweden 9.X (Helicopter)",
+            "region": "Sweden Helicopter",
+            "category": ["Sweden", "Helicopter"],
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-9-9"
+        },
+		{
+            "name": "Sweden 10.X (Helicopter)",
+            "region": "Sweden Helicopter",
+            "category": ["Sweden", "Helicopter"],
+            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-9-10"
+        },
+		{
+            "name": "Sweden 11.X (Helicopter)",
+            "region": "Sweden Helicopter",
+            "category": ["Sweden", "Helicopter"],
+            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-9-11"
+        },
+		
+		{
+            "name": "Israel 8.X (Helicopter)",
+            "region": "Israel Helicopter",
+            "category": ["Israel", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-1-8"
+        },
+		{
+            "name": "Israel 9.X (Helicopter)",
+            "region": "Israel Helicopter",
+            "category": ["Israel", "Helicopter"],
+            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-1-9"
+        },
+		{
+            "name": "Israel 10.X (Helicopter)",
+            "region": "Israel Helicopter",
+            "category": ["Israel", "Helicopter"],
+            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-1-10"
+        },
+		{
+            "name": "Israel 11.X (Helicopter)",
+            "region": "Israel Helicopter",
+            "category": ["Israel", "Helicopter"],
+            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-1-11"
+        },
+		{
+            "name": "Israel 12.X (Helicopter)",
+            "region": "Israel Helicopter",
+            "category": ["Israel", "Helicopter"],
+            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "sort-key": "row-2-1-12"
+        },
+		{
+            "name": "Israel 13.X (Helicopter)",
+            "region": "Israel Helicopter",
+            "category": ["Israel", "Helicopter"],
+            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "sort-key": "row-2-1-13"
+        },
+
 
         {
             "name": "USA 1.X (Ground Vehicles)",
