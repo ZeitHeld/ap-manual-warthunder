@@ -12,98 +12,98 @@
             "name": "USA 1.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR1| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-1-1"
         },
         {
             "name": "USA 2.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR2| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-1-2"
         },
         {
             "name": "USA 3.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR3| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-1-3"
         },
         {
             "name": "USA 4.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR4| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-1-4"
         },
         {
             "name": "USA 5.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR5| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-1-5"
         },
         {
             "name": "USA 6.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR6| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-1-6"
         },
         {
             "name": "USA 7.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR7| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-1-7"
         },
         {
             "name": "USA 8.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR8| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-1-8"
         },
         {
             "name": "USA 9.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR9| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-1-9"
         },
         {
             "name": "USA 10.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR10| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-1-10"
         },
         {
             "name": "USA 11.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR11| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-1-11"
         },
         {
             "name": "USA 12.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR12| AND |Need Fighter|",
             "sort-key": "row-1-1-12"
         },
         {
             "name": "USA 13.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR13| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR13| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-1-13"
         },
         {
             "name": "USA 14.X (Aviation)",
             "region": "USA Aviation",
             "category": ["USA", "Aviation"],
-            "requires": "|BR14| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR14| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-1-14"
         },
 
@@ -111,98 +111,98 @@
             "name": "Germany 1.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR1| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-2-1"
         },
         {
             "name": "Germany 2.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR2| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-2-2"
         },
         {
             "name": "Germany 3.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR3| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-2-3"
         },
         {
             "name": "Germany 4.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR4| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-2-4"
         },
         {
             "name": "Germany 5.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR5| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-2-5"
         },
         {
             "name": "Germany 6.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR6| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-2-6"
         },
         {
             "name": "Germany 7.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR7| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-2-7"
         },
         {
             "name": "Germany 8.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR8| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-2-8"
         },
         {
             "name": "Germany 9.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR9| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-2-9"
         },
         {
             "name": "Germany 10.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR10| AND |Need Fighter|",
             "sort-key": "row-1-2-10"
         },
         {
             "name": "Germany 11.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR11| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-2-11"
         },
         {
             "name": "Germany 12.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR12| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-2-12"
         },
         {
             "name": "Germany 13.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR13| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR13| AND |Need Fighter|",
             "sort-key": "row-1-2-13"
         },
         {
             "name": "Germany 14.X (Aviation)",
             "region": "Germany Aviation",
             "category": ["Germany", "Aviation"],
-            "requires": "|BR14| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR14| AND |Need Fighter|",
             "sort-key": "row-1-2-14"
         },
 
@@ -210,98 +210,98 @@
             "name": "USSR 1.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR1| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-3-1"
         },
         {
             "name": "USSR 2.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR2| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-3-2"
         },
         {
             "name": "USSR 3.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR3| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-3-3"
         },
         {
             "name": "USSR 4.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR4| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-3-4"
         },
         {
             "name": "USSR 5.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR5| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-3-5"
         },
         {
             "name": "USSR 6.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}))))",
+            "requires": "|BR6| AND (|Need Fighter| OR (|Need Strike Aircraft| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}))",
             "sort-key": "row-1-3-6"
         },
         {
             "name": "USSR 7.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR7| AND |Need Fighter|",
             "sort-key": "row-1-3-7"
         },
         {
             "name": "USSR 8.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR8| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-3-8"
         },
         {
             "name": "USSR 9.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR9| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-3-9"
         },
         {
             "name": "USSR 10.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR10| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-3-10"
         },
         {
             "name": "USSR 11.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR11| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-3-11"
         },
         {
             "name": "USSR 12.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR12| AND |Need Fighter|",
             "sort-key": "row-1-3-12"
         },
         {
             "name": "USSR 13.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR13| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR13| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-3-13"
         },
         {
             "name": "USSR 14.X (Aviation)",
             "region": "USSR Aviation",
             "category": ["USSR", "Aviation"],
-            "requires": "|BR14| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR14| AND |Need Fighter|",
             "sort-key": "row-1-3-14"
         },
 
@@ -309,98 +309,98 @@
             "name": "Great Britain 1.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)}))))",
+            "requires": "|BR1| AND (|Need Fighter| OR |Need Bomber| OR (|Need Strike Aircraft| AND {YamlEnabled(include_premium)}))",
             "sort-key": "row-1-4-1"
         },
         {
             "name": "Great Britain 2.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR2| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-4-2"
         },
         {
             "name": "Great Britain 3.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR3| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-4-3"
         },
         {
             "name": "Great Britain 4.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR4| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-4-4"
         },
         {
             "name": "Great Britain 5.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}))))",
+            "requires": "|BR5| AND (|Need Fighter| OR |Need Bomber| OR (|Need Strike Aircraft| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}))",
             "sort-key": "row-1-4-5"
         },
         {
             "name": "Great Britain 6.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}))))",
+            "requires": "|BR6| AND (|Need Fighter| OR |Need Bomber| OR (|Need Strike Aircraft| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}))",
             "sort-key": "row-1-4-6"
         },
         {
             "name": "Great Britain 7.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR7| AND |Need Fighter|",
             "sort-key": "row-1-4-7"
         },
         {
             "name": "Great Britain 8.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR (|Strike Aircraft| AND {YamlEnabled(include_old_vehicles)}))))",
+            "requires": "|BR8| AND (|Fighter| OR |Bomber| OR (|Strike Aircraft| AND {YamlEnabled(include_old_vehicles)}))",
             "sort-key": "row-1-4-8"
         },
         {
             "name": "Great Britain 9.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR9| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-4-9"
         },
         {
             "name": "Great Britain 10.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Strike Aircraft|)))",
+            "requires": "|BR10| AND |Need Strike Aircraft|",
             "sort-key": "row-1-4-10"
         },
         {
             "name": "Great Britain 11.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Strike Aircraft|)))",
+            "requires": "|BR11| AND |Need Strike Aircraft|",
             "sort-key": "row-1-4-11"
         },
         {
             "name": "Great Britain 12.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR12| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-4-12"
         },
         {
             "name": "Great Britain 13.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR13| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR13| AND |Need Fighter|",
             "sort-key": "row-1-4-13"
         },
         {
             "name": "Great Britain 14.X (Aviation)",
             "region": "Great Britain Aviation",
             "category": ["Great Britain", "Aviation"],
-            "requires": "|BR14| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR14| AND |Need Fighter|",
             "sort-key": "row-1-4-14"
         },
 
@@ -408,98 +408,98 @@
             "name": "Japan 1.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR1| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-5-1"
         },
         {
             "name": "Japan 2.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR2| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-5-2"
         },
         {
             "name": "Japan 3.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR3| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-5-3"
         },
         {
             "name": "Japan 4.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR4| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-5-4"
         },
         {
             "name": "Japan 5.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR5| AND |Need Fighter|",
             "sort-key": "row-1-5-5"
         },
         {
             "name": "Japan 6.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR6| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-5-6"
         },
         {
             "name": "Japan 7.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR7| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-5-7"
         },
         {
             "name": "Japan 8.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR8| AND |Need Fighter|",
             "sort-key": "row-1-5-8"
         },
         {
             "name": "Japan 9.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR9| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-5-9"
         },
         {
             "name": "Japan 10.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR10| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-5-10"
         },
         {
             "name": "Japan 11.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR11| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-5-11"
         },
         {
             "name": "Japan 12.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR12| AND |Need Fighter|",
             "sort-key": "row-1-5-12"
         },
         {
             "name": "Japan 13.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR13| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR13| AND |Need Fighter|",
             "sort-key": "row-1-5-13"
         },
         {
             "name": "Japan 14.X (Aviation)",
             "region": "Japan Aviation",
             "category": ["Japan", "Aviation"],
-            "requires": "|BR14| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR14| AND |Need Fighter|",
             "sort-key": "row-1-5-14"
         },
 
@@ -507,98 +507,98 @@
             "name": "China 1.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR1| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-6-1"
         },
         {
             "name": "China 2.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR2| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-6-2"
         },
         {
             "name": "China 3.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR3| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-6-3"
         },
         {
             "name": "China 4.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR4| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-6-4"
         },
         {
             "name": "China 5.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR5| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-6-5"
         },
         {
             "name": "China 6.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR6| AND |Need Fighter|",
             "sort-key": "row-1-6-6"
         },
         {
             "name": "China 7.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR7| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-6-7"
         },
         {
             "name": "China 8.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR8| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-6-8"
         },
         {
             "name": "China 9.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR9| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-6-9"
         },
         {
             "name": "China 10.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR10| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-6-10"
         },
         {
             "name": "China 11.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR11| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-6-11"
         },
         {
             "name": "China 12.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Strike Aircraft|)))",
+            "requires": "|BR12| AND |Need Strike Aircraft|",
             "sort-key": "row-1-6-12"
         },
         {
             "name": "China 13.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR13| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR13| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-6-13"
         },
         {
             "name": "China 14.X (Aviation)",
             "region": "China Aviation",
             "category": ["China", "Aviation"],
-            "requires": "|BR14| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR14| AND |Need Fighter|",
             "sort-key": "row-1-6-14"
         },
 
@@ -606,98 +606,98 @@
             "name": "Italy 1.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR1| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-7-1"
         },
         {
             "name": "Italy 2.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR2| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-7-2"
         },
         {
             "name": "Italy 3.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR3| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-7-3"
         },
         {
             "name": "Italy 4.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR4| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-7-4"
         },
         {
             "name": "Italy 5.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR5| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-7-5"
         },
         {
             "name": "Italy 6.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR (|Strike Aircraft| AND {YamlEnabled(include_premium)}))))",
+            "requires": "|BR6| AND (|Need Fighter| OR (| Need Strike Aircraft| AND {YamlEnabled(include_premium)}))",
             "sort-key": "row-1-7-6"
         },
         {
             "name": "Italy 7.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Strike Aircraft|)))",
+            "requires": "|BR7| AND |Need Strike Aircraft|",
             "sort-key": "row-1-7-7"
         },
         {
             "name": "Italy 8.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR8| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-7-8"
         },
         {
             "name": "Italy 9.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR (|Strike Aircraft| AND {YamlEnabled(include_old_vehicles)}))))",
+            "requires": "|BR9| AND (|Need Fighter| OR (|Need Strike Aircraft| AND {YamlEnabled(include_old_vehicles)}))",
             "sort-key": "row-1-7-9"
         },
         {
             "name": "Italy 10.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR10| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-7-10"
         },
         {
             "name": "Italy 11.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR11| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-7-11"
         },
         {
             "name": "Italy 12.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR12| AND |Need Fighter|",
             "sort-key": "row-1-7-12"
         },
         {
             "name": "Italy 13.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR13| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR13| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-7-13"
         },
         {
             "name": "Italy 14.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR14| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR14| AND |Need Fighter|",
             "sort-key": "row-1-7-14"
         },
 
@@ -705,98 +705,98 @@
             "name": "France 1.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR1| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-8-1"
         },
         {
             "name": "France 2.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR2| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-8-2"
         },
         {
             "name": "France 3.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR3| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-8-3"
         },
         {
             "name": "France 4.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR4| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-8-4"
         },
         {
             "name": "France 5.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR5| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-8-5"
         },
         {
             "name": "France 6.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR6| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-8-6"
         },
         {
             "name": "France 7.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR7| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-8-7"
         },
         {
             "name": "France 8.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR8| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-8-8"
         },
         {
             "name": "France 9.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR9| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-8-9"
         },
         {
             "name": "France 10.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR10| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-8-10"
         },
         {
             "name": "France 11.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR11| AND |Need Fighter|",
             "sort-key": "row-1-8-11"
         },
         {
             "name": "France 12.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR12| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-8-12"
         },
         {
             "name": "France 13.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR13| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR13| AND |Need Fighter|",
             "sort-key": "row-1-8-13"
         },
         {
             "name": "France 14.X (Aviation)",
             "region": "France",
             "category": ["France", "Aviation"],
-            "requires": "|BR14| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR14| AND |Need Fighter|",
             "sort-key": "row-1-8-14"
         },
 
@@ -804,91 +804,91 @@
             "name": "Sweden 1.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR1| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-9-1"
         },
         {
             "name": "Sweden 2.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR2| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-9-2"
         },
         {
             "name": "Sweden 3.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR3| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-9-3"
         },
         {
             "name": "Sweden 4.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR4| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-9-4"
         },
         {
             "name": "Sweden 6.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR6| AND |Need Fighter|",
             "sort-key": "row-1-9-6"
         },
         {
             "name": "Sweden 7.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR7| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-9-7"
         },
         {
             "name": "Sweden 8.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR8| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-9-8"
         },
         {
             "name": "Sweden 9.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR9| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-9-9"
         },
         {
             "name": "Sweden 10.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR10| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-9-10"
         },
         {
             "name": "Sweden 11.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR11| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-9-11"
         },
         {
             "name": "Sweden 12.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR12| AND |Need Fighter|",
             "sort-key": "row-1-9-12"
         },
         {
             "name": "Sweden 13.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR13| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR13| AND |Need Fighter|",
             "sort-key": "row-1-9-13"
         },
         {
             "name": "Sweden 14.X (Aviation)",
             "region": "Sweden Aviation",
             "category": ["Sweden", "Aviation"],
-            "requires": "|BR14| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR14| AND |Need Fighter|",
             "sort-key": "row-1-9-14"
         },
 
@@ -896,21 +896,21 @@
             "name": "Israel 3.X (Aviation)",
             "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR3| AND |Need Fighter|",
             "sort-key": "row-1-10-3"
         },
         {
             "name": "Israel 4.X (Aviation)",
             "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR4| AND |Need Fighter|",
             "sort-key": "row-1-10-4"
         },
         {
             "name": "Israel 5.X (Aviation)",
             "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber|)))",
+            "requires": "|BR5| AND (|Need Fighter| OR |Need Bomber|)",
             "sort-key": "row-1-10-5"
         },
         {
@@ -921,63 +921,63 @@
                 "Aviation",
                 "Premium Only"
             ],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR6| AND |Need Fighter|",
             "sort-key": "row-1-10-6"
         },
         {
             "name": "Israel 7.X (Aviation)",
             "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR7| AND |Need Fighter|",
             "sort-key": "row-1-10-7"
         },
         {
             "name": "Israel 8.X (Aviation)",
             "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Strike Aircraft|)))",
+            "requires": "|BR8| AND (|Need Fighter| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-10-8"
         },
         {
             "name": "Israel 9.X (Aviation)",
             "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter| OR |Bomber| OR |Strike Aircraft|)))",
+            "requires": "|BR9| AND (|Need Fighter| OR |Need Bomber| OR |Need Strike Aircraft|)",
             "sort-key": "row-1-10-9"
         },
         {
             "name": "Israel 10.X (Aviation)",
             "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR10| AND |Need Fighter|",
             "sort-key": "row-1-10-10"
         },
         {
             "name": "Israel 11.X (Aviation)",
             "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR11| AND |Need Fighter|",
             "sort-key": "row-1-10-11"
         },
         {
             "name": "Israel 12.X (Aviation)",
             "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR12| AND |Need Fighter|",
             "sort-key": "row-1-10-12"
         },
         {
             "name": "Israel 13.X (Aviation)",
             "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
-            "requires": "|BR13| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Fighter|)))",
+            "requires": "|BR13| AND |Need Fighter|",
             "sort-key": "row-1-10-13"
         },
         {
             "name": "Israel 14.X (Aviation)",
             "region": "Israel Aviation",
             "category": ["Israel", "Aviation"],
-            "requires": "|BR14| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Strike Aircraft|)))",
+            "requires": "|BR14| AND |Need Strike Aircraft|",
             "sort-key": "row-1-10-14"
         },
 
@@ -986,42 +986,42 @@
             "name": "USA 8.X (Helicopter)",
             "region": "USA Helicopter",
             "category": ["USA", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR8| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)",
             "sort-key": "row-2-1-8"
         },
 		{
             "name": "USA 9.X (Helicopter)",
             "region": "USA Helicopter",
             "category": ["USA", "Helicopter"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR9| AND |Need Attack Helicopter|",
             "sort-key": "row-2-1-9"
         },
 		{
             "name": "USA 10.X (Helicopter)",
             "region": "USA Helicopter",
             "category": ["USA", "Helicopter"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR10| AND |Need Attack Helicopter|",
             "sort-key": "row-2-1-10"
         },
 		{
             "name": "USA 11.X (Helicopter)",
             "region": "USA Helicopter",
             "category": ["USA", "Helicopter"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR11| AND |Need Attack Helicopter|",
             "sort-key": "row-2-1-11"
         },
 		{
             "name": "USA 12.X (Helicopter)",
             "region": "USA Helicopter",
             "category": ["USA", "Helicopter"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR12| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)",
             "sort-key": "row-2-1-12"
         },
 		{
             "name": "USA 13.X (Helicopter)",
             "region": "USA Helicopter",
             "category": ["USA", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR8| AND |Need Attack Helicopter|",
             "sort-key": "row-2-1-13"
         },
 		
@@ -1029,28 +1029,28 @@
             "name": "Germany 8.X (Helicopter)",
             "region": "Germany Helicopter",
             "category": ["Germany", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR8| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)",
             "sort-key": "row-2-2-8"
         },
 		{
             "name": "Germany 9.X (Helicopter)",
             "region": "Germany Helicopter",
             "category": ["Germany", "Helicopter"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR9| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)",
             "sort-key": "row-2-2-9"
         },
 		{
             "name": "Germany 11.X (Helicopter)",
             "region": "Germany Helicopter",
             "category": ["Germany", "Helicopter", "Old Vehicles Only"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND {YamlEnabled(include_old_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR11| AND {YamlEnabled(include_old_vehicles)} AND (|Attack Helicopter|)))",
             "sort-key": "row-2-2-11"
         },
 		{
             "name": "Germany 12.X (Helicopter)",
             "region": "Germany Helicopter",
             "category": ["Germany", "Helicopter", "Premium Only"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR12| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)",
             "sort-key": "row-2-2-12"
         },
 		
@@ -1058,112 +1058,112 @@
             "name": "USSR 8.X (Helicopter)",
             "region": "USSR Helicopter",
             "category": ["USSR", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR8| AND |Need Attack Helicopter|",
             "sort-key": "row-2-3-8"
         },
 		{
             "name": "USSR 9.X (Helicopter)",
             "region": "USSR Helicopter",
             "category": ["USSR", "Helicopter"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR9| AND |Need Attack Helicopter|",
             "sort-key": "row-2-3-9"
         },
 		{
             "name": "USSR 10.X (Helicopter)",
             "region": "USSR Helicopter",
             "category": ["USSR", "Helicopter"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR10| AND |Need Attack Helicopter|",
             "sort-key": "row-2-3-10"
         },
 		{
             "name": "USSR 11.X (Helicopter)",
             "region": "USSR Helicopter",
             "category": ["USSR", "Helicopter"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR11| AND |Need Attack Helicopter|",
             "sort-key": "row-2-3-11"
         },
 		{
             "name": "USSR 12.X (Helicopter)",
             "region": "USSR Helicopter",
             "category": ["USSR", "Helicopter"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR12| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)",
             "sort-key": "row-2-3-12"
         },
 		{
             "name": "USSR 13.X (Helicopter)",
             "region": "USSR Helicopter",
             "category": ["USSR", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR8| AND |Need Attack Helicopter|",
             "sort-key": "row-2-3-13"
         },
 		{
             "name": "Great Britain 8.X (Helicopter)",
             "region": "Great Britain Helicopter",
             "category": ["Great Britain", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Utility Helicopter|)))",
+            "requires": "|BR8| AND |Need Utility Helicopter|",
             "sort-key": "row-2-4-8"
         },
 		{
             "name": "Great Britain 9.X (Helicopter)",
             "region": "Great Britain Helicopter",
             "category": ["Great Britain", "Helicopter"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Utility Helicopter|)))",
+            "requires": "|BR9| AND |Need Utility Helicopter|",
             "sort-key": "row-2-4-9"
         },
 		{
             "name": "Great Britain 10.X (Helicopter)",
             "region": "Great Britain Helicopter",
             "category": ["Great Britain", "Helicopter"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR10| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)",
             "sort-key": "row-2-4-10"
         },
 		{
             "name": "Great Britain 11.X (Helicopter)",
             "region": "Great Britain Helicopter",
             "category": ["Great Britain", "Helicopter", "Premium Only"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND {YamlEnabled(include_premium)} AND (|Attack Helicopter|)))",
+            "requires": "|BR11| AND ({YamlEnabled(include_premium)} AND |Need Attack Helicopter|)",
             "sort-key": "row-2-4-11"
         },
 		{
             "name": "Great Britain 12.X (Helicopter)",
             "region": "Great Britain Helicopter",
             "category": ["Great Britain", "Helicopter"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR12| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)",
             "sort-key": "row-2-4-12"
         },
 		{
             "name": "Great Britain 13.X (Helicopter)",
             "region": "Great Britain Helicopter",
             "category": ["Great Britain", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR8| AND |Need Attack Helicopter|",
             "sort-key": "row-2-4-13"
         },
 		{
             "name": "Japan 7.X (Helicopter)",
             "region": "Japan Helicopter",
             "category": ["Japan", "Helicopter"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Utility Helicopter|)))",
+            "requires": "|BR7| AND |Need Utility Helicopter|",
             "sort-key": "row-2-5-7"
         },
 		{
             "name": "Japan 9.X (Helicopter)",
             "region": "Japan Helicopter",
             "category": ["Japan", "Helicopter"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR9| AND |Need Attack Helicopter|",
             "sort-key": "row-2-5-9"
         },
 		{
             "name": "Japan 11.X (Helicopter)",
             "region": "Japan Helicopter",
             "category": ["Japan", "Helicopter"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR11| AND |Need Attack Helicopter|",
             "sort-key": "row-2-5-11"
         },
 		{
             "name": "Japan 13.X (Helicopter)",
             "region": "Japan Helicopter",
             "category": ["Japan", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR8| AND |Need Attack Helicopter|",
             "sort-key": "row-2-5-13"
         },
 
@@ -1171,28 +1171,28 @@
             "name": "China 9.X (Helicopter)",
             "region": "China Helicopter",
             "category": ["China", "Helicopter"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR9| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)",
             "sort-key": "row-2-6-9"
         },
 		{
             "name": "China 10.X (Helicopter)",
             "region": "China Helicopter",
             "category": ["China", "Helicopter"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR10| AND |Need Attack Helicopter|",
             "sort-key": "row-2-6-10"
         },
 		{
             "name": "China 11.X (Helicopter)",
             "region": "China Helicopter",
             "category": ["China", "Helicopter"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR11| AND |Need Attack Helicopter|",
             "sort-key": "row-2-6-11"
         },
 		{
             "name": "China 13.X (Helicopter)",
             "region": "China Helicopter",
             "category": ["China", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR8| AND |Need Attack Helicopter|",
             "sort-key": "row-2-6-13"
         },
 
@@ -1200,49 +1200,49 @@
             "name": "Italy 7.X (Helicopter)",
             "region": "Italy Helicopter",
             "category": ["Italy", "Helicopter"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Utility Helicopter|)))",
+            "requires": "|BR7| AND |Need Utility Helicopter|",
             "sort-key": "row-2-7-7"
         },
 		{
             "name": "Italy 8.X (Helicopter)",
             "region": "Italy Helicopter",
             "category": ["Italy", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Utility Helicopter|)))",
+            "requires": "|BR8| AND |Need Utility Helicopter|",
             "sort-key": "row-2-7-8"
         },
 		{
             "name": "Italy 9.X (Helicopter)",
             "region": "Italy Helicopter",
             "category": ["Italy", "Helicopter"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR9| AND |Need Attack Helicopter|",
             "sort-key": "row-2-7-9"
         },
 		{
             "name": "Italy 10.X (Helicopter)",
             "region": "Italy Helicopter",
             "category": ["Italy", "Helicopter", "Premium Only"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR10| AND |Need Attack Helicopter|",
             "sort-key": "row-2-7-10"
         },
 		{
             "name": "Italy 11.X (Helicopter)",
             "region": "Italy Helicopter",
             "category": ["Italy", "Helicopter"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR11| AND |Need Attack Helicopter|",
             "sort-key": "row-2-7-11"
         },
 		{
             "name": "Italy 12.X (Helicopter)",
             "region": "Italy Helicopter",
             "category": ["Italy", "Helicopter"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR12| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)))",
             "sort-key": "row-2-7-12"
         },
 		{
             "name": "Italy 13.X (Helicopter)",
             "region": "Italy Helicopter",
             "category": ["Italy", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR8| AND |Need Attack Helicopter|",
             "sort-key": "row-2-7-13"
         },
 		
@@ -1250,42 +1250,42 @@
             "name": "France 8.X (Helicopter)",
             "region": "France Helicopter",
             "category": ["France", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR8| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)",
             "sort-key": "row-2-8-8"
         },
 		{
             "name": "France 9.X (Helicopter)",
             "region": "France Helicopter",
             "category": ["France", "Helicopter"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Utility Helicopter|)))",
+            "requires": "|BR9| AND (|Need Utility Helicopter|",
             "sort-key": "row-2-8-9"
         },
 		{
             "name": "France 10.X (Helicopter)",
             "region": "France Helicopter",
             "category": ["France", "Helicopter", "Premium Only"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND {YamlEnabled(include_premium)} AND (|Attack Helicopter|)))",
+            "requires": "|BR10| AND |Attack Helicopter|",
             "sort-key": "row-2-8-10"
         },
 		{
             "name": "France 11.X (Helicopter)",
             "region": "France Helicopter",
             "category": ["France", "Helicopter"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR11| AND (|Need Attack Helicopter|)",
             "sort-key": "row-2-8-11"
         },
 		{
             "name": "France 12.X (Helicopter)",
             "region": "France Helicopter",
             "category": ["France", "Helicopter"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR12| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)",
             "sort-key": "row-2-8-12"
         },
 		{
             "name": "France 13.X (Helicopter)",
             "region": "France Helicopter",
             "category": ["France", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR8| AND |Need Attack Helicopter|",
             "sort-key": "row-2-8-13"
         },
 
@@ -1294,35 +1294,35 @@
             "name": "Sweden 7.X (Helicopter)",
             "region": "Sweden Helicopter",
             "category": ["Sweden", "Helicopter"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR7| AND |Need Utility Helicopter|",
             "sort-key": "row-2-9-7"
         },
 		{
             "name": "Sweden 8.X (Helicopter)",
             "region": "Sweden Helicopter",
             "category": ["Sweden", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR8| AND |Need Utility Helicopter|",
             "sort-key": "row-2-9-8"
         },
 		{
             "name": "Sweden 9.X (Helicopter)",
             "region": "Sweden Helicopter",
             "category": ["Sweden", "Helicopter"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR9| AND |Need Utility Helicopter|",
             "sort-key": "row-2-9-9"
         },
 		{
             "name": "Sweden 10.X (Helicopter)",
             "region": "Sweden Helicopter",
-            "category": ["Sweden", "Helicopter"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "category": ["Sweden", "Helicopter", "Premium Only"],
+            "requires": "|BR10| AND ({YamlEnabled(include_premium)} AND |Need Attack Helicopter|)",
             "sort-key": "row-2-9-10"
         },
 		{
             "name": "Sweden 11.X (Helicopter)",
             "region": "Sweden Helicopter",
             "category": ["Sweden", "Helicopter"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR11| AND |Need Attack Helicopter|",
             "sort-key": "row-2-9-11"
         },
 		
@@ -1330,43 +1330,29 @@
             "name": "Israel 8.X (Helicopter)",
             "region": "Israel Helicopter",
             "category": ["Israel", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR8| AND |Need Attack Helicopter|",
             "sort-key": "row-2-1-8"
         },
 		{
             "name": "Israel 9.X (Helicopter)",
             "region": "Israel Helicopter",
             "category": ["Israel", "Helicopter"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR9| AND |Need Attack Helicopter|",
             "sort-key": "row-2-1-9"
-        },
-		{
-            "name": "Israel 10.X (Helicopter)",
-            "region": "Israel Helicopter",
-            "category": ["Israel", "Helicopter"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
-            "sort-key": "row-2-1-10"
         },
 		{
             "name": "Israel 11.X (Helicopter)",
             "region": "Israel Helicopter",
             "category": ["Israel", "Helicopter"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR11| AND |Need Attack Helicopter|",
             "sort-key": "row-2-1-11"
         },
 		{
             "name": "Israel 12.X (Helicopter)",
             "region": "Israel Helicopter",
             "category": ["Israel", "Helicopter"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|)))",
+            "requires": "|BR12| AND |Need Attack Helicopter|",
             "sort-key": "row-2-1-12"
-        },
-		{
-            "name": "Israel 13.X (Helicopter)",
-            "region": "Israel Helicopter",
-            "category": ["Israel", "Helicopter"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter|)))",
-            "sort-key": "row-2-1-13"
         },
 
 
@@ -1374,84 +1360,84 @@
             "name": "USA 1.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR1| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-1-1"
         },
         {
             "name": "USA 2.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR2| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-1-2"
         },
         {
             "name": "USA 3.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND ((|Light Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer|)))",
+            "requires": "|BR3| AND ((|Need Light Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer|)",
             "sort-key": "row-3-1-3"
         },
         {
             "name": "USA 4.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR4| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-1-4"
         },
         {
             "name": "USA 5.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR5| AND (|Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-1-5"
         },
         {
             "name": "USA 6.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer|)))",
+            "requires": "|BR6| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer|)",
             "sort-key": "row-3-1-6"
         },
         {
             "name": "USA 7.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR7| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-1-7"
         },
         {
             "name": "USA 8.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR8| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-1-8"
         },
         {
             "name": "USA 9.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR9| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-1-9"
         },
         {
             "name": "USA 10.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Tank Destroyer| AND {YamlEnabled(include_old_vehicles)}) OR |SPAA|)))",
+            "requires": "|BR10| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Tank Destroyer| AND {YamlEnabled(include_old_vehicles)}) OR |Need SPAA|)",
             "sort-key": "row-3-1-10"
         },
         {
             "name": "USA 11.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
+            "requires": "|BR11| AND (|Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-1-11"
         },
         {
             "name": "USA 12.X (Ground Vehicles)",
             "region": "USA Ground",
             "category": ["USA", "Ground Vehicles"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR12| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-1-12"
         },
 
@@ -1459,84 +1445,84 @@
             "name": "Germany 1.X (Ground Vehicles)",
             "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR1| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-2-1"
         },
         {
             "name": "Germany 2.X (Ground Vehicles)",
             "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR2| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-2-2"
         },
         {
             "name": "Germany 3.X (Ground Vehicles)",
             "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR3| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-2-3"
         },
         {
             "name": "Germany 4.X (Ground Vehicles)",
             "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Tank Destroyer|)))",
+            "requires": "|BR4| AND (|Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Need Tank Destroyer|)",
             "sort-key": "row-3-2-4"
         },
         {
             "name": "Germany 5.X (Ground Vehicles)",
             "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR5| AND (|Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-2-5"
         },
         {
             "name": "Germany 6.X (Ground Vehicles)",
             "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR6| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-2-6"
         },
         {
             "name": "Germany 7.X (Ground Vehicles)",
             "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_old_vehicles)}) OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR7| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_old_vehicles)}) OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-2-7"
         },
         {
             "name": "Germany 8.X (Ground Vehicles)",
             "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR8| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-2-8"
         },
         {
             "name": "Germany 9.X (Ground Vehicles)",
             "region": "Germany Aviation",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR9| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-2-9"
         },
         {
             "name": "Germany 10.X (Ground Vehicles)",
             "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR10| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-2-10"
         },
         {
             "name": "Germany 11.X (Ground Vehicles)",
             "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR (|Medium Tank| AND {YamlEnabled(include_old_vehicles)}) OR |SPAA|)))",
+            "requires": "|BR11| AND (|Need Light Tank| OR (|Need Medium Tank| AND {YamlEnabled(include_old_vehicles)}) OR |Need SPAA|)",
             "sort-key": "row-3-2-11"
         },
         {
             "name": "Germany 12.X (Ground Vehicles)",
             "region": "Germany Ground",
             "category": ["Germany", "Ground Vehicles"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
+            "requires": "|BR12| AND (|Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-2-12"
         },
 
@@ -1544,84 +1530,84 @@
             "name": "USSR 1.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR","Ground Vehicles"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR1| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-3-1"
         },
         {
             "name": "USSR 2.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR2| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-3-2"
         },
         {
             "name": "USSR 3.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND ((|Light Tank| AND {YamlEnabled(include_premium)}) OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR3| AND ((|Need Light Tank| AND {YamlEnabled(include_premium)}) OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-3-3"
         },
         {
             "name": "USSR 4.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND ((|Light Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR4| AND ((|Need Light Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-3-4"
         },
         {
             "name": "USSR 5.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR (|SPAA| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}))))",
+            "requires": "|BR5| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR (|Need SPAA| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}))",
             "sort-key": "row-3-3-5"
         },
         {
             "name": "USSR 6.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND ((|Light Tank| AND {YamlEnabled(include_old_vehicles)}) OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR6| AND ((|Need Light Tank| AND {YamlEnabled(include_old_vehicles)}) OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-3-6"
         },
         {
             "name": "USSR 7.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR7| AND (|Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-3-7"
         },
         {
             "name": "USSR 8.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR8| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-3-8"
         },
         {
             "name": "USSR 9.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_old_vehicles)}) OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR9| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_old_vehicles)}) OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-3-9"
         },
         {
             "name": "USSR 10.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR10| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-3-10"
         },
         {
             "name": "USSR 11.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR11| AND (|Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-3-11"
         },
         {
             "name": "USSR 12.X (Ground Vehicles)",
             "region": "USSR Ground",
             "category": ["USSR", "Ground Vehicles"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
+            "requires": "|BR12| AND (|Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-3-12"
         },
 
@@ -1629,84 +1615,84 @@
             "name": "Great Britain 1.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR (|Medium Tank| AND {YamlEnabled(include_old_vehicles)}) OR (|Heavy Tank| AND {YamlEnabled(include_premium)}) OR (|Tank Destroyer| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |SPAA|)))",
+            "requires": "|BR1| AND (|Need Light Tank| OR (|Need Medium Tank| AND {YamlEnabled(include_old_vehicles)}) OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)}) OR (|Need Tank Destroyer| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Need SPAA|)",
             "sort-key": "row-3-4-1"
         },
         {
             "name": "Great Britain 2.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR2| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-4-2"
         },
         {
             "name": "Great Britain 3.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR3| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-4-3"
         },
         {
             "name": "Great Britain 4.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR4| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-4-4"
         },
         {
             "name": "Great Britain 5.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR (|Tank Destroyer| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |SPAA|)))",
+            "requires": "|BR5| AND (|Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR (|Need Tank Destroyer| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Need SPAA|)",
             "sort-key": "row-3-4-5"
         },
         {
             "name": "Great Britain 6.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Tank Destroyer|)))",
+            "requires": "|BR6| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Need Tank Destroyer|)",
             "sort-key": "row-3-4-6"
         },
         {
             "name": "Great Britain 7.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer|)))",
+            "requires": "|BR7| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer|)",
             "sort-key": "row-3-4-7"
         },
         {
             "name": "Great Britain 8.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR8| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-4-8"
         },
         {
             "name": "Great Britain 9.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR9| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-4-9"
         },
         {
             "name": "Great Britain 10.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND ((|Light Tank| AND {YamlEnabled(include_old_vehicles)}) OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR10| AND ((|Need Light Tank| AND {YamlEnabled(include_old_vehicles)}) OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-4-10"
         },
         {
             "name": "Great Britain 11.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
+            "requires": "|BR11| AND (|Need Medium Tank| OR |Need SPAA|)))",
             "sort-key": "row-3-4-11"
         },
         {
             "name": "Great Britain 12.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
+            "requires": "|BR12| AND (|Need Medium Tank| OR |Need SPAA|)))",
             "sort-key": "row-3-4-12"
         },
 
@@ -1714,77 +1700,77 @@
             "name": "Japan 1.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR1| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-5-1"
         },
         {
             "name": "Japan 2.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR2| AND (|Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-5-2"
         },
         {
             "name": "Japan 3.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR3| AND (|Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-5-3"
         },
         {
             "name": "Japan 4.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR4| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-5-4"
         },
         {
             "name": "Japan 5.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR5| AND (|Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-5-5"
         },
         {
             "name": "Japan 6.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Tank Destroyer|)))",
+            "requires": "|BR6| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Need Tank Destroyer|)",
             "sort-key": "row-3-5-6"
         },
         {
             "name": "Japan 7.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR7| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-5-7"
         },
         {
             "name": "Japan 8.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
+            "requires": "|BR8| AND (|Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-5-8"
         },
         {
             "name": "Japan 9.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR9| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-5-9"
         },
         {
             "name": "Japan 11.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
+            "requires": "|BR11| AND (|Need Medium Tank| OR |Need SPAA|)))",
             "sort-key": "row-3-5-11"
         },
         {
             "name": "Japan 12.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
+            "requires": "|BR12| AND (|Need Medium Tank| OR |Need SPAA|)))",
             "sort-key": "row-3-5-12"
         },
 
@@ -1792,84 +1778,84 @@
             "name": "China 1.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR1| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-6-1"
         },
         {
             "name": "China 2.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR2| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-6-2"
         },
         {
             "name": "China 3.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Tank Destroyer|)))",
+            "requires": "|BR3| AND (|Need Medium Tank| OR |Need Tank Destroyer|)))",
             "sort-key": "row-3-6-3"
         },
         {
             "name": "China 4.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR4| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-6-4"
         },
         {
             "name": "China 5.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR5| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-6-5"
         },
         {
             "name": "China 6.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR6| AND (|Need Light Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-6-6"
         },
         {
             "name": "China 7.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer|)))",
+            "requires": "|BR7| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer|)",
             "sort-key": "row-3-6-7"
         },
         {
             "name": "China 8.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR8| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-6-8"
         },
         {
             "name": "China 9.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR9| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-6-9"
         },
         {
             "name": "China 10.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR10| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-6-10"
         },
         {
             "name": "China 11.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR11| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-6-11"
         },
         {
             "name": "China 12.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
+            "requires": "|BR12| AND (|Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-6-12"
         },
 
@@ -1877,84 +1863,84 @@
             "name": "Italy 1.X (Ground Vehicles)",
             "region": "Italy Ground",
             "category": ["Italy","Ground Vehicles"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR1| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-7-1"
         },
         {
             "name": "Italy 2.X (Ground Vehicles)",
             "region": "Italy Ground",
             "category": ["Italy","Ground Vehicles"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR2| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-7-2"
         },
         {
             "name": "Italy 3.X (Ground Vehicles)",
             "region": "Italy Ground",
             "category": ["Italy","Ground Vehicles"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR3| AND (|Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-7-3"
         },
         {
             "name": "Italy 4.X (Ground Vehicles)",
             "region": "Italy Ground",
             "category": ["Italy","Ground Vehicles"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer|)))",
+            "requires": "|BR4| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer|)",
             "sort-key": "row-3-7-4"
         },
         {
             "name": "Italy 5.X (Ground Vehicles)",
             "region": "Italy Ground",
             "category": ["Italy","Ground Vehicles"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Tank Destroyer|)))",
+            "requires": "|BR5| AND (|Need Medium Tank| OR |Need Tank Destroyer|)",
             "sort-key": "row-3-7-5"
         },
         {
             "name": "Italy 6.X (Ground Vehicles)",
             "region": "Italy Ground",
             "category": ["Italy","Ground Vehicles"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR6| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-7-6"
         },
         {
             "name": "Italy 7.X (Ground Vehicles)",
             "region": "Italy Ground",
             "category": ["Italy","Ground Vehicles"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Tank Destroyer| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |SPAA|)))",
+            "requires": "|BR7| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Tank Destroyer| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Need SPAA|)",
             "sort-key": "row-3-7-7"
         },
         {
             "name": "Italy 8.X (Ground Vehicles)",
             "region": "Italy Ground",
             "category": ["Italy","Ground Vehicles"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR8| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-7-8"
         },
         {
             "name": "Italy 9.X (Ground Vehicles)",
             "region": "Italy Ground",
             "category": ["Italy","Ground Vehicles"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR9| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-7-9"
         },
         {
             "name": "Italy 10.X (Ground Vehicles)",
             "region": "Italy Ground",
             "category": ["Italy","Ground Vehicles"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR10| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-7-10"
         },
         {
             "name": "Italy 11.X (Ground Vehicles)",
             "region": "Italy Ground",
             "category": ["Italy","Ground Vehicles"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR11| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-7-11"
         },
         {
             "name": "Italy 12.X (Ground Vehicles)",
             "region": "Italy Ground",
             "category": ["Italy","Ground Vehicles"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR12| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-7-12"
         },
 
@@ -1962,84 +1948,84 @@
             "name": "France 1.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR1| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-8-1"
         },
         {
             "name": "France 2.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Heavy Tank| OR |SPAA|)))",
+            "requires": "|BR2| AND (|Need Light Tank| OR |Need Heavy Tank| OR |Need SPAA|)",
             "sort-key": "row-3-8-2"
         },
         {
             "name": "France 3.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND ((|Light Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR3| AND ((|Need Light Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-8-3"
         },
         {
             "name": "France 4.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Tank Destroyer|)))",
+            "requires": "|BR4| AND (|Need Light Tank| OR |Need Tank Destroyer|)))",
             "sort-key": "row-3-8-4"
         },
         {
             "name": "France 5.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR5| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-8-5"
         },
         {
             "name": "France 6.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR6| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-8-6"
         },
         {
             "name": "France 7.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Heavy Tank| OR |Tank Destroyer|)))",
+            "requires": "|BR7| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Heavy Tank| OR |Need Tank Destroyer|)",
             "sort-key": "row-3-8-7"
         },
         {
             "name": "France 8.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR8| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-8-8"
         },
         {
             "name": "France 9.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR9| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-8-9"
         },
         {
             "name": "France 10.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank|)))",
+            "requires": "|BR10| AND (|Need Light Tank| OR |Need Medium Tank|)",
             "sort-key": "row-3-8-10"
         },
         {
             "name": "France 11.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank|)))",
+            "requires": "|BR11| AND (|Need Light Tank| OR |Need Medium Tank|)",
             "sort-key": "row-3-8-11"
         },
         {
             "name": "France 12.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
+            "requires": "|BR12| AND (|Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-8-12"
         },
 
@@ -2047,84 +2033,84 @@
             "name": "Sweden 1.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR1| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR1| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-9-1"
         },
         {
             "name": "Sweden 2.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR2| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR2| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-9-2"
         },
         {
             "name": "Sweden 3.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR3| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND ((|Light Tank| AND {YamlEnabled(include_premium)}) OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR3| AND ((|Need Light Tank| AND {YamlEnabled(include_premium)}) OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-9-3"
         },
         {
             "name": "Sweden 4.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR4| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Need Tank Destroyer| OR |Need SPAA|)))",
             "sort-key": "row-3-9-4"
         },
         {
             "name": "Sweden 5.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR5| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR5| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-9-5"
         },
         {
             "name": "Sweden 6.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Heavy Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Tank Destroyer|)))",
+            "requires": "|BR6| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Need Tank Destroyer|)",
             "sort-key": "row-3-9-6"
         },
         {
             "name": "Sweden 7.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR7| AND (|Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-9-7"
         },
         {
             "name": "Sweden 8.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR8| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-9-8"
         },
         {
             "name": "Sweden 9.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR9| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-9-9"
         },
         {
             "name": "Sweden 10.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR10| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-9-10"
         },
         {
             "name": "Sweden 11.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank|)))",
+            "requires": "|BR11| AND |Need Medium Tank|",
             "sort-key": "row-3-9-11"
         },
         {
             "name": "Sweden 12.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR |SPAA|)))",
+            "requires": "|BR12| AND (|Need Light Tank| OR |Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-9-12"
         },
 
@@ -2133,87 +2119,359 @@
             "name": "Israel 4.X (Ground Vehicles)",
             "region": "Israel Ground",
             "category": ["Israel", "Ground Vehicles"],
-            "requires": "|BR4| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|SPAA|)))",
+            "requires": "|BR4| AND |Need SPAA|",
             "sort-key": "row-3-10-4"
         },
         {
             "name": "Israel 6.X (Ground Vehicles)",
             "region": "Israel Ground",
             "category": ["Israel", "Ground Vehicles"],
-            "requires": "|BR6| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Tank Destroyer|)))",
+            "requires": "|BR6| AND (|Need Medium Tank| OR |Need Tank Destroyer|)",
             "sort-key": "row-3-10-6"
         },
         {
             "name": "Israel 7.X (Ground Vehicles)",
             "region": "Israel Ground",
             "category": ["Israel", "Ground Vehicles"],
-            "requires": "|BR7| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank| OR (|Tank Destroyer| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |SPAA|)))",
+            "requires": "|BR7| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Tank Destroyer| AND {YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)}) OR |Need SPAA|)",
             "sort-key": "row-3-10-7"
         },
         {
             "name": "Israel 8.X (Ground Vehicles)",
             "region": "Israel Ground",
             "category": ["Israel", "Ground Vehicles"],
-            "requires": "|BR8| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |Tank Destroyer| OR |SPAA|)))",
+            "requires": "|BR8| AND (|Need Medium Tank| OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-10-8"
         },
         {
             "name": "Israel 9.X (Ground Vehicles)",
             "region": "Israel Ground",
             "category": ["Israel", "Ground Vehicles"],
-            "requires": "|BR9| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
+            "requires": "|BR9| AND (|Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-10-9"
         },
         {
             "name": "Israel 10.X (Ground Vehicles)",
             "region": "Israel Ground",
             "category": ["Israel", "Ground Vehicles"],
-            "requires": "|BR10| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank|)))",
+            "requires": "|BR10| AND |Need Medium Tank|",
             "sort-key": "row-3-10-10"
         },
         {
             "name": "Israel 11.X (Ground Vehicles)",
             "region": "Israel Ground",
             "category": ["Israel", "Ground Vehicles"],
-            "requires": "|BR11| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Light Tank| OR |Medium Tank|)))",
+            "requires": "|BR11| AND (|Need Light Tank| OR |Need Medium Tank|)",
             "sort-key": "row-3-10-11"
         },
         {
             "name": "Israel 12.X (Ground Vehicles)",
             "region": "Israel Ground",
             "category": ["Israel", "Ground Vehicles"],
-            "requires": "|BR12| AND ({YamlDisabled(complex_vehicles)} OR ({YamlEnabled(complex_vehicles)} AND (|Medium Tank| OR |SPAA|)))",
+            "requires": "|BR12| AND (|Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-10-12"
         },
 
 
         {
-            "name": "USA 1.X (Bluewater Fleet)",
-            "region": "USA Bluewater",
-            "category": ["USA", "Bluewater Fleet"],
-            "requires": "|BR1|",
-            "sort-key": "row-3-10-1"
-        },
-        {
-            "name": "USA 2.X (Bluewater Fleet)",
-            "region": "USA Bluewater",
-            "category": ["USA", "Bluewater Fleet"],
-            "requires": "|BR2|",
-            "sort-key": "row-3-10-2"
-        },
-        {
             "name": "USA 3.X (Bluewater Fleet)",
             "region": "USA Bluewater",
             "category": ["USA", "Bluewater Fleet"],
-            "requires": "|BR3|",
-            "sort-key": "row-3-10-3"
+            "requires": "|BR3| AND |Need Destroyer|",
+            "sort-key": "row-4-1-3"
         },
         {
             "name": "USA 4.X (Bluewater Fleet)",
             "region": "USA Bluewater",
             "category": ["USA", "Bluewater Fleet"],
-            "requires": "|BR4|",
-            "sort-key": "row-3-10-4"
+            "requires": "|BR4| AND |Need Destroyer|",
+            "sort-key": "row-4-1-4"
+        },
+        {
+            "name": "USA 5.X (Bluewater Fleet)",
+            "region": "USA Bluewater",
+            "category": ["USA", "Bluewater Fleet"],
+            "requires": "|BR5| AND (|Need Light Cruiser| OR |Need Heavy Cruiser|)",
+            "sort-key": "row-4-1-5"
+        },
+        {
+            "name": "USA 6.X (Bluewater Fleet)",
+            "region": "USA Bluewater",
+            "category": ["USA", "Bluewater Fleet"],
+            "requires": "|BR6| AND (|Need Light Cruiser| OR |Need Heavy Cruiser| OR |Need Battleship|)",
+            "sort-key": "row-4-1-6"
+        },
+        {
+            "name": "USA 7.X (Bluewater Fleet)",
+            "region": "USA Bluewater",
+            "category": ["USA", "Bluewater Fleet"],
+            "requires": "|BR7| AND (|Need Battleship| OR |Need Battlecruiser|)",
+            "sort-key": "row-4-1-7"
+        },
+        {
+            "name": "USA 8.X (Bluewater Fleet)",
+            "region": "USA Bluewater",
+            "category": ["USA", "Bluewater Fleet"],
+            "requires": "|BR8| AND |Need Battleship|",
+            "sort-key": "row-4-1-8"
+        },
+
+        {
+            "name": "Germany 3.X (Bluewater Fleet)",
+            "region": "Germany Bluewater",
+            "category": ["Germany", "Bluewater Fleet"],
+            "requires": "|BR3| AND |Need Destroyer|",
+            "sort-key": "row-4-2-3"
+        },
+        {
+            "name": "Germany 4.X (Bluewater Fleet)",
+            "region": "Germany Bluewater",
+            "category": ["Germany", "Bluewater Fleet"],
+            "requires": "|BR4| AND (|Need Destroyer| OR |Need Light Cruiser|)",
+            "sort-key": "row-4-2-4"
+        },
+        {
+            "name": "Germany 5.X (Bluewater Fleet)",
+            "region": "Germany Bluewater",
+            "category": ["Germany", "Bluewater Fleet"],
+            "requires": "|BR5| AND (|Need Destroyer| OR |Need Light Cruiser| OR ({YamlEnabled(include_premium)} AND |Need Heavy Cruiser|))",
+            "sort-key": "row-4-2-5"
+        },
+        {
+            "name": "Germany 6.X (Bluewater Fleet)",
+            "region": "Germany Bluewater",
+            "category": ["Germany", "Bluewater Fleet"],
+            "requires": "|BR6| AND (|Need Heavy Cruiser| OR |Need Battleship| OR |Need Battlecruiser|)",
+            "sort-key": "row-4-2-6"
+        },
+        {
+            "name": "Germany 7.X (Bluewater Fleet)",
+            "region": "Germany Bluewater",
+            "category": ["Germany", "Bluewater Fleet"],
+            "requires": "|BR7| AND (|Need Battleship| OR |Need Battlecruiser|)",
+            "sort-key": "row-4-2-7"
+        },
+        {
+            "name": "Germany 8.X (Bluewater Fleet)",
+            "region": "Germany Bluewater",
+            "category": ["Germany", "Bluewater Fleet"],
+            "requires": "|BR8| AND |Need Battleship|",
+            "sort-key": "row-4-2-8"
+        },
+
+        {
+            "name": "USSR 3.X (Bluewater Fleet)",
+            "region": "USSR Bluewater",
+            "category": ["USSR", "Bluewater Fleet"],
+            "requires": "|BR3| AND |Need Destroyer|",
+            "sort-key": "row-4-3-3"
+        },
+        {
+            "name": "USSR 4.X (Bluewater Fleet)",
+            "region": "USSR Bluewater",
+            "category": ["USSR", "Bluewater Fleet"],
+            "requires": "|BR4| AND |Need Destroyer|",
+            "sort-key": "row-4-3-4"
+        },
+        {
+            "name": "USSR 5.X (Bluewater Fleet)",
+            "region": "USSR Bluewater",
+            "category": ["USSR", "Bluewater Fleet"],
+            "requires": "|BR5| AND (|Need Destroyer| OR |Need Light Cruiser| OR |Need Light Cruiser|)",
+            "sort-key": "row-4-3-5"
+        },
+        {
+            "name": "USSR 6.X (Bluewater Fleet)",
+            "region": "USSR Bluewater",
+            "category": ["USSR", "Bluewater Fleet"],
+            "requires": "|BR6| AND (|Need Light Cruiser| OR |Need Battleship|)",
+            "sort-key": "row-4-3-6"
+        },
+        {
+            "name": "USSR 7.X (Bluewater Fleet)",
+            "region": "USSR Bluewater",
+            "category": ["USSR", "Bluewater Fleet"],
+            "requires": "|BR7| AND (|Need Battleship| OR |Need Battlecruiser|)",
+            "sort-key": "row-4-3-7"
+        },
+        {
+            "name": "USSR 8.X (Bluewater Fleet)",
+            "region": "USSR Bluewater",
+            "category": ["USSR", "Bluewater Fleet"],
+            "requires": "|BR8| AND |Need Battleship|",
+            "sort-key": "row-4-3-8"
+        },
+
+        {
+            "name": "Great Britain 3.X (Bluewater Fleet)",
+            "region": "Great Britain Bluewater",
+            "category": ["Great Britain", "Bluewater Fleet"],
+            "requires": "|BR3| AND |Need Destroyer|",
+            "sort-key": "row-4-4-3"
+        },
+        {
+            "name": "Great Britain 4.X (Bluewater Fleet)",
+            "region": "Great Britain Bluewater",
+            "category": ["Great Britain", "Bluewater Fleet"],
+            "requires": "|BR4| AND (|Need Destroyer| OR |Need Light Cruiser|)",
+            "sort-key": "row-4-4-4"
+        },
+        {
+            "name": "Great Britain 5.X (Bluewater Fleet)",
+            "region": "Great Britain Bluewater",
+            "category": ["Great Britain", "Bluewater Fleet"],
+            "requires": "|BR5| AND (|Need Destroyer| OR |Need Light Cruiser| OR |Need Heavy Cruiser| OR |Need Battlecruiser|)",
+            "sort-key": "row-4-4-5"
+        },
+        {
+            "name": "Great Britain 6.X (Bluewater Fleet)",
+            "region": "Great Britain Bluewater",
+            "category": ["Great Britain", "Bluewater Fleet"],
+            "requires": "|BR6| AND (|Need Light Cruiser| OR |Need Battleship| OR |Need Battlecruiser|)",
+            "sort-key": "row-4-4-6"
+        },
+        {
+            "name": "Great Britain 7.X (Bluewater Fleet)",
+            "region": "Great Britain Bluewater",
+            "category": ["Great Britain", "Bluewater Fleet"],
+            "requires": "|BR7| AND (|Need Battleship| OR |Need Battlecruiser|)",
+            "sort-key": "row-4-4-7"
+        },
+        {
+            "name": "Great Britain 8.X (Bluewater Fleet)",
+            "region": "Great Britain Bluewater",
+            "category": ["Great Britain", "Bluewater Fleet"],
+            "requires": "|BR8| AND |Need Battleship|",
+            "sort-key": "row-4-4-8"
+        },
+
+        {
+            "name": "Japan 3.X (Bluewater Fleet)",
+            "region": "Japan Bluewater",
+            "category": ["Japan", "Bluewater Fleet"],
+            "requires": "|BR3| AND |Need Destroyer|",
+            "sort-key": "row-4-5-3"
+        },
+        {
+            "name": "Japan 4.X (Bluewater Fleet)",
+            "region": "Japan Bluewater",
+            "category": ["Japan", "Bluewater Fleet"],
+            "requires": "|BR4| AND (|Need Destroyer| OR |Need Light Cruiser|)",
+            "sort-key": "row-4-5-4"
+        },
+        {
+            "name": "Japan 5.X (Bluewater Fleet)",
+            "region": "Japan Bluewater",
+            "category": ["Japan", "Bluewater Fleet"],
+            "requires": "|BR5| AND (|Need Destroyer| OR |Need Light Cruiser| OR |Need Heavy Cruiser| OR |Need Battlecruiser|)",
+            "sort-key": "row-4-5-5"
+        },
+        {
+            "name": "Japan 6.X (Bluewater Fleet)",
+            "region": "Japan Bluewater",
+            "category": ["Japan", "Bluewater Fleet"],
+            "requires": "|BR6| AND (|Need Light Cruiser| OR |Need Heavy Cruiser| OR |Need Battleship| OR |Need Battlecruiser|)",
+            "sort-key": "row-4-5-6"
+        },
+        {
+            "name": "Japan 7.X (Bluewater Fleet)",
+            "region": "Japan Bluewater",
+            "category": ["Japan", "Bluewater Fleet"],
+            "requires": "|BR7| AND |Need Battleship|",
+            "sort-key": "row-4-5-7"
+        },
+        {
+            "name": "Japan 8.X (Bluewater Fleet)",
+            "region": "Japan Bluewater",
+            "category": ["Japan", "Bluewater Fleet"],
+            "requires": "|BR8| AND (|Need Battleship| OR |Need Battlecruiser|)",
+            "sort-key": "row-4-5-8"
+        },
+
+        {
+            "name": "Italy 3.X (Bluewater Fleet)",
+            "region": "Italy Bluewater",
+            "category": ["Italy", "Bluewater Fleet"],
+            "requires": "|BR3| AND |Need Destroyer|",
+            "sort-key": "row-4-7-3"
+        },
+        {
+            "name": "Italy 4.X (Bluewater Fleet)",
+            "region": "Italy Bluewater",
+            "category": ["Italy", "Bluewater Fleet"],
+            "requires": "|BR4| AND (|Need Destroyer| OR |Need Light Cruiser|)",
+            "sort-key": "row-4-7-4"
+        },
+        {
+            "name": "Italy 5.X (Bluewater Fleet)",
+            "region": "Italy Bluewater",
+            "category": ["Italy", "Bluewater Fleet"],
+            "requires": "|BR5| AND (|Need Light Cruiser| OR |Need Heavy Cruiser|)",
+            "sort-key": "row-4-7-5"
+        },
+        {
+            "name": "Italy 6.X (Bluewater Fleet)",
+            "region": "Italy Bluewater",
+            "category": ["Italy", "Bluewater Fleet"],
+            "requires": "|BR6| AND (|Need Heavy Cruiser| OR |Need Battleship|)",
+            "sort-key": "row-4-7-6"
+        },
+        {
+            "name": "Italy 7.X (Bluewater Fleet)",
+            "region": "Italy Bluewater",
+            "category": ["Italy", "Bluewater Fleet"],
+            "requires": "|BR7| AND |Need Battleship|",
+            "sort-key": "row-4-7-7"
+        },
+        {
+            "name": "Italy 8.X (Bluewater Fleet)",
+            "region": "Italy Bluewater",
+            "category": ["Italy", "Bluewater Fleet"],
+            "requires": "|BR8| AND |Need Battleship|",
+            "sort-key": "row-4-7-8"
+        },
+
+        {
+            "name": "France 3.X (Bluewater Fleet)",
+            "region": "France Bluewater",
+            "category": ["France", "Bluewater Fleet"],
+            "requires": "|BR3| AND |Need Destroyer|",
+            "sort-key": "row-4-8-3"
+        },
+        {
+            "name": "France 4.X (Bluewater Fleet)",
+            "region": "France Bluewater",
+            "category": ["France", "Bluewater Fleet"],
+            "requires": "|BR4| AND (|Need Destroyer| OR |Need Light Cruiser|)",
+            "sort-key": "row-4-8-4"
+        },
+        {
+            "name": "France 5.X (Bluewater Fleet)",
+            "region": "France Bluewater",
+            "category": ["France", "Bluewater Fleet"],
+            "requires": "|BR5| AND (|Need Light Cruiser| OR |Need Heavy Cruiser|)",
+            "sort-key": "row-4-8-5"
+        },
+        {
+            "name": "France 6.X (Bluewater Fleet)",
+            "region": "France Bluewater",
+            "category": ["France", "Bluewater Fleet"],
+            "requires": "|BR6| AND |Need Battleship|",
+            "sort-key": "row-4-8-6"
+        },
+        {
+            "name": "France 7.X (Bluewater Fleet)",
+            "region": "France Bluewater",
+            "category": ["France", "Bluewater Fleet"],
+            "requires": "|BR7| AND |Need Battleship|",
+            "sort-key": "row-4-8-7"
+        },
+        {
+            "name": "France 8.X (Bluewater Fleet)",
+            "region": "France Bluewater",
+            "category": ["France", "Bluewater Fleet"],
+            "requires": "|BR8| AND |Need Battleship|",
+            "sort-key": "row-4-8-8"
         },
 
 
@@ -2221,29 +2479,203 @@
             "name": "USA 1.X (Coastal Fleet)",
             "region": "USA Coast",
             "category": ["USA", "Coastal Fleet"],
-            "requires": "|BR1|",
-            "sort-key": "row-3-10-1"
+            "requires": "|BR1| AND |Need Boat|",
+            "sort-key": "row-5-1-1"
         },
         {
             "name": "USA 2.X (Coastal Fleet)",
             "region": "USA Coast",
             "category": ["USA", "Coastal Fleet"],
-            "requires": "|BR2|",
-            "sort-key": "row-3-10-2"
+            "requires": "|BR2| AND (|Need Boat| OR |Need Heavy Boat|)",
+            "sort-key": "row-5-1-2"
         },
         {
             "name": "USA 3.X (Coastal Fleet)",
             "region": "USA Coast",
             "category": ["USA", "Coastal Fleet"],
-            "requires": "|BR3|",
-            "sort-key": "row-3-10-3"
+            "requires": "|BR3| AND (|Need Boat| OR |Need Heavy Boat| OR |Need Frigate|)",
+            "sort-key": "row-5-1-3"
         },
         {
             "name": "USA 4.X (Coastal Fleet)",
             "region": "USA Coast",
             "category": ["USA", "Coastal Fleet"],
-            "requires": "|BR4|",
-            "sort-key": "row-3-10-4"
+            "requires": "|BR4| AND (({YamlEnabled(include_premium)} AND |Need Heavy Boat|) OR |Need Frigate|)",
+            "sort-key": "row-5-1-4"
+        },
+
+        {
+            "name": "Germany 1.X (Coastal Fleet)",
+            "region": "Germany Coast",
+            "category": ["Germany", "Coastal Fleet"],
+            "requires": "|BR1| AND |Need Boat|",
+            "sort-key": "row-5-2-1"
+        },
+        {
+            "name": "Germany 2.X (Coastal Fleet)",
+            "region": "Germany Coast",
+            "category": ["Germany", "Coastal Fleet"],
+            "requires": "|BR2| AND (|Need Boat| OR |Need Barge|)",
+            "sort-key": "row-5-2-2"
+        },
+        {
+            "name": "Germany 3.X (Coastal Fleet)",
+            "region": "Germany Coast",
+            "category": ["Germany", "Coastal Fleet"],
+            "requires": "|BR3| AND (|Need Boat| OR |Need Heavy Boat| OR |Need Barge|)",
+            "sort-key": "row-5-2-3"
+        },
+        {
+            "name": "Germany 4.X (Coastal Fleet)",
+            "region": "Germany Coast",
+            "category": ["Germany", "Coastal Fleet"],
+            "requires": "|BR4| AND (|Need Boat| OR |Need Heavy Boat| OR |Need Frigate|)",
+            "sort-key": "row-5-2-4"
+        },
+
+        {
+            "name": "USSR 1.X (Coastal Fleet)",
+            "region": "USSR Coast",
+            "category": ["USSR", "Coastal Fleet"],
+            "requires": "|BR1| AND |Need Boat|",
+            "sort-key": "row-5-3-1"
+        },
+        {
+            "name": "USSR 2.X (Coastal Fleet)",
+            "region": "USSR Coast",
+            "category": ["USSR", "Coastal Fleet"],
+            "requires": "|BR2| AND (|Need Boat| OR |Need Heavy Boat|)",
+            "sort-key": "row-5-3-2"
+        },
+        {
+            "name": "USSR 3.X (Coastal Fleet)",
+            "region": "USSR Coast",
+            "category": ["USSR", "Coastal Fleet"],
+            "requires": "|BR3| AND (|Need Boat| OR |Need Heavy Boat| OR |Need Frigate|)",
+            "sort-key": "row-5-3-3"
+        },
+        {
+            "name": "USSR 4.X (Coastal Fleet)",
+            "region": "USSR Coast",
+            "category": ["USSR", "Coastal Fleet"],
+            "requires": "|BR4| AND (|Need Heavy Boat| OR |Need Frigate|)",
+            "sort-key": "row-5-3-4"
+        },
+
+        {
+            "name": "Great Britain 1.X (Coastal Fleet)",
+            "region": "Great Britain Coast",
+            "category": ["Great Britain", "Coastal Fleet"],
+            "requires": "|BR1| AND |Need Boat|",
+            "sort-key": "row-5-4-1"
+        },
+        {
+            "name": "Great Britain 2.X (Coastal Fleet)",
+            "region": "Great Britain Coast",
+            "category": ["USA", "Coastal Fleet"],
+            "requires": "|BR2| AND (|Need Boat| OR |Need Heavy Boat|)",
+            "sort-key": "row-5-4-2"
+        },
+        {
+            "name": "Great Britain 3.X (Coastal Fleet)",
+            "region": "Great Britain Coast",
+            "category": ["Great Britain", "Coastal Fleet"],
+            "requires": "|BR3| AND (|Need Boat| OR |Need Heavy Boat| OR |Need Frigate|)",
+            "sort-key": "row-5-4-3"
+        },
+        {
+            "name": "Great Britain 4.X (Coastal Fleet)",
+            "region": "Great Britain Coast",
+            "category": ["Great Britain", "Coastal Fleet"],
+            "requires": "|BR4| AND (|Need Heavy Boat| OR |Need Frigate|)",
+            "sort-key": "row-5-4-4"
+        },
+
+        {
+            "name": "Japan 1.X (Coastal Fleet)",
+            "region": "Japan Coast",
+            "category": ["Japan", "Coastal Fleet"],
+            "requires": "|BR1| AND (|Need Boat| OR |Need Heavy Boat|)",
+            "sort-key": "row-5-5-1"
+        },
+        {
+            "name": "Japan 2.X (Coastal Fleet)",
+            "region": "Japan Coast",
+            "category": ["Japan", "Coastal Fleet"],
+            "requires": "|BR2| AND (|Need Boat| OR |Need Heavy Boat|)",
+            "sort-key": "row-5-5-2"
+        },
+        {
+            "name": "Japan 3.X (Coastal Fleet)",
+            "region": "Japan Coast",
+            "category": ["Japan", "Coastal Fleet"],
+            "requires": "|BR3| AND (|Need Boat| OR |Need Heavy Boat| OR |Need Frigate|)",
+            "sort-key": "row-5-5-3"
+        },
+        {
+            "name": "Japan 4.X (Coastal Fleet)",
+            "region": "Japan Coast",
+            "category": ["Japan", "Coastal Fleet"],
+            "requires": "|BR4| AND |Need Frigate|",
+            "sort-key": "row-5-5-4"
+        },
+
+        {
+            "name": "USA 1.X (Coastal Fleet)",
+            "region": "USA Coast",
+            "category": ["USA", "Coastal Fleet"],
+            "requires": "|BR1| AND |Need Boat|",
+            "sort-key": "row-5-7-1"
+        },
+        {
+            "name": "USA 2.X (Coastal Fleet)",
+            "region": "USA Coast",
+            "category": ["USA", "Coastal Fleet"],
+            "requires": "|BR2| AND (|Need Boat|)",
+            "sort-key": "row-5-7-2"
+        },
+        {
+            "name": "USA 3.X (Coastal Fleet)",
+            "region": "USA Coast",
+            "category": ["USA", "Coastal Fleet"],
+            "requires": "|BR3| AND (|Need Boat| OR |Need Heavy Boat| OR |Need Frigate|)",
+            "sort-key": "row-5-7-3"
+        },
+        {
+            "name": "USA 4.X (Coastal Fleet)",
+            "region": "USA Coast",
+            "category": ["USA", "Coastal Fleet"],
+            "requires": "|BR4| AND ({YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)} AND (|Need Boat|) OR |Need Heavy Boat| OR |Need Frigate|)",
+            "sort-key": "row-5-7-4"
+        },
+
+        {
+            "name": "France 1.X (Coastal Fleet)",
+            "region": "France Coast",
+            "category": ["France", "Coastal Fleet"],
+            "requires": "|BR1| AND |Need Boat|",
+            "sort-key": "row-5-8-1"
+        },
+        {
+            "name": "France 2.X (Coastal Fleet)",
+            "region": "France Coast",
+            "category": ["France", "Coastal Fleet"],
+            "requires": "|BR2| AND (|Need Boat| OR |Need Heavy Boat|",
+            "sort-key": "row-5-8-2"
+        },
+        {
+            "name": "France 3.X (Coastal Fleet)",
+            "region": "France Coast",
+            "category": ["France", "Coastal Fleet"],
+            "requires": "|BR3| AND (|Need Boat| OR |Need Heavy Boat| OR |Need Frigate|)",
+            "sort-key": "row-5-8-3"
+        },
+        {
+            "name": "France 4.X (Coastal Fleet)",
+            "region": "France Coast",
+            "category": ["France", "Coastal Fleet"],
+            "requires": "|BR4| AND |Need Frigate|",
+            "sort-key": "row-5-8-4"
         },
 
 

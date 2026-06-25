@@ -69,9 +69,7 @@
         "connects_to": [
             "China Aviation",
             "China Helicopter",
-            "China Ground",
-            "China Bluewater",
-            "China Coast"
+            "China Ground"
         ],
         "requires": "|China| AND {YamlDisabled(exclude_china)}"
     },
@@ -99,9 +97,7 @@
         "connects_to": [
             "Sweden Aviation",
             "Sweden Helicopter",
-            "Sweden Ground",
-            "Sweden Bluewater",
-            "Sweden Coast"
+            "Sweden Ground"
         ],
         "requires": "|Sweden| AND {YamlDisabled(exclude_sweden)}"
     },

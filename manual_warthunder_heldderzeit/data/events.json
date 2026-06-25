@@ -89,7 +89,7 @@
         },
         {
             "name": "Has Helicopter",
-            "requires": "(|Ground Vehicles| AND {YamlDisabled(complex_vehicles)})OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|))",
+            "requires": "(|Ground Vehicles| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND (|Attack Helicopter| OR |Utility Helicopter|))",
             "visible": false
         },
         {
@@ -121,6 +121,102 @@
         {
             "name": "Has Every Nation",
             "requires": "(|USA| OR {YamlEnabled(exclude_usa)}) AND (|Germany| OR {YamlEnabled(exclude_germany)}) AND (|USSR| OR {YamlEnabled(exclude_ussr)}) AND (|Great Britain| OR {YamlEnabled(exclude_brits)}) AND (|Japan| OR {YamlEnabled(exclude_japan)}) AND (|China| OR {YamlEnabled(exclude_china)}) AND (|Italy| OR {YamlEnabled(exclude_italy)}) AND (|France| OR {YamlEnabled(exclude_france)}) AND (|Sweden| OR {YamlEnabled(exclude_sweden)}) AND (|Israel| OR {YamlEnabled(exclude_israel)})",
+            "visible": false
+        },
+
+        {
+            "name": "Need Fighter",
+            "requires": "(|Aviation| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_fighter)} AND |Fighter|)",
+            "visible": false
+        },
+        {
+            "name": "Need Bomber",
+            "requires": "(|Aviation| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_barge)} AND |Bomber|)",
+            "visible": false
+        },
+        {
+            "name": "Need Strike Aircraft",
+            "requires": "(|Aviation| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_barge)} AND |Strike Aircraft|)",
+            "visible": false
+        },
+        {
+            "name": "Need Attack Helicoper",
+            "requires": "(|Ground Vehicles| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_heli_attack)} AND |Attack Helicopter|)",
+            "visible": false
+        },
+        {
+            "name": "Need Utility Helicopter",
+            "requires": "(|Ground Vehicles| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_heli_util)} AND |Utility Helicopter|)",
+            "visible": false
+        },
+        {
+            "name": "Need Light Tank",
+            "requires": "(|Ground Vehicles| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_tank_l)} AND |Light Tank|)",
+            "visible": false
+        },
+        {
+            "name": "Need Medium Tank",
+            "requires": "(|Ground Vehicles| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_tank_m)} AND |Medium Tank|)",
+            "visible": false
+        },
+        {
+            "name": "Need Heavy Tank",
+            "requires": "(|Ground Vehicles| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_tank_h)} AND |Heavy Tank|)",
+            "visible": false
+        },
+        {
+            "name": "Need Tank Destroyer",
+            "requires": "(|Ground Vehicles| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_tank_destroyer)} AND |Tank Destroyer|)",
+            "visible": false
+        },
+        {
+            "name": "Need SPAA",
+            "requires": "(|Ground Vehicles| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_spaa)} AND |SPAA|)",
+            "visible": false
+        },
+        {
+            "name": "Need Light Cruiser",
+            "requires": "(|Bluewater Fleet| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_cruiser_l)} AND |Light Cruiser|)",
+            "visible": false
+        },
+        {
+            "name": "Need Heavy Cruiser",
+            "requires": "(|Bluewater Fleet| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_cruiser_h)} AND |Heavy Cruiser|)",
+            "visible": false
+        },
+        {
+            "name": "Need Battlecruiser",
+            "requires": "(|Bluewater Fleet| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_cruiser_battle)} AND |Battlecruiser|)",
+            "visible": false
+        },
+        {
+            "name": "Need Battleship",
+            "requires": "(|Bluewater Fleet| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_battleship)} AND |Battleship|)",
+            "visible": false
+        },
+        {
+            "name": "Need Destroyer",
+            "requires": "(|Bluewater Fleet| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_ship_destryoer)} AND |Destroyer|)",
+            "visible": false
+        },
+        {
+            "name": "Need Frigate",
+            "requires": "(|Coastal Fleet| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_frigate)} AND |Frigate|)",
+            "visible": false
+        },
+        {
+            "name": "Need Boat",
+            "requires": "(|Coastal Fleet| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_boat)} AND |Boat|)",
+            "visible": false
+        },
+        {
+            "name": "Need Heavy Boat",
+            "requires": "(|Coastal Fleet| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_boat_h)} AND |Heavy Boat|)",
+            "visible": false
+        },
+        {
+            "name": "Need Barge",
+            "requires": "(|Coastal Fleet| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_barge)} AND |Barge|)",
             "visible": false
         }
     ]
