@@ -14,13 +14,14 @@ As a single round lasts around 30 minutes, this is best experienced in an Async.
 # Current Features
 - Unlockbale Progressive and separate BR (Battle Rating)
 - Unlockable and excludable Nations
-- Unlockable and excludable Vehicles (Currently only Aviationa nd Ground Targets)
+- Unlockable and excludable Vehicles
 - Multiple Goals (Kill on every BR, with every Nation)
 - Logic inclusion for Premium and Old Vehicles
   - Old Vehicles mean those that are (currently) no longer availbale
 - Ability to swtich between simple and complex Vehicle Types
   - E.g.: Instead of "Aviation"
 - Partial Implementation for Unlockable Upgrades (Very WIP - Currently Aviation Only)
+- Extra Missions for (almost) every Vehicle
 
 # Restrictions & Rules
 1. You are only allowed to play with those Vehicles and Nations on the BRs, that you have unlocked.
