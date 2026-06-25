@@ -249,9 +249,8 @@
             "group": "Vehicle Options"
         },
         "exclude_helis":{
-            "display_name": "Exclude Helicopter - WIP",
+            "display_name": "Exclude Helicopter",
             "description": [
-                "WIP - KEEP IT OFF",
                 "Turn on, if you don't want to play Exclude Helicopter with any Nation."
             ],
             "type": "Toggle",
@@ -280,9 +279,8 @@
             "group": "Vehicle Options"
         },
         "exclude_bluefleet":{
-            "display_name": "Exclude Bluewater Fleet - WIP",
+            "display_name": "Exclude Bluewater Fleet",
             "description": [
-                "WIP - KEEP IT OFF",
                 "Turn on, if you don't want to play Bluewater Fleet with any Nation."
             ],
             "type": "Toggle",
@@ -296,9 +294,8 @@
             "group": "Vehicle Options"
         },
         "exclude_coastals":{
-            "display_name": "Exclude Coastal Fleet - WIP",
+            "display_name": "Exclude Coastal Fleet",
             "description": [
-                "WIP - KEEP IT OFF",
                 "Turn on, if you don't want to play Coastal Fleet with any Nation."
             ],
             "type": "Toggle",
