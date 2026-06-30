@@ -21,6 +21,35 @@ from typing import Type, Any
 # Then, to see if the option is set, you can call is_option_enabled or get_option_value.
 #####################################################################
 
+class ExcludedNations(OptionList):
+    """List of Countries/Nations that you don't want to play with.
+    Allowed values: USA, Germany, USSR, Great Britain, Japan, China, France, Italy, Sweden, Israel
+    """
+    display_name = "Excluded Nations"
+
+class ExcludedVehicles(OptionList):
+    """List of Countries/Nations that you don't want to play with.
+    Allowed values: Aviation, Helicopters, Ground Targets, Bluefleet, Coastal Fleet
+    """
+    display_name = "Excluded Vehicle Types"
+
+class ExcludedVehiclesComplex(OptionList):
+    """List of Vehicle Game Roles that you don't want to play with. If "Excluded Vehicle Types" has entries, then the respective Game Roles will already be excluded.
+    Excluding Roles like "Fighter" or "Medium Tank" will greatly shrink the possible amount of checks!
+    Allowed values:
+    - Aviation: Fighter, Bomber, Strike Aircraft
+    - Helicopters: Attack Helicopter, Utility Helicopter
+    - Ground Targets: Light Tank, Medium Tank, Heavy Tank, Tank Destroyer, SPAA
+    - Bluefleet: Light Cruiser, Heavy Cruiser, Battlecruiser, Battleship
+    - Coastal Fleet: Destroyer, Frigate, Boat, Heavy Boat, Barge
+    """
+    display_name = "Excluded Game Roles"
+
+class ExcludedBR(OptionList):
+    """List of Battle Ratings that you don't want to play with. This can lessen the pool greatly and is to be used with consideration!
+    Allowed Range: 1.X - 14.X
+    """
+    display_name = "Excluded Battle Ratings"
 
 # To add an option, use the before_options_defined hook below and something like this:
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
@@ -29,6 +58,12 @@ from typing import Type, Any
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
 	#   options["total_characters_to_win_with"] = TotalCharactersToWinWith
+
+    options["excluded_nations"] = ExcludedNations
+    options["excluded_vehicles"] = ExcludedVehicles
+    options["excluded_complex_vehicles"] = ExcludedVehiclesComplex
+    options["excluded_br"] = ExcludedBR
+
 	return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
@@ -47,11 +82,6 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
 	
-	#groups["Gameplay Options"] = [Stagesanity] # NOT YET IMPLEMENTED
-	
-	#groups["Randomization Options"] = [ShopShuffle, ShopSellUnlockShuffle, FishTrade]
-	
-	#groups["Randomization Options"] = [Fishsanity] # NOT YET IMPLEMENTED
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:

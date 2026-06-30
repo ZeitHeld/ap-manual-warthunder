@@ -35,6 +35,15 @@ import logging
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
+
+    # possible_filler_names = [
+    #     i['name'] for i in world.item_name_to_item.values()
+    #         if i.get('filler', False) == True
+    # ]
+
+    # # pick one of the fillers at random and send it back
+    # return world.random.choice(possible_filler_names)
+
     return False
 
 def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> None:
@@ -46,6 +55,28 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
+
+    excluded_nations = world.options.excluded_nations.value
+
+    location_names_to_remove = []
+
+    removable_nations = [
+        nation for nation in excluded_nations
+    ]
+
+    for nation in removable_nations:
+        location_names_to_remove.extend([
+            location for location, loc in world.location_name_to_location.items()
+                if location in loc.get('category', [])
+        ])
+    
+    # similar for BR but with category not region
+
+    for region in multiworld.get_regions(player):
+        for location in region.get_locations():
+            if location.name in location_names_to_remove:
+                region.locations.remove(location)
+
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
@@ -85,6 +116,8 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
+
+    # ADD IN START ITEMS
 
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
