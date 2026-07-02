@@ -22,7 +22,7 @@
         }
     },
     "user": {
-        "goal":{
+        "_goal":{
             "display_name": "Goal",
             "_type": "Choice",
             "_description": [
