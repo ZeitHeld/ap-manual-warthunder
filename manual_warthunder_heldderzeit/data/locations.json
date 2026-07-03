@@ -2682,28 +2682,28 @@
 
         {
             "name": "Get 1 Assist (Aviation)",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-10-1-1"
         },
         {
             "name": "Get 3 Assists (Aviation)",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-10-1-3"
         },
         {
             "name": "Get 5 Assists (Aviation)",
-            "region": "Hangar",
+            "region": "Difficult Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-10-1-5"
         },
         {
             "name": "Get 10 Assists (Aviation)",
-            "region": "Hangar",
+            "region": "Difficult Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-10-1-10"
@@ -2711,28 +2711,28 @@
         
         {
             "name": "Get 1 Assist (Ground Vehicles)",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission", "Ground Vehicles"],
             "requires": "|Any BR| AND |Has Tank|",
             "sort-key": "row-10-2-1"
         },
         {
             "name": "Get 3 Assists (Ground Vehicles)",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission", "Ground Vehicles"],
             "requires": "|Any BR| AND |Has Tank|",
             "sort-key": "row-10-2-3"
         },
         {
             "name": "Get 5 Assists (Ground Vehicles)",
-            "region": "Hangar",
+            "region": "Difficult Mission",
             "category": ["Mission", "Ground Vehicles"],
             "requires": "|Any BR| AND |Has Tank|",
             "sort-key": "row-10-2-5"
         },
         {
             "name": "Get 10 Assists (Ground Vehicles)",
-            "region": "Hangar",
+            "region": "Difficult Mission",
             "category": ["Mission", "Ground Vehicles"],
             "requires": "|Any BR| AND |Has Tank|",
             "sort-key": "row-10-2-10"
@@ -2741,79 +2741,149 @@
 
         {
             "name": "Defeat 5 Ground Targets (Aviation)",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-1-5"
         },
         {
             "name": "Defeat 10 Ground Targets (Aviation)",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-1-10"
         },
         {
             "name": "Defeat 15 Ground Targets (Aviation)",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-1-15"
         },
         {
             "name": "Defeat 20 Ground Targets (Aviation)",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-1-20"
         },
+        {
+            "name": "Defeat 25 Ground Targets (Aviation)",
+            "region": "Difficult Mission",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-1-25"
+        },
+        {
+            "name": "Defeat 30 Ground Targets (Aviation)",
+            "region": "Difficult Mission",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-1-30"
+        },
+        {
+            "name": "Defeat 35 Ground Targets (Aviation)",
+            "region": "Difficult Mission",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-1-35"
+        },
+        {
+            "name": "Defeat 40 Ground Targets (Aviation)",
+            "region": "Difficult Mission",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-1-40"
+        },
+        {
+            "name": "Defeat 45 Ground Targets (Aviation)",
+            "region": "Difficult Mission",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-1-45"
+        },
+        {
+            "name": "Defeat 50 Ground Targets (Aviation)",
+            "region": "Difficult Mission",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-1-50"
+        },
 
         {
             "name": "Defeat 1 Regular Water Target (Aviation)",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-2-1"
         },
         {
             "name": "Defeat 5 Regular Water Targets (Aviation)",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-2-5"
         },
         {
             "name": "Defeat 10 Regular Water Targets (Aviation)",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-2-10"
         },
+        {
+            "name": "Defeat 15 Regular Water Targets (Aviation)",
+            "region": "Difficult Mission",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-2-15"
+        },
+        {
+            "name": "Defeat 20 Regular Water Targets (Aviation)",
+            "region": "Difficult Mission",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-2-20"
+        },
+        {
+            "name": "Defeat 25 Regular Water Targets (Aviation)",
+            "region": "Difficult Mission",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-2-25"
+        },
+        {
+            "name": "Defeat 30 Regular Water Targets (Aviation)",
+            "region": "Difficult Mission",
+            "category": ["Mission", "Aviation"],
+            "requires": "|Any BR| AND |Has Plane|",
+            "sort-key": "row-11-2-30"
+        },
 
         {
-            "name": "Defeat 1 Cruiser (Aviation)",
-            "region": "Hangar",
+            "name": "Defeat 1 Carrier (Aviation)",
+            "region": "Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-3-1"
         },
         {
-            "name": "Defeat 2 Cruiser (Aviation)",
-            "region": "Hangar",
+            "name": "Defeat 2 Carrier (Aviation)",
+            "region": "Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-3-2"
         },
         {
-            "name": "Defeat 3 Cruiser (Aviation)",
-            "region": "Hangar",
+            "name": "Defeat 3 Carrier (Aviation)",
+            "region": "Difficult Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-3-3"
         },
         {
-            "name": "Defeat 5 Cruiser (Aviation)",
-            "region": "Hangar",
+            "name": "Defeat 5 Carrier (Aviation)",
+            "region": "Difficult Mission",
             "category": ["Mission", "Aviation"],
             "requires": "|Any BR| AND |Has Plane|",
             "sort-key": "row-11-3-5"
@@ -2821,7 +2891,7 @@
 
         {
             "name": "Repair an Allied Vehicle (Ground Vehicles)",
-            "region": "Hangar",
+            "region": "Difficult Mission",
             "category": ["Mission", "Ground Vehicles"],
             "requires": "|Any BR| AND |Has Tank|",
             "sort-key": "row-15-0-1"
@@ -2829,14 +2899,14 @@
 
         {
             "name": "Defeat 2 Player Targets in one Round",
-            "region": "Hangar",
+            "region": "Difficult Mission",
             "category": ["Mission"],
             "requires": "|Any BR| AND |Has Any Vehicle|",
             "sort-key": "row-20-0-2"
         },
         {
             "name": "Defeat 3 Player Targets in one Round",
-            "region": "Hangar",
+            "region": "Difficult Mission",
             "category": ["Mission"],
             "requires": "|Any BR| AND |Has Any Vehicle|",
             "sort-key": "row-20-0-3"
@@ -2844,7 +2914,7 @@
 
         {
             "name": "Survive a Round without respawn (Ground Vehicles)",
-            "region": "Hangar",
+            "region": "Difficult Mission",
             "category": ["Mission", "Ground Vehicles"],
             "requires": "|Any BR| AND |Has Tank|",
             "sort-key": "row-20-1-1"
@@ -2852,21 +2922,21 @@
 
         {
             "name": "Win 1 Round",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission"],
             "requires": "|Any BR| AND |Has Any Vehicle|",
             "sort-key": "row-50-0-1"
         },
         {
             "name": "Win 3 Rounds",
-            "region": "Hangar",
+            "region": "Mission",
             "category": ["Mission"],
             "requires": "|Any BR| AND |Has Any Vehicle|",
             "sort-key": "row-50-0-3"
         },
         {
             "name": "Win 5 Rounds",
-            "region": "Hangar",
+            "region": "Difficult Mission",
             "category": ["Mission"],
             "requires": "|Any BR| AND |Has Any Vehicle|",
             "sort-key": "row-50-0-5"
@@ -2874,14 +2944,14 @@
         
         {
             "name": "Win 2 Rounds in a row",
-            "region": "Hangar",
+            "region": "Difficult Mission",
             "category": ["Mission"],
             "requires": "|Any BR| AND |Has Any Vehicle|",
             "sort-key": "row-50-1-2"
         },
         {
             "name": "Win 3 Rounds in a row",
-            "region": "Hangar",
+            "region": "Difficult Mission",
             "category": ["Mission"],
             "requires": "|Any BR| AND |Has Any Vehicle|",
             "sort-key": "row-50-1-3"
@@ -2889,7 +2959,7 @@
 
         {
             "name": "Win a Round as Last Man Standing",
-            "region": "Hangar",
+            "region": "Difficult Mission",
             "category": ["Mission"],
             "requires": "|Any BR| AND |Has Any Vehicle|",
             "sort-key": "row-50-3-1"

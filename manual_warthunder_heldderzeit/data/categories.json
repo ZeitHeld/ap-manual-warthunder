@@ -112,6 +112,9 @@
     "Mission": {
         "yaml_option": ["extra_missions"]
     },
+    "Initial Mission Ticket": {
+        "yaml_option": ["initial_mission_ticket"]
+    },
     "Simple Vehicle": {
         "hidden": true,
         "yaml_option": ["!complex_vehicles"]

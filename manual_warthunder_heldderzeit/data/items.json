@@ -501,7 +501,7 @@
             "sort-key": "row-2-14"
         },
         {
-            "name": "New Rumpf (Aviation)",
+            "name": "New Rump (Aviation)",
             "count": 1,
             "category": [
                 "Modification",
@@ -551,7 +551,7 @@
             "sort-key": "row-3-5"
         },
         {
-            "name": "New Triebwerk (Aviation)",
+            "name": "New Engine (Aviation)",
             "count": 1,
             "category": [
                 "Modification",
@@ -561,7 +561,7 @@
             "sort-key": "row-3-6"
         },
         {
-            "name": "New Flugwerk (Aviation)",
+            "name": "New Airframe (Aviation)",
             "count": 1,
             "category": [
                 "Modification",
@@ -571,7 +571,7 @@
             "sort-key": "row-3-7"
         },
         {
-            "name": "New Abdeckung (Aviation)",
+            "name": "New Cover (Aviation)",
             "count": 1,
             "category": [
                 "Modification",
@@ -708,6 +708,26 @@
             ],
             "progression": true,
             "sort-key": "row-5-11"
+        },
+        {
+            "name": "Initial Mission Ticket",
+            "count": 1,
+            "category": [
+                "Ticket",
+                "Mission"
+            ],
+            "progression": true,
+            "sort-key": "row-10-1"
+        },
+        {
+            "name": "Difficult Mission Ticket",
+            "count": 1,
+            "category": [
+                "Ticket",
+                "Mission"
+            ],
+            "progression": true,
+            "sort-key": "row-10-1"
         },
         {
             "name": "Ejection Trap",

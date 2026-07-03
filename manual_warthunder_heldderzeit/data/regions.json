@@ -11,7 +11,9 @@
             "Italy",
             "France",
             "Sweden",
-            "Israel"
+            "Israel",
+            "Mission",
+            "Difficult Mission"
         ],
         "starting": true
     },
@@ -254,5 +256,11 @@
     },
     "Israel Ground": {
         "requires": "|Has Tank|"
+    },
+    "Mission": {
+        "requires": "{YamlDisabled(initial_mission_ticket)} OR (|Mission Ticket| AND {YamlEnabled(initial_mission_ticket)})"
+    },
+    "Difficult Mission": {
+        "requires": "|Difficult Mission Ticket|"
     }
 }

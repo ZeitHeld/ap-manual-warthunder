@@ -149,6 +149,37 @@
             "default": true,
             "group": "General Options"
         },
+        "initial_mission_ticket":{
+            "display_name": "Shuffle Initial Mission Ticket",
+            "description": [
+                "Shuffle the Initial Mission Ticket, which is required for the easier missions."
+            ],
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "General Options"
+        },
+        "_progressive_missions":{
+            "display_name": "Progressive Mission Tickets",
+            "description": [
+                "Requires \"Shuffle Initial Mission Ticket\" to be enabled.",
+                "If enabled, mission tickets will be found in a progressive order."
+            ],
+            "type": "Toggle",
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template",
+                "spoiler"
+            ],
+            "default": false,
+            "group": "General Options"
+        },
         "upgrade_shuffle":{
             "display_name": "Shuffle Upgrades",
             "description": [
