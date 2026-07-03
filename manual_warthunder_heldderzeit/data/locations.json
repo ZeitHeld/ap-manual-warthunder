@@ -641,7 +641,7 @@
             "name": "Italy 6.X (Aviation)",
             "region": "Italy Aviation",
             "category": ["Italy", "Aviation"],
-            "requires": "|BR6| AND (|Need Fighter| OR (| Need Strike Aircraft| AND {YamlEnabled(include_premium)}))",
+            "requires": "|BR6| AND (|Need Fighter| OR (|Need Strike Aircraft| AND {YamlEnabled(include_premium)}))",
             "sort-key": "row-1-7-6"
         },
         {
@@ -2621,31 +2621,31 @@
         },
 
         {
-            "name": "USA 1.X (Coastal Fleet)",
-            "region": "USA Coast",
-            "category": ["USA", "Coastal Fleet"],
+            "name": "Italy 1.X (Coastal Fleet)",
+            "region": "Italy Coast",
+            "category": ["Italy", "Coastal Fleet"],
             "requires": "|BR1| AND |Need Boat|",
             "sort-key": "row-5-7-1"
         },
         {
-            "name": "USA 2.X (Coastal Fleet)",
-            "region": "USA Coast",
-            "category": ["USA", "Coastal Fleet"],
+            "name": "Italy 2.X (Coastal Fleet)",
+            "region": "Italy Coast",
+            "category": ["Italy", "Coastal Fleet"],
             "requires": "|BR2| AND (|Need Boat|)",
             "sort-key": "row-5-7-2"
         },
         {
-            "name": "USA 3.X (Coastal Fleet)",
-            "region": "USA Coast",
-            "category": ["USA", "Coastal Fleet"],
+            "name": "Italy 3.X (Coastal Fleet)",
+            "region": "Italy Coast",
+            "category": ["Italy", "Coastal Fleet"],
             "requires": "|BR3| AND (|Need Boat| OR |Need Heavy Boat| OR |Need Frigate|)",
             "sort-key": "row-5-7-3"
         },
         {
-            "name": "USA 4.X (Coastal Fleet)",
-            "region": "USA Coast",
-            "category": ["USA", "Coastal Fleet"],
-            "requires": "|BR4| AND ({YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)} AND (|Need Boat|) OR |Need Heavy Boat| OR |Need Frigate|)",
+            "name": "Italy 4.X (Coastal Fleet)",
+            "region": "Italy Coast",
+            "category": ["Italy", "Coastal Fleet"],
+            "requires": "|BR4| AND (({YamlEnabled(include_premium)} AND {YamlEnabled(include_old_vehicles)} AND |Need Boat|) OR |Need Heavy Boat| OR |Need Frigate|)",
             "sort-key": "row-5-7-4"
         },
 

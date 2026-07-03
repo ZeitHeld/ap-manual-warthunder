@@ -197,12 +197,6 @@
     "China Ground": {
         "requires": "|Has Tank|"
     },
-    "China Bluewater": {
-        "requires": "|Has Blue Fleet|"
-    },
-    "China Coast": {
-        "requires": "|Has Coast Fleet|"
-    },
     "Italy Aviation": {
         "requires": "|Has Plane|"
     },
@@ -241,12 +235,6 @@
     },
     "Sweden Ground": {
         "requires": "|Has Tank|"
-    },
-    "Sweden Bluewater": {
-        "requires": "|Has Blue Fleet|"
-    },
-    "Sweden Coast": {
-        "requires": "|Has Coast Fleet|"
     },
     "Israel Aviation": {
         "requires": "|Has Plane|"

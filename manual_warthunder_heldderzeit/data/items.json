@@ -710,11 +710,12 @@
             "sort-key": "row-5-11"
         },
         {
-            "name": "Initial Mission Ticket",
+            "name": "Mission Ticket",
             "count": 1,
             "category": [
                 "Ticket",
-                "Mission"
+                "Mission",
+                "Initial Mission Ticket"
             ],
             "progression": true,
             "sort-key": "row-10-1"

@@ -140,7 +140,7 @@
             "visible": false
         },
         {
-            "name": "Need Attack Helicoper",
+            "name": "Need Attack Helicopter",
             "requires": "(|Ground Vehicles| AND {YamlDisabled(complex_vehicles)}) OR ({YamlEnabled(complex_vehicles)} AND {YamlDisabled(exclude_heli_attack)} AND |Attack Helicopter|)",
             "visible": false
         },
