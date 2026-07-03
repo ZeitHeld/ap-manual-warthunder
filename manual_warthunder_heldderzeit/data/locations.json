@@ -1043,7 +1043,7 @@
             "name": "Germany 11.X (Helicopter)",
             "region": "Germany Helicopter",
             "category": ["Germany", "Helicopter", "Old Vehicles Only"],
-            "requires": "|BR11| AND {YamlEnabled(include_old_vehicles)} AND (|Attack Helicopter|)))",
+            "requires": "|BR11| AND {YamlEnabled(include_old_vehicles)} AND (|Attack Helicopter|)",
             "sort-key": "row-2-2-11"
         },
 		{
@@ -1235,7 +1235,7 @@
             "name": "Italy 12.X (Helicopter)",
             "region": "Italy Helicopter",
             "category": ["Italy", "Helicopter"],
-            "requires": "|BR12| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)))",
+            "requires": "|BR12| AND (|Need Attack Helicopter| OR |Need Utility Helicopter|)",
             "sort-key": "row-2-7-12"
         },
 		{
@@ -1685,14 +1685,14 @@
             "name": "Great Britain 11.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR11| AND (|Need Medium Tank| OR |Need SPAA|)))",
+            "requires": "|BR11| AND (|Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-4-11"
         },
         {
             "name": "Great Britain 12.X (Ground Vehicles)",
             "region": "Great Britain Ground",
             "category": ["Great Britain","Ground Vehicles"],
-            "requires": "|BR12| AND (|Need Medium Tank| OR |Need SPAA|)))",
+            "requires": "|BR12| AND (|Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-4-12"
         },
 
@@ -1763,14 +1763,14 @@
             "name": "Japan 11.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR11| AND (|Need Medium Tank| OR |Need SPAA|)))",
+            "requires": "|BR11| AND (|Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-5-11"
         },
         {
             "name": "Japan 12.X (Ground Vehicles)",
             "region": "Japan Ground",
             "category": ["Japan","Ground Vehicles"],
-            "requires": "|BR12| AND (|Need Medium Tank| OR |Need SPAA|)))",
+            "requires": "|BR12| AND (|Need Medium Tank| OR |Need SPAA|)",
             "sort-key": "row-3-5-12"
         },
 
@@ -1792,7 +1792,7 @@
             "name": "China 3.X (Ground Vehicles)",
             "region": "China Ground",
             "category": ["China","Ground Vehicles"],
-            "requires": "|BR3| AND (|Need Medium Tank| OR |Need Tank Destroyer|)))",
+            "requires": "|BR3| AND (|Need Medium Tank| OR |Need Tank Destroyer|)",
             "sort-key": "row-3-6-3"
         },
         {
@@ -1969,7 +1969,7 @@
             "name": "France 4.X (Ground Vehicles)",
             "region": "France Ground",
             "category": ["France","Ground Vehicles"],
-            "requires": "|BR4| AND (|Need Light Tank| OR |Need Tank Destroyer|)))",
+            "requires": "|BR4| AND (|Need Light Tank| OR |Need Tank Destroyer|)",
             "sort-key": "row-3-8-4"
         },
         {
@@ -2054,7 +2054,7 @@
             "name": "Sweden 4.X (Ground Vehicles)",
             "region": "Sweden Ground",
             "category": ["Sweden","Ground Vehicles"],
-            "requires": "|BR4| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Need Tank Destroyer| OR |Need SPAA|)))",
+            "requires": "|BR4| AND (|Need Light Tank| OR |Need Medium Tank| OR (|Need Heavy Tank| AND {YamlEnabled(include_premium)}) OR |Need Tank Destroyer| OR |Need SPAA|)",
             "sort-key": "row-3-9-4"
         },
         {
