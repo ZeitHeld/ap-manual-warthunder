@@ -21,6 +21,20 @@ from typing import Type, Any
 # Then, to see if the option is set, you can call is_option_enabled or get_option_value.
 #####################################################################
 
+# also need goal for hunt - Earn enough medals to win
+class RequiredTrophyCount(Range):
+    """Amount of Medal of Honors that is required to beat the game."""
+    display_name = "Required amount of Medals"
+    range_start = 1
+    range_end = 50
+    default = 20
+
+class TotalTrophyCount(Range):
+    """Amount of Medal of Honors that are added in the pool. May not be lower than the Required Amount."""
+    display_name = "Total amount of Medals"
+    range_start = 1
+    range_end = 50
+    default = 30
 
 # To add an option, use the before_options_defined hook below and something like this:
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
@@ -29,6 +43,8 @@ from typing import Type, Any
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
 	#   options["total_characters_to_win_with"] = TotalCharactersToWinWith
+    options["medals_required"] = RequiredTrophyCount
+    options["medals_total"] = TotalTrophyCount
 	return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
@@ -41,17 +57,17 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     # options.type_hints['goal'].aliases.update({"example": 0, "second_alias": 1})
     # options.type_hints['goal'].options.update({"example": 0, "second_alias": 1})  #for an alias to be valid it must also be in options
 
+    options.type_hints['goal'].aliases.update({"Country Targets": 1, "Every BR": 2, "Vehicle Targets": 3, "Earn Honor": 4})
+    options.type_hints['goal'].options.update({"Country Targets": 1, "Every BR": 2, "Vehicle Targets": 3, "Earn Honor": 4})
+
     pass
 
 # Use this Hook if you want to add your Option to an Option group (existing or not)
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
 	
-	#groups["Gameplay Options"] = [Stagesanity] # NOT YET IMPLEMENTED
-	
-	#groups["Randomization Options"] = [ShopShuffle, ShopSellUnlockShuffle, FishTrade]
-	
-	#groups["Randomization Options"] = [Fishsanity] # NOT YET IMPLEMENTED
+	groups["Goal Options"] = [RequiredTrophyCount, TotalTrophyCount]
+
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:

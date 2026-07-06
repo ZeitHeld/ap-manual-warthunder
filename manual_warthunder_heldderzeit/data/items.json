@@ -759,6 +759,15 @@
             ],
             "trap": true,
             "sort-key": "row-90-2"
+        },
+        {
+            "name": "Medal of Honor",
+            "count": 0,
+            "category": [
+                "Goal Item"
+            ],
+            "progression": true,
+            "sort-key": "row-0-0"
         }
     ]
 }

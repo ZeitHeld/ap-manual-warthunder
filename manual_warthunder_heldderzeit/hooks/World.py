@@ -30,6 +30,8 @@ import logging
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
 
+GOAL_ID_HONOR = 4
+TROPHY_NAME = "Medal of Honor"
 
 
 # Use this function to change the valid filler items to be created to replace item links or starting items.
@@ -70,6 +72,20 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
+    goal = get_option_value(multiworld, player, "goal")
+    required_medals = get_option_value(multiworld, player, "medals_required")
+    total_medals = get_option_value(multiworld, player, "medals_total")
+
+    if goal == GOAL_ID_HONOR:
+        if required_medals > total_medals:
+            if required_medals > 45:
+                total_medals = 50
+            else:                
+                total_medals = required_medals + 5
+
+        if total_medals > 0:
+            item_config[TROPHY_NAME] = total_medals
+
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
@@ -118,9 +134,23 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         # CollectionState is defined in BaseClasses
         return True
 
+    def hasEnoughTrophies(state: CollectionState) -> bool:
+        """Checks if the player has enough Medals to beat the game."""
+        #return state.count("Blue Rose Petal", player) >= get_option_value(multiworld, player, "trophies_required")
+
+        #return "|Blue Rose Petal:" + str(get_option_value(multiworld, player, "trophies_required")) + "|"
+
+        return state.has(TROPHY_NAME, player, get_option_value(multiworld, player, "medals_required"))
+
+    
     ## Common functions:
     # location = world.get_location(location_name, player)
     # location.access_rule = Example_Rule
+
+    if goal == GOAL_ID_HONOR:
+        trophy_location = world.get_location("Earn the Commander-in-Chief's Honor")
+        #trophy_location.access_rule = lambda state: hasEnoughTrophies(state)
+        trophy_location.access_rule = lambda state: state.has(TROPHY_NAME, player, get_option_value(multiworld, player, "petals_required"))
 
     ## Combine rules:
     # old_rule = location.access_rule

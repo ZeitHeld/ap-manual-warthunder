@@ -2988,6 +2988,14 @@
             "requires": "|Has Every Vehicle| AND |Any BR|",
             "sort-key": "row-99-90-99",
             "victory": true
+        },
+        {
+            "name": "Earn the Commander-in-Chief's Honor",
+            "region": "Hangar",
+            "category": ["Goal"],
+            "requires": "",
+            "sort-key": "row-99-99-99",
+            "victory": true
         }
     ]
 }
