@@ -43,9 +43,11 @@ class TotalTrophyCount(Range):
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
 	#   options["total_characters_to_win_with"] = TotalCharactersToWinWith
+    
     options["medals_required"] = RequiredTrophyCount
     options["medals_total"] = TotalTrophyCount
-	return options
+    
+    return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
 def after_options_defined(options: Type[PerGameCommonOptions]):
@@ -60,13 +62,11 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     options.type_hints['goal'].aliases.update({"Country Targets": 1, "Every BR": 2, "Vehicle Targets": 3, "Earn Honor": 4})
     options.type_hints['goal'].options.update({"Country Targets": 1, "Every BR": 2, "Vehicle Targets": 3, "Earn Honor": 4})
 
-    pass
-
 # Use this Hook if you want to add your Option to an Option group (existing or not)
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
 	
-	groups["Goal Options"] = [RequiredTrophyCount, TotalTrophyCount]
+    groups["Goal Options"] = [RequiredTrophyCount, TotalTrophyCount]
 
     return groups
 

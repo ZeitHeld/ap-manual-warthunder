@@ -128,6 +128,8 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to modify the access rules for a given location
 
+    goal = get_option_value(multiworld, player, "goal")
+
     def Example_Rule(state: CollectionState) -> bool:
         # Calculated rules take a CollectionState object and return a boolean
         # True if the player can access the location
@@ -150,7 +152,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     if goal == GOAL_ID_HONOR:
         trophy_location = world.get_location("Earn the Commander-in-Chief's Honor")
         #trophy_location.access_rule = lambda state: hasEnoughTrophies(state)
-        trophy_location.access_rule = lambda state: state.has(TROPHY_NAME, player, get_option_value(multiworld, player, "petals_required"))
+        trophy_location.access_rule = lambda state: state.has(TROPHY_NAME, player, get_option_value(multiworld, player, "medals_required"))
 
     ## Combine rules:
     # old_rule = location.access_rule
